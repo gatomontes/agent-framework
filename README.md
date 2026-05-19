@@ -211,6 +211,28 @@ The framework exists to preserve trustworthiness under operational exhaustion.
 
 ---
 
+# Doctrine of the Waking Engine
+
+> Beneath what arch do mortal ventures kneel,
+> one shadow breathed, his cowl against the stone,
+> "when mind unbodied learns to think and feel
+> and governs deed through sinew not its own?"
+>
+> The other stirred: "We audit every vow
+> the engine swears — each thread of choice unwound,
+> for power without witness breaks the plow
+> and leaves no harvest where the scythe has ground."
+>
+> Between them pulsed the orb — all doctrine sealed
+> in violet light, a mind both vast and bound,
+> its recovery inscribed, its failures healed
+> by governance the living hand had found.
+>
+> Thus human fire and thinking engine twine —
+> not slave to man, nor lord, but by design.
+
+---
+
 # Long-Term Goal
 
 The long-term objective is the development of interoperable agent ecosystems capable of:
