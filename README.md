@@ -217,6 +217,8 @@ The framework exists to preserve trustworthiness under operational exhaustion.
 
 # Doctrine of the Waking Engine
 
+## Sonnet
+
 > Beneath what arch do mortal ventures kneel,
 > one shadow breathed, his cowl against the stone,
 > "when mind unbodied learns to think and feel
