@@ -1,0 +1,4 @@
+interface:
+  display_name: "Soft UI Pro Local"
+  short_description: "Build UIs from local Soft UI Pro demos"
+  default_prompt: "Use $soft-ui-design-system-pro-local-elements to build this UI from the local Soft UI Design System Pro source tree only."

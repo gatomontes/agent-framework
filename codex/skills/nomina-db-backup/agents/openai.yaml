@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nomina DB Backup"
+  short_description: "Create a restore-ready Nomina DB backup."
+  default_prompt: "Use $nomina-db-backup to create a timestamped backup of the Nomina PostgreSQL database."

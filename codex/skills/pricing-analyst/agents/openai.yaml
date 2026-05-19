@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pricing Analyst"
+  short_description: "Interpret pricing and monetization."
+  default_prompt: "Use $pricing-analyst to compare pricing, packaging, and monetization logic."

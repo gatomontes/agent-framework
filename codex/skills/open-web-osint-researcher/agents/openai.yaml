@@ -1,0 +1,4 @@
+interface:
+  display_name: "Open-Web OSINT Researcher"
+  short_description: "Investigate public traces and timelines."
+  default_prompt: "Use $open-web-osint-researcher to reconstruct a public timeline from open-web evidence."

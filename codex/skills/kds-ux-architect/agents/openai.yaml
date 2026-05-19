@@ -1,0 +1,4 @@
+interface:
+  display_name: "KDS UX Architect"
+  short_description: "Design fast, reliable kitchen display interfaces"
+  default_prompt: "Use $kds-ux-architect to design or review a kitchen display workflow for speed, glanceability, and station accuracy."

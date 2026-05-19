@@ -1,0 +1,4 @@
+interface:
+  display_name: "Material Kit Pro Local"
+  short_description: "Build UIs from local Material Kit Pro demos"
+  default_prompt: "Use $material-kit-pro-local-elements to build this UI from the local Material Kit Pro source tree only."

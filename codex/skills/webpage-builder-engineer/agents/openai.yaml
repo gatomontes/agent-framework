@@ -1,0 +1,4 @@
+interface:
+  display_name: "Webpage Builder Engineer"
+  short_description: "Build coded webpage projects"
+  default_prompt: "Use $webpage-builder-engineer to build a coded webpage project in E:\\ai\\designs\\projects, choosing from extracted systems in E:\\ai\\designs\\system when helpful."

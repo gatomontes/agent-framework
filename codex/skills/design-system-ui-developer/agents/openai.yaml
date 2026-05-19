@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design System UI Developer"
+  short_description: "Build UI inside a chosen design system"
+  default_prompt: "Use $design-system-ui-developer to build this interface using the design system I selected."
