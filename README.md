@@ -164,6 +164,14 @@ Execution is not trust.
 
 Trust is earned through the full operational flow.
 
+See:
+
+```txt
+/USAGE.md
+```
+
+for operational examples and runtime integration guidance.
+
 ---
 
 # Blackquill
