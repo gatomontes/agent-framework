@@ -4,6 +4,10 @@ An agent-agnostic framework for orchestrating, validating, critiquing, governing
 
 ---
 
+![Doctrine of the Covenant](assets/covenant.png)
+
+---
+
 # Purpose
 
 Agent Framework exists to separate:
