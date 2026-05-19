@@ -219,11 +219,11 @@ The framework exists to preserve trustworthiness under operational exhaustion.
 
 ## Sonnet
 
-> Beneath what arch do mortal ventures kneel,
-> one shadow breathed, his cowl against the stone,
-> "when mind unbodied learns to think and feel
-> and governs deed through sinew not its own?"
->
+> Beneath what arch do mortal ventures kneel,<br>
+> one shadow breathed, his cowl against the stone,<br>
+> "when mind unbodied learns to think and feel<br>
+> and governs deed through sinew not its own?"<br>
+><br>
 > The other stirred: "We audit every vow
 > the engine swears — each thread of choice unwound,
 > for power without witness breaks the plow
