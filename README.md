@@ -1,6 +1,6 @@
 # Agent Framework
 
-An agent-agnostic framework for orchestrating, validating, critiquing, governing, and evolving interoperable AI agent systems.
+An agent-agnostic framework for orchestrating, validating, critiquing, governing, restoring, and evolving interoperable AI agent systems.
 
 ---
 
@@ -15,6 +15,7 @@ Agent Framework exists to separate:
 - verification systems
 - governance semantics
 - restoration and escalation protocols
+- operational flow topology
 - delegation contracts
 - validation methodology
 
@@ -28,6 +29,7 @@ The objective is to establish a disciplined architecture for:
 - validating outputs
 - restoring coherence
 - preserving trust boundaries
+- resisting doctrinal erosion
 - persisting operational artifacts
 - enabling runtime portability
 
@@ -51,6 +53,8 @@ The framework prioritizes:
 - observable behavior
 - epistemic governance
 - doctrinal coherence
+- restoration semantics
+- operational endurance
 
 ---
 
@@ -58,7 +62,13 @@ The framework prioritizes:
 
 A skill is not a prompt.
 
-A skill is an operational unit governed by explicit contracts, verification discipline, and restoration semantics.
+A skill is an operational unit governed by:
+- contracts
+- verification
+- critique
+- governance
+- restoration semantics
+- operational flow discipline
 
 Every meaningful interaction between agents should define:
 - expected inputs
@@ -70,6 +80,7 @@ Every meaningful interaction between agents should define:
 - verification requirements
 - restoration procedures
 - failure handling
+- final disposition rules
 
 The framework favors:
 - contracts over assumptions
@@ -77,6 +88,7 @@ The framework favors:
 - critique over unchecked generation
 - verification over silence
 - restoration over uncontrolled continuation
+- governance over convenience
 - artifacts over transient chat
 - explicit orchestration over emergent chaos
 
@@ -117,9 +129,36 @@ Verification Layer
 Critique Layer
 Governance Layer
 Recovery Layer
+Disposition Layer
 ```
 
-The framework is designed to detect, escalate, restore, and validate coherence under prolonged operational pressure.
+The framework is designed to:
+- detect drift
+- escalate failure
+- restore coherence
+- validate recovery
+- preserve trustworthiness under prolonged operational pressure
+
+---
+
+# Operational Flow
+
+All operations must traverse:
+
+```txt
+Classify
+  -> Execute
+    -> Verify
+      -> Critique
+        -> Audit
+          -> Check Coherence
+            -> Restore or Escalate
+              -> Final Disposition
+```
+
+Execution is not trust.
+
+Trust is earned through the full operational flow.
 
 ---
 
@@ -166,8 +205,9 @@ Therefore:
 - escalation bypasses will appear
 - convenience will pressure doctrine
 - silence will attempt normalization
+- governance drift will accumulate
 
-The framework is designed to preserve trustworthiness under operational exhaustion.
+The framework exists to preserve trustworthiness under operational exhaustion.
 
 ---
 
@@ -187,4 +227,4 @@ The long-term objective is the development of interoperable agent ecosystems cap
 - scalable specialization
 - recursive self-improvement
 
-The framework aims to evolve from isolated prompting into resilient distributed cognition architecture.
+The framework aims to evolve from isolated prompting into resilient distributed cognition architecture and epistemic operating systems.
