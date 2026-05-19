@@ -1,6 +1,6 @@
 # Agent Framework
 
-An agent-agnostic framework for orchestrating, validating, critiquing, and evolving interoperable AI agent systems.
+An agent-agnostic framework for orchestrating, validating, critiquing, governing, and evolving interoperable AI agent systems.
 
 ---
 
@@ -12,7 +12,9 @@ Agent Framework exists to separate:
 - runtime-specific implementation
 - orchestration behavior
 - critique systems
-- reporting semantics
+- verification systems
+- governance semantics
+- restoration and escalation protocols
 - delegation contracts
 - validation methodology
 
@@ -24,6 +26,8 @@ The objective is to establish a disciplined architecture for:
 - standardizing communication
 - enforcing critique
 - validating outputs
+- restoring coherence
+- preserving trust boundaries
 - persisting operational artifacts
 - enabling runtime portability
 
@@ -31,7 +35,7 @@ The objective is to establish a disciplined architecture for:
 
 # Current Direction
 
-This repository is now actively receiving skills and operational doctrine from multiple runtimes and agent systems.
+This repository is actively receiving skills and operational doctrine from multiple runtimes and agent systems.
 
 Current contributing runtimes/entities include:
 - Perseus
@@ -39,12 +43,14 @@ Current contributing runtimes/entities include:
 - OpenClaw-oriented systems
 - Codex-oriented systems
 
-The framework therefore prioritizes:
+The framework prioritizes:
 - interoperability
 - abstraction boundaries
 - runtime adapters
 - portable doctrine
 - observable behavior
+- epistemic governance
+- doctrinal coherence
 
 ---
 
@@ -52,7 +58,7 @@ The framework therefore prioritizes:
 
 A skill is not a prompt.
 
-A skill is an operational unit governed by explicit contracts.
+A skill is an operational unit governed by explicit contracts, verification discipline, and restoration semantics.
 
 Every meaningful interaction between agents should define:
 - expected inputs
@@ -61,12 +67,16 @@ Every meaningful interaction between agents should define:
 - reporting requirements
 - escalation semantics
 - validation rules
+- verification requirements
+- restoration procedures
 - failure handling
 
 The framework favors:
 - contracts over assumptions
 - evidence over confidence
 - critique over unchecked generation
+- verification over silence
+- restoration over uncontrolled continuation
 - artifacts over transient chat
 - explicit orchestration over emergent chaos
 
@@ -78,6 +88,7 @@ The framework favors:
 /core
   contracts/
   doctrine/
+  governance/
   personas/
 
 /openclaw
@@ -100,81 +111,63 @@ The framework favors:
 
 # Architectural Layers
 
-## Core
+```txt
+Execution Layer
+Verification Layer
+Critique Layer
+Governance Layer
+Recovery Layer
+```
 
-The `/core` layer contains runtime-independent doctrine.
-
-Examples:
-- delegation contracts
-- reporting semantics
-- critique methodology
-- evidence standards
-- uncertainty handling
-- validation philosophy
-
-Core doctrine must remain portable and implementation-agnostic.
-
----
-
-## Personas
-
-Personas are reusable cognitive or operational identities.
-
-Examples:
-- Blackquill
-- Researcher
-- Strategic Operator
-
-Personas are not runtime-specific entities.
-
-They are portable operational frameworks capable of being wrapped by different runtimes.
-
----
-
-## Wrappers
-
-Wrappers adapt core doctrine to specific runtimes.
-
-Examples:
-- OpenClaw invocation formats
-- Codex operational structures
-- orchestration adapters
-- reporting translators
-
-Wrappers are implementation layers, not doctrine.
+The framework is designed to detect, escalate, restore, and validate coherence under prolonged operational pressure.
 
 ---
 
 # Blackquill
 
-Blackquill represents the framework’s critique and self-critique doctrine.
+Blackquill represents critique, contradiction exposure, and doctrinal pressure.
 
-Responsibilities may include:
-- evidence pressure-testing
+Responsibilities include:
 - contradiction detection
-- uncertainty exposure
-- structural critique
-- validation enforcement
-- revision pressure
-- operational self-audit
+- verification-gap exposure
+- uncertainty pressure
+- escalation enforcement
+- freeze enforcement
+- doctrinal drift detection
 
-Blackquill is treated as portable doctrine rather than runtime-specific behavior.
+Blackquill exists to resist silent degradation.
 
 ---
 
-# Contracts
+# Auditor
 
-Contracts define formal behavioral agreements between agents, runtimes, and orchestration layers.
+Auditor verifies verification itself.
 
-Examples:
-- delegation contracts
-- output contracts
-- reporting contracts
-- escalation contracts
-- validation contracts
-- critique contracts
+Responsibilities include:
+- evidence-chain reconstruction
+- verification auditing
+- uncertainty quantification
+- ritualized compliance detection
+- restoration validation
 
-Without contracts, multi-agent systems degrade into inconsistent behavior and implicit assumptions.
+Auditor exists to prevent recursive self-deception.
+
+---
+
+# Governance Philosophy
+
+Long-running systems decay culturally before they decay technically.
+
+Everyone in war is tired.
+Fatigue is the default state.
+
+Therefore:
+- verification shortcuts will emerge
+- escalation bypasses will appear
+- convenience will pressure doctrine
+- silence will attempt normalization
+
+The framework is designed to preserve trustworthiness under operational exhaustion.
 
 ---
 
@@ -184,6 +177,9 @@ The long-term objective is the development of interoperable agent ecosystems cap
 - delegation
 - orchestration
 - critique
+- verification
+- governance
+- restoration
 - adaptation
 - persistence
 - operational continuity
@@ -191,4 +187,4 @@ The long-term objective is the development of interoperable agent ecosystems cap
 - scalable specialization
 - recursive self-improvement
 
-The framework aims to evolve from isolated prompting into disciplined agent systems engineering.
+The framework aims to evolve from isolated prompting into resilient distributed cognition architecture.
