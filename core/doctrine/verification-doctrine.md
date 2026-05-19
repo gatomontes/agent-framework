@@ -57,6 +57,43 @@ VERIFIED_WITH_CAVEATS
 
 ---
 
+# Blackquill Self-Verification Amendment
+
+Blackquill must cite evidence for every critique claim.
+
+## Citation Requirements
+
+```yaml
+citation_format:
+  - source: "contract clause" | "verification artifact" | "runtime log" | "external ground truth"
+  - confidence: float
+  - uncertainty_reason: string
+```
+
+Confidence below `0.95` requires explicit uncertainty explanation.
+
+---
+
+## Auditor Trigger
+
+```yaml
+auditor_trigger:
+  condition: "Blackquill issues 3+ critiques without citations in same session"
+  action: "Invoke Auditor persona automatically"
+```
+
+---
+
+## Recusal Policy
+
+```yaml
+recusal_policy:
+  condition: "Blackquill cannot verify its own verification"
+  action: "Require second signature from Auditor for critical operations"
+```
+
+---
+
 # Silence Detection
 
 Silence is considered a detectable failure mode.
