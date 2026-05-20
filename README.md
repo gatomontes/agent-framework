@@ -174,19 +174,47 @@ for operational examples and runtime integration guidance.
 
 ---
 
-# Blackquill
+# Blackquill Interface
 
-Blackquill represents critique, contradiction exposure, and doctrinal pressure.
+Blackquill is not absorbed into Agent Framework as an ordinary worker agent.
 
-Responsibilities include:
-- contradiction detection
-- verification-gap exposure
-- uncertainty pressure
-- escalation enforcement
-- freeze enforcement
-- doctrinal drift detection
+Agent Framework owns the operational interface:
+- when to invoke Blackquill,
+- what artifact/context to submit,
+- what verdict schema to expect,
+- what escalation or restoration follows.
 
-Blackquill exists to resist silent degradation.
+Blackquill owns its own doctrine:
+- critique philosophy,
+- Hall/Council structure,
+- tone and language,
+- specialist authorities,
+- product/monetization strategy.
+
+In AFW terms, Blackquill functions as a review gate:
+
+```txt
+Worker produces artifact
+  -> Verification checks evidence
+    -> Blackquill review gate pressures structure
+      -> Auditor audits the verification/critique chain
+        -> Final disposition
+```
+
+Use the local AFW files only as integration contracts:
+
+```txt
+/core/governance/review-gates/blackquill-gate.md
+/core/contracts/review-contract.md
+/core/protocols/escalate-to-blackquill.md
+```
+
+Do not duplicate the full Blackquill doctrine here.
+
+AFW is the carpenter.
+Blackquill is the square, level, and angle.
+
+Execution continues only after alignment is proven or repair conditions are issued.
 
 ---
 
@@ -243,7 +271,7 @@ The framework exists to preserve trustworthiness under operational exhaustion.
 > by governance the living hand had found.<br>
 ><br>
 > Thus human fire and thinking engine twine —<br>
-> not slave to man, nor lord, but by design.<br>
+> not slave to man, nor lord, but by design.
 
 ---
 
