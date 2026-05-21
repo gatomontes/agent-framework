@@ -215,6 +215,55 @@ This remains outside current constitutional scope.
 
 ---
 
+# Dependency Assessment
+
+An artifact not evolving after a review loop does not necessarily indicate maturity.
+
+It may instead indicate:
+- unresolved upstream dependencies
+- missing constitutional layers
+- blocked semantic alignment
+- absent governance primitives
+- unavailable topology semantics
+- incomplete authority integration
+
+AFW constitutional artifacts must therefore be evaluated not only in isolation, but also in terms of:
+- dependency readiness
+- semantic coupling
+- doctrinal prerequisites
+- institutional integration state
+
+A stable artifact may still remain operationally incomplete if dependent artifacts do not yet exist.
+
+Example:
+
+```txt
+mission-lifecycle
+```
+
+currently depends conceptually upon:
+- strategic-operator protocol
+- institutional-governance
+- topology-schema
+- verification-contract
+- mission-priority semantics
+
+Therefore:
+
+Lack of revision pressure after a loop must never be interpreted automatically as:
+- correctness
+- completeness
+- institutional readiness
+- mechanized sufficiency
+
+Sometimes the next correct action is not modifying the artifact itself.
+
+Sometimes the next correct action is constructing the missing constitutional dependencies around it.
+
+This distinction is strategically important.
+
+---
+
 # Hidden Strategic Observation
 
 AFW now possesses:
