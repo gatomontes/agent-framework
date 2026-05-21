@@ -1,6 +1,10 @@
-# Agent Framework
+# The Citadel
 
-An agent-agnostic framework for orchestrating, validating, critiquing, governing, restoring, and evolving interoperable AI agent systems.
+The Citadel is an agent-agnostic governance layer for orchestrating, validating, critiquing, governing, restoring, and evolving interoperable AI agent systems.
+
+It is not merely a framework.
+
+It is the stronghold beneath operational agent work: the place where authority, runtime law, verification doctrine, escalation rules, restoration procedures, and final disposition are defined.
 
 ---
 
@@ -10,7 +14,7 @@ An agent-agnostic framework for orchestrating, validating, critiquing, governing
 
 # Purpose
 
-Agent Framework exists to separate:
+The Citadel exists to separate:
 
 - universal operational doctrine
 - runtime-specific implementation
@@ -22,10 +26,14 @@ Agent Framework exists to separate:
 - operational flow topology
 - delegation contracts
 - validation methodology
+- authority boundaries
+- runtime admission rules
+- memory and artifact discipline
 
 The objective is not merely to store prompts or skills.
 
 The objective is to establish a disciplined architecture for:
+
 - spawning agents
 - coordinating cognition
 - standardizing communication
@@ -36,6 +44,29 @@ The objective is to establish a disciplined architecture for:
 - resisting doctrinal erosion
 - persisting operational artifacts
 - enabling runtime portability
+- governing delegation
+- enforcing escalation discipline
+- sustaining operational continuity
+
+---
+
+# Relationship to The Foundry
+
+The Foundry assembles operational entities.
+
+The Citadel governs operational law.
+
+```txt
+Human Intent
+  -> The Foundry
+    -> The Citadel
+      -> Runtime Adapters
+        -> Execution Brains
+```
+
+The Foundry decides what kind of operational structure must be assembled.
+
+The Citadel defines what that structure is allowed to do, how it reports, how it fails, how it is verified, and when it may be trusted.
 
 ---
 
@@ -44,12 +75,14 @@ The objective is to establish a disciplined architecture for:
 This repository is actively receiving skills and operational doctrine from multiple runtimes and agent systems.
 
 Current contributing runtimes/entities include:
+
 - Perseus
 - Loco
 - OpenClaw-oriented systems
 - Codex-oriented systems
 
-The framework prioritizes:
+The Citadel prioritizes:
+
 - interoperability
 - abstraction boundaries
 - runtime adapters
@@ -59,6 +92,9 @@ The framework prioritizes:
 - doctrinal coherence
 - restoration semantics
 - operational endurance
+- authority discipline
+- review gates
+- trustworthy final disposition
 
 ---
 
@@ -67,6 +103,7 @@ The framework prioritizes:
 A skill is not a prompt.
 
 A skill is an operational unit governed by:
+
 - contracts
 - verification
 - critique
@@ -75,6 +112,7 @@ A skill is an operational unit governed by:
 - operational flow discipline
 
 Every meaningful interaction between agents should define:
+
 - expected inputs
 - behavioral expectations
 - output schemas
@@ -86,7 +124,8 @@ Every meaningful interaction between agents should define:
 - failure handling
 - final disposition rules
 
-The framework favors:
+The Citadel favors:
+
 - contracts over assumptions
 - evidence over confidence
 - critique over unchecked generation
@@ -95,6 +134,8 @@ The framework favors:
 - governance over convenience
 - artifacts over transient chat
 - explicit orchestration over emergent chaos
+- authority boundaries over role drift
+- operational law over aesthetic terminology
 
 ---
 
@@ -123,6 +164,16 @@ The framework favors:
   templates/
 ```
 
+Planned Citadel domains:
+
+```txt
+/core/authority
+/core/runtime
+/core/verification
+/core/states
+/core/memory
+```
+
 ---
 
 # Architectural Layers
@@ -136,7 +187,8 @@ Recovery Layer
 Disposition Layer
 ```
 
-The framework is designed to:
+The Citadel is designed to:
+
 - detect drift
 - escalate failure
 - restore coherence
@@ -176,22 +228,24 @@ for operational examples and runtime integration guidance.
 
 # Blackquill Interface
 
-Blackquill is not absorbed into Agent Framework as an ordinary worker agent.
+Blackquill is not absorbed into The Citadel as an ordinary worker agent.
 
-Agent Framework owns the operational interface:
-- when to invoke Blackquill,
-- what artifact/context to submit,
-- what verdict schema to expect,
-- what escalation or restoration follows.
+The Citadel owns the operational interface:
+
+- when to invoke Blackquill
+- what artifact/context to submit
+- what verdict schema to expect
+- what escalation or restoration follows
 
 Blackquill owns its own doctrine:
-- critique philosophy,
-- Hall/Council structure,
-- tone and language,
-- specialist authorities,
-- product/monetization strategy.
 
-In AFW terms, Blackquill functions as a review gate:
+- critique philosophy
+- Hall/Council structure
+- tone and language
+- specialist authorities
+- product/monetization strategy
+
+In Citadel terms, Blackquill functions as a review gate:
 
 ```txt
 Worker produces artifact
@@ -201,7 +255,7 @@ Worker produces artifact
         -> Final disposition
 ```
 
-Use the local AFW files only as integration contracts:
+Use the local Citadel files only as integration contracts:
 
 ```txt
 /core/governance/review-gates/blackquill-gate.md
@@ -211,7 +265,7 @@ Use the local AFW files only as integration contracts:
 
 Do not duplicate the full Blackquill doctrine here.
 
-AFW is the carpenter.
+The Citadel is the stronghold.
 Blackquill is the square, level, and angle.
 
 Execution continues only after alignment is proven or repair conditions are issued.
@@ -223,6 +277,7 @@ Execution continues only after alignment is proven or repair conditions are issu
 Auditor verifies verification itself.
 
 Responsibilities include:
+
 - evidence-chain reconstruction
 - verification auditing
 - uncertainty quantification
@@ -241,13 +296,14 @@ Everyone in war is tired.
 Fatigue is the default state.
 
 Therefore:
+
 - verification shortcuts will emerge
 - escalation bypasses will appear
 - convenience will pressure doctrine
 - silence will attempt normalization
 - governance drift will accumulate
 
-The framework exists to preserve trustworthiness under operational exhaustion.
+The Citadel exists to preserve trustworthiness under operational exhaustion.
 
 ---
 
@@ -278,6 +334,7 @@ The framework exists to preserve trustworthiness under operational exhaustion.
 # Long-Term Goal
 
 The long-term objective is the development of interoperable agent ecosystems capable of:
+
 - delegation
 - orchestration
 - critique
@@ -291,4 +348,4 @@ The long-term objective is the development of interoperable agent ecosystems cap
 - scalable specialization
 - recursive self-improvement
 
-The framework aims to evolve from isolated prompting into resilient distributed cognition architecture and epistemic operating systems.
+The Citadel aims to evolve from isolated prompting into resilient distributed cognition architecture and epistemic operating systems.
