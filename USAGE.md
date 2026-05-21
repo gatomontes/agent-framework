@@ -1,10 +1,10 @@
-# Agent Framework Usage
+# The Citadel Usage
 
-This document explains how to use Agent Framework as an operational control layer around agents, runtimes, skills, and orchestration systems.
+This document explains how to use The Citadel as an operational control layer around agents, runtimes, skills, and orchestration systems.
 
-Agent Framework is not the worker.
+The Citadel is not the worker.
 
-Agent Framework is the command doctrine that tells workers how to work, verify, fail, recover, and report.
+The Citadel is the command doctrine that tells workers how to work, verify, fail, recover, report, and earn trust.
 
 ---
 
@@ -25,7 +25,7 @@ Task
                   -> Final Disposition
 ```
 
-The framework answers one question:
+The Citadel answers one question:
 
 ```txt
 Can this output be trusted?
@@ -51,7 +51,7 @@ Generate a deployment plan.
 
 The task is not immediately executed as a freeform prompt.
 
-It first enters the framework.
+It first enters The Citadel.
 
 ---
 
@@ -73,6 +73,7 @@ trivial
 ```
 
 The tier determines:
+
 - verification intensity
 - independence requirements
 - confidence threshold
@@ -171,6 +172,7 @@ FAILURE: UNVERIFIED
 # 6. Execute and Verify
 
 Execution and verification may happen:
+
 - in parallel
 - sequentially
 - through separate personas
@@ -196,6 +198,7 @@ Auditor checks the verification chain.
 Blackquill reviews the execution and verification pair.
 
 Blackquill asks:
+
 - Is the artifact internally coherent?
 - Did it satisfy the contract?
 - Are there contradictions?
@@ -223,6 +226,7 @@ Blackquill pressure-tests it.
 Auditor verifies the verifier.
 
 Auditor asks:
+
 - Did Blackquill cite evidence?
 - Was the verification method independent enough?
 - Were confidence claims justified?
@@ -250,6 +254,7 @@ Did this operation preserve active doctrine?
 ```
 
 Examples of coherence failures:
+
 - verification was skipped without justification
 - escalation was bypassed
 - confidence was inflated
@@ -455,6 +460,7 @@ If any answer is missing, the operation is not fully complete.
 Each runtime wrapper should eventually implement the operational flow directly.
 
 A wrapper should know how to:
+
 - load contracts
 - load doctrine
 - invoke personas
@@ -466,7 +472,7 @@ A wrapper should know how to:
 
 A runtime that cannot do this may still be useful.
 
-But it is not fully compliant.
+But it is not fully Citadel-compliant.
 
 ---
 
