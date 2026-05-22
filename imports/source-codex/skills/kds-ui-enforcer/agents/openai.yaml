@@ -1,4 +1,0 @@
-interface:
-  display_name: "KDS UI Enforcer"
-  short_description: "Stress-test kitchen UI for failure risk"
-  default_prompt: "Use $kds-ui-enforcer to review this kitchen workflow UI for missed-order risks and required fixes."

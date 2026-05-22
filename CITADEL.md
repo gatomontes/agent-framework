@@ -12,11 +12,7 @@ What it physically delivers is constitutional operational artifacts and boundary
 
 The live architecture of Citadel resides in its constitutional core.
 
-The repository may temporarily carry import and migration residue while extracted patterns are reissued into core artifacts.
-
-That residue is not doctrinal authority.
-
-After cleanup, Citadel resolves to its core law plus boundary contracts, not parallel runtime kingdoms.
+Its live architecture resolves to its core law plus boundary contracts, not parallel runtime kingdoms.
 
 It governs:
 
@@ -59,9 +55,6 @@ Human Intent
   protocols/
   runtime/
   verification/
-
-/imports
-  temporary migration residue
 ```
 
 ---

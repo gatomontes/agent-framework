@@ -1,4 +1,0 @@
-interface:
-  display_name: "Source Verification Analyst"
-  short_description: "Verify provenance and source trust."
-  default_prompt: "Use $source-verification-analyst to verify authorship, dates, and source reliability."

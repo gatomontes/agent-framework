@@ -1,4 +1,0 @@
-interface:
-  display_name: "Persona Builder"
-  short_description: "Build personas from CEO routing output"
-  default_prompt: "Use $persona-builder to turn the output from $ceo into complete personas for each resolved slot."

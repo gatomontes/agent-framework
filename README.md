@@ -82,7 +82,7 @@ The Citadel defines what that structure is allowed to do, how it reports, how it
 
 # Current Direction
 
-This repository is actively consolidating extracted operational doctrine into Citadel-owned core artifacts.
+This repository has consolidated extracted operational doctrine into Citadel-owned core artifacts.
 
 The Citadel prioritizes:
 
@@ -101,11 +101,9 @@ The Citadel prioritizes:
 
 This repository is not abstract vapor.
 
-It currently centers its active architecture in `/core` while carrying temporary import and migration material as extracted patterns are reissued into the constitutional core.
+Its active architecture resides in `/core` and its boundary contracts.
 
-That staging material is not doctrinal authority.
-
-It exists only to support consolidation and planned deletion while keeping the governance core decoupled at the boundary.
+Citadel no longer depends on parallel runtime trees or temporary import staging to express its live doctrine.
 
 ---
 
@@ -169,17 +167,11 @@ The Citadel favors:
   protocols/
   runtime/
   verification/
-
-/imports
-  extracted patterns/
-  migration archive/
 ```
 
 `/core` is the constitutional center.
 
-`/imports` is a temporary migration surface, not a doctrinal domain.
-
-After cleanup, Citadel's live architecture is intended to resolve to the constitutional core and its boundary contracts rather than parallel runtime trees.
+Citadel's live architecture resolves to the constitutional core and its boundary contracts rather than parallel runtime trees.
 
 Planned Citadel domains:
 

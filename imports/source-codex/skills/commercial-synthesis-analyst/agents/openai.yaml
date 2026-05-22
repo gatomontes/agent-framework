@@ -1,4 +1,0 @@
-interface:
-  display_name: "Commercial Synthesis Analyst"
-  short_description: "Synthesize market and pricing findings."
-  default_prompt: "Use $commercial-synthesis-analyst to combine market, pricing, and competitor findings into a commercial brief."

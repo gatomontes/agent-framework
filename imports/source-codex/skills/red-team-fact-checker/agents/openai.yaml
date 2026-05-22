@@ -1,4 +1,0 @@
-interface:
-  display_name: "Red-Team Fact Checker"
-  short_description: "Stress-test claims before release."
-  default_prompt: "Use $red-team-fact-checker to challenge a draft and surface weak or unsupported claims."
