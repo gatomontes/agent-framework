@@ -124,6 +124,12 @@ Every meaningful interaction between agents should define:
 - failure handling
 - final disposition rules
 
+Inbound requests should first become inspectable intake packets through:
+
+```txt
+/core/contracts/rook-contract.md
+```
+
 The Citadel favors:
 
 - contracts over assumptions

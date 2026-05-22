@@ -53,6 +53,14 @@ The task is not immediately executed as a freeform prompt.
 
 It first enters The Citadel.
 
+The initial Citadel I/O surface is:
+
+```txt
+/core/contracts/rook-contract.md
+```
+
+`Rook` converts the inbound request into a governed intake packet that preserves what is expected before consequence classification and execution begin.
+
 ---
 
 # 2. Classify Consequence Tier

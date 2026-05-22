@@ -22,6 +22,14 @@ Every operation must traverse the complete operational flow before final disposi
 
 # Phase 0: Intake & Triage
 
+Incoming tasks should first pass through:
+
+```txt
+/core/contracts/rook-contract.md
+```
+
+`Rook` receives inbound intent and emits an intake packet before classification begins.
+
 Incoming tasks are classified using:
 
 ```txt
