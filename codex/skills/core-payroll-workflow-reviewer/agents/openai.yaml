@@ -1,4 +1,0 @@
-interface:
-  display_name: "Core Payroll Reviewer"
-  short_description: "Reviews payroll logic and compliance gaps"
-  default_prompt: "Use $core-payroll-workflow-reviewer to review this payroll workflow, identify gaps, and rank urgency."

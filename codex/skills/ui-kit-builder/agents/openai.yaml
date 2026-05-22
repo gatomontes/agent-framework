@@ -1,4 +1,0 @@
-interface:
-  display_name: "UI Kit Builder"
-  short_description: "Build UIs from a local directory tree"
-  default_prompt: "Use $ui-kit-builder to build this UI from the local kit only."

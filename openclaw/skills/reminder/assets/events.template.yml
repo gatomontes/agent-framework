@@ -1,5 +1,0 @@
-# Reminder events data
-# Stored by the local reminder skill.
-# Times should be stored with explicit timezone info when available.
-
-events: []

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Persona To Skill"
-  short_description: "Convert personas into installed Codex skills"
-  default_prompt: "Use $persona-to-skill to convert published personas or persona specs into installed Codex skill folders."

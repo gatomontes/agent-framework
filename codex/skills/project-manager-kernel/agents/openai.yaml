@@ -1,4 +1,0 @@
-interface:
-  display_name: "Project Manager Kernel"
-  short_description: "Govern delivery with strong PM controls"
-  default_prompt: "Use $project-manager-kernel to govern a project's execution, validate work against phase boundaries and source-of-truth artifacts, and surface blockers, drift, and escalation decisions."

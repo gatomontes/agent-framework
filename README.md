@@ -36,7 +36,7 @@ The Citadel exists to separate:
 - runtime admission rules
 - memory and artifact discipline
 
-The objective is not merely to store prompts or skills.
+The objective is not merely to store prompts or inherited capability inventories.
 
 The objective is to keep the inside of the institution doctrinally strict while keeping the outside world decoupled at the wall.
 
@@ -109,9 +109,9 @@ Citadel no longer depends on parallel runtime trees or temporary import staging 
 
 # Core Principle
 
-A skill is not a prompt.
+A capability is not a prompt.
 
-A skill is an operational unit governed by:
+A capability is an operational unit governed by:
 
 - contracts
 - verification
@@ -171,7 +171,7 @@ The Citadel favors:
 
 `/core` is the constitutional center.
 
-Citadel's live architecture resolves to the constitutional core and its boundary contracts rather than parallel runtime trees.
+Citadel's live architecture resolves to the constitutional core and its boundary contracts rather than parallel runtime trees or a resident skill inventory.
 
 Planned Citadel domains:
 
@@ -232,52 +232,6 @@ See:
 ```
 
 for operational examples and runtime integration guidance.
-
----
-
-# Blackquill Interface
-
-Blackquill is not absorbed into The Citadel as an ordinary worker agent.
-
-The Citadel owns the operational interface:
-
-- when to invoke Blackquill
-- what artifact/context to submit
-- what verdict schema to expect
-- what escalation or restoration follows
-
-Blackquill owns its own doctrine:
-
-- critique philosophy
-- Hall/Council structure
-- tone and language
-- specialist authorities
-- product/monetization strategy
-
-In Citadel terms, Blackquill functions as a review gate:
-
-```txt
-Worker produces artifact
-  -> Verification checks evidence
-    -> Blackquill review gate pressures structure
-      -> Auditor audits the verification/critique chain
-        -> Final disposition
-```
-
-Use the local Citadel files only as integration contracts:
-
-```txt
-/core/governance/review-gates/blackquill-gate.md
-/core/contracts/review-contract.md
-/core/protocols/escalate-to-blackquill.md
-```
-
-Do not duplicate the full Blackquill doctrine here.
-
-The Citadel is the stronghold.
-Blackquill is the square, level, and angle.
-
-Execution continues only after alignment is proven or repair conditions are issued.
 
 ---
 

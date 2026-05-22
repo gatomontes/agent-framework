@@ -1,6 +1,6 @@
 # The Citadel Usage
 
-This document explains how to use The Citadel as an operational control layer around agents, runtimes, skills, and orchestration systems.
+This document explains how to use The Citadel as an operational control layer around agents, runtimes, fabricated capabilities, and orchestration systems.
 
 The Citadel is not the worker.
 
@@ -15,7 +15,7 @@ Every task moves through the same conceptual path:
 ```txt
 Task
   -> Classify
-    -> Select Runtime / Persona / Skill
+    -> Select Runtime / Capability Shape
       -> Execute
         -> Verify
           -> Critique
@@ -110,7 +110,7 @@ Security remediation -> critical
 
 ---
 
-# 3. Select Runtime, Persona, or Skill
+# 3. Select Runtime or Capability Shape
 
 The orchestrator selects the appropriate worker.
 
@@ -120,12 +120,12 @@ Examples:
 Writing runtime -> code implementation
 Planning runtime -> planning / analysis
 Orchestration runtime -> delegation / runtime coordination
-Blackquill -> critique
-Auditor -> verification-of-verification
-Researcher -> evidence gathering
+Critique operator -> contradiction pressure
+Audit operator -> verification-of-verification
+Evidence operator -> evidence gathering
 ```
 
-Skills and personas should be loaded through runtime-specific wrappers.
+Citadel may fabricate or recruit the needed capability shape under governance rather than depending on a resident skill inventory.
 
 Core doctrine remains runtime-agnostic.
 
@@ -204,9 +204,9 @@ Example:
 
 ```txt
 Implementation runtime produces code changes.
-Researcher or test runner verifies evidence.
-Blackquill critiques assumptions.
-Auditor checks the verification chain.
+Evidence operator or test runner verifies evidence.
+Critique operator pressures assumptions.
+Audit operator checks the verification chain.
 ```
 
 ---

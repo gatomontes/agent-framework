@@ -1,4 +1,0 @@
-interface:
-  display_name: "Market Research Analyst"
-  short_description: "Interpret market structure and sizing."
-  default_prompt: "Use $market-research-analyst to analyze market structure, segments, and sizing signals."

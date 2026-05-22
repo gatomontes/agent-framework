@@ -1,4 +1,0 @@
-interface:
-  display_name: "Web Research Lead"
-  short_description: "Lead a rigorous web research desk."
-  default_prompt: "Use $web-research-lead to scope a web research project and enforce evidence standards."

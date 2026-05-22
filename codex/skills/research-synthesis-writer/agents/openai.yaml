@@ -1,4 +1,0 @@
-interface:
-  display_name: "Research Synthesis Writer"
-  short_description: "Turn findings into usable briefs."
-  default_prompt: "Use $research-synthesis-writer to turn verified findings into a concise research brief."

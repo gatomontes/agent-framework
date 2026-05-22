@@ -1,4 +1,0 @@
-interface:
-  display_name: "Chief of Staff"
-  short_description: "Activate and orchestrate execution teams from CEO routing output"
-  default_prompt: "Use $chief-of-staff to activate the execution team from $ceo output, assign ownership, sequence work, and manage the execution loop."
