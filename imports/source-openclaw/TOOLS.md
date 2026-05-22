@@ -1,10 +1,10 @@
 ### Tavily
 - API Key: [REDACTED]
 
-### AgentMail
+### Mail Gateway
 - API Key: [REDACTED]
 
-### Telegram Bot
+### Chat Gateway Bot
 - Bot: @mayata76bot (mayo_openclaw)
 - Token: [REDACTED]
 
@@ -19,4 +19,5 @@
 ### Resource Extraction
 - YouTube Video Procedure & Resource Extractor (v2): `E:\ai\openclaw\custom skills\YouTube_Video_Procedure_Resource_Extractor_v2.md`
 - YouTube Transcript Fetcher (Manual): Requires Python (Currently unavailable).
+
 

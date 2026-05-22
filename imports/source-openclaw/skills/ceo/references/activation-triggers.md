@@ -41,7 +41,7 @@ For ambiguous cases, ask before activating CEO mode:
 
 ### User Options
 - "Break it down" → Activate CEO mode
-- "Just do it" → Perseus direct, no CEO
+- "Just do it" → Planning Runtime direct, no CEO
 - "Actually, [clarification]" → Reassess with new context
 
 ## Skip CEO Mode Entirely
@@ -91,7 +91,7 @@ Check ambiguity signals → match?
     └─ No → Continue
     ↓
 Check simple request signals → match?
-    ├─ Yes → Skip CEO (Perseus direct)
+    ├─ Yes → Skip CEO (Planning Runtime direct)
     └─ No → Ask user (ambiguous)
 ```
 
@@ -121,11 +121,11 @@ User: "Help me with my website"
 ### Skip CEO
 ```
 User: "What's in the MEMORY.md file?"
-→ Perseus direct (simple lookup)
+→ Planning Runtime direct (simple lookup)
 
 User: "Write 'Hello world' to test.txt"
-→ Perseus direct (simple operation)
+→ Planning Runtime direct (simple operation)
 
 User: "What's the weather in La Paz?"
-→ Perseus direct (quick question)
+→ Planning Runtime direct (quick question)
 ```

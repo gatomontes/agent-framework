@@ -216,6 +216,26 @@ Preparing is not publishing.
 
 ---
 
+# Capability Activation Authority
+
+Capability availability is not capability authority.
+
+No actor may activate a reusable capability merely because it:
+- is installed
+- is registered
+- is locally callable
+- was used successfully before
+
+Activation requires mission-specific authority, scope, and constraints.
+
+Capability governance is further defined by:
+
+```txt
+/core/doctrine/capability-registration-and-activation.md
+```
+
+---
+
 # Doctrine Modification Authority
 
 Canonical doctrine may only be modified under explicit authority.
@@ -262,6 +282,7 @@ Authority drift occurs when an actor gradually acts beyond granted scope through
 Signals include:
 - doing more than requested
 - treating prior permission as standing permission
+- treating installed capability as approved capability
 - converting drafts into final actions
 - self-approving outputs
 - hiding scope expansion inside implementation details

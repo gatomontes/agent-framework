@@ -63,6 +63,14 @@ The Citadel I/O boundary is:
 
 If the task later reaches a terminal disposition that must be returned externally, `Rook` also normalizes that outcome for output.
 
+If the task involves outbound communication, reminders, or boundary updates, use:
+
+```txt
+/core/protocols/communication-boundary-protocol.md
+```
+
+to keep staged sends, event persistence, and release conditions durable and auditable.
+
 ---
 
 # 2. Classify Consequence Tier
@@ -109,9 +117,9 @@ The orchestrator selects the appropriate worker.
 Examples:
 
 ```txt
-Loco -> code implementation
-Perseus -> planning / analysis
-OpenClaw -> agent spawning / runtime orchestration
+Writing runtime -> code implementation
+Planning runtime -> planning / analysis
+Orchestration runtime -> delegation / runtime coordination
 Blackquill -> critique
 Auditor -> verification-of-verification
 Researcher -> evidence gathering
@@ -195,7 +203,7 @@ For important or critical work, verification should not share the same reasoning
 Example:
 
 ```txt
-Loco implements code.
+Implementation runtime produces code changes.
 Researcher or test runner verifies evidence.
 Blackquill critiques assumptions.
 Auditor checks the verification chain.
@@ -429,7 +437,7 @@ Flow:
 
 ```txt
 Classify: important or critical
-Runtime: Codex / Loco
+Runtime: implementation-oriented runtime
 Execution: code implementation
 Verification: tests, schema checks, route checks, review against contract
 Critique: Blackquill architectural review

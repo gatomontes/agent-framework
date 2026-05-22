@@ -1,4 +1,4 @@
-# Telegram Update Routing
+# Chat Gateway Update Routing
 
 ## Update normalization
 - Normalize inbound updates to a single envelope:
@@ -21,3 +21,4 @@
 ## Error handling
 - On 429: backoff and retry with jitter.
 - On 400: validate payload length and parse mode.
+

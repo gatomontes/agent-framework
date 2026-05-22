@@ -41,6 +41,14 @@ restoration_states:
 Auditor reconstructs evidence chains.
 Blackquill identifies contradictions.
 
+When current state is unclear, investigation should prefer evidence-first reconstruction of the actionable thread before operational resumption.
+
+See:
+
+```txt
+/core/protocols/continuity-reconstruction.md
+```
+
 Outputs:
 - investigation report
 - estimated failure origin

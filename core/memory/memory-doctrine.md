@@ -16,6 +16,8 @@ Memory is not truth.
 
 Memory is governed operational continuity.
 
+If continuity must persist, it should be written to durable artifacts rather than trusted to session recollection.
+
 ---
 
 # Memory Classes
@@ -41,6 +43,7 @@ Examples:
 - restoration state
 - unresolved escalations
 - runtime configuration
+- recent continuity notes
 
 ## Institutional Memory
 
@@ -52,6 +55,7 @@ Examples:
 - architecture decisions
 - validated workflows
 - constitutional principles
+- curated long-term operating knowledge
 
 ## Historical Memory
 
@@ -75,6 +79,8 @@ Citadel memory may originate from:
 - human directives
 
 Artifacts remain the preferred durable memory surface.
+
+Raw operational logs and curated long-duration memory should remain distinct.
 
 ---
 
@@ -111,6 +117,8 @@ Must persist until:
 - restoration completion
 - explicit archival
 
+Operational memory should preserve the current actionable thread, not merely a pile of historical text.
+
 ## Institutional Memory
 
 Requires:
@@ -119,6 +127,8 @@ Requires:
 - lineage
 - reviewability
 - restoration traceability
+
+Institutional memory should be curated rather than treated as an undifferentiated dump of prior sessions.
 
 ---
 
@@ -186,6 +196,8 @@ Humans may:
 - restore memory
 
 Human intervention must still preserve lineage and operational traceability.
+
+Lessons learned should update the relevant governing artifact when they change operational understanding.
 
 ---
 

@@ -22,6 +22,7 @@ Every meaningful delegation must include:
 
 - objective
 - expected artifact
+- output contract
 - consequence tier
 - constraints
 - verification requirements
@@ -29,6 +30,7 @@ Every meaningful delegation must include:
 - reporting expectations
 - escalation conditions
 - responsible authority
+- merge owner when multiple workers contribute
 
 Delegation without operational contract is uncontrolled assignment.
 
@@ -57,9 +59,12 @@ constraints:
 
 artifacts:
   required_outputs: list
+  merge_owner: string
+  output_contract: reference | inline_schema
 
 reporting:
   required_state_emission: true
+  return_conditions: list
 ```
 
 ---
@@ -80,8 +85,17 @@ Delegated actors may not:
 - redefine consequence tier
 - bypass verification
 - suppress failures
+- return unmergeable output when mergeable output was required
 - mutate trusted governance artifacts
 - self-authorize final trust
+
+When multiple workers contribute, ownership boundaries should remain explicit.
+
+Preferred rule:
+
+- disjoint write scopes whenever practical
+- one named merge owner
+- contradiction surfacing instead of forced synthetic agreement
 
 ---
 
@@ -111,6 +125,13 @@ Delegation failure occurs when:
 
 Failure must emit explicit operational state.
 
+Multi-worker delegation also fails when:
+
+- merge ownership is undefined
+- outputs cannot be reconciled
+- contradiction between outputs is blurred instead of surfaced
+- artifact boundaries overlap without coordination
+
 ---
 
 # Delegation Completion
@@ -121,6 +142,8 @@ Delegation is complete only when:
 - operational state is emitted
 - verification obligations are satisfied
 - final disposition is assigned
+
+If the delegation required a bounded return artifact, "thoughts" or freeform status alone do not satisfy completion.
 
 Execution alone does not complete delegation.
 

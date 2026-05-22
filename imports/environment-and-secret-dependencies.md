@@ -11,7 +11,7 @@ They are dependency liabilities that must be either relocated, abstracted, or ki
 Observed in:
 
 - `openclaw/TOOLS.md`
-- `openclaw/skills/agentmail/SKILL.md`
+- messaging and external-service skill material inside `openclaw/`
 
 Dependency pattern:
 
@@ -54,9 +54,9 @@ Citadel extraction:
 
 Observed in:
 
-- Telegram outbox paths
+- Chat Gateway outbox paths
 - reminder event storage
-- AgentMail workspace runtime
+- Mail Gateway workspace runtime
 - Nomina backup/restore script paths
 
 Dependency pattern:
@@ -100,3 +100,4 @@ It is the habit of mixing:
 in the same tracked skill material.
 
 That pattern should not survive deletion planning.
+

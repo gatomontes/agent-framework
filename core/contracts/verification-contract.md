@@ -149,6 +149,8 @@ Synthetic evidence requires elevated scrutiny.
 
 Verification authority should remain separate from execution authority whenever practical.
 
+Critique should remain structurally distinct from both execution and verification whenever the mission consequence or uncertainty profile justifies it.
+
 Default institutional rule:
 
 ```txt

@@ -21,7 +21,7 @@
     },
     {
         "path":  "source-openclaw\\IDENTITY.md",
-        "bytes":  506
+        "bytes":  517
     },
     {
         "path":  "source-openclaw\\MEMORY.md",
@@ -33,7 +33,7 @@
     },
     {
         "path":  "source-openclaw\\TOOLS.md",
-        "bytes":  640
+        "bytes":  644
     },
     {
         "path":  "source-openclaw\\USER.md",
@@ -96,10 +96,6 @@
         "bytes":  3681
     },
     {
-        "path":  "source-openclaw\\skills\\agentmail\\SKILL.md",
-        "bytes":  1740
-    },
-    {
         "path":  "source-openclaw\\skills\\b-lyrics\\SKILL.md",
         "bytes":  29194
     },
@@ -117,15 +113,47 @@
     },
     {
         "path":  "source-openclaw\\skills\\ceo\\SKILL.md",
-        "bytes":  19452
+        "bytes":  19508
     },
     {
         "path":  "source-openclaw\\skills\\ceo\\references\\activation-triggers.md",
-        "bytes":  3863
+        "bytes":  3910
     },
     {
         "path":  "source-openclaw\\skills\\ceo\\references\\profession-mapping.md",
-        "bytes":  2959
+        "bytes":  2996
+    },
+    {
+        "path":  "source-openclaw\\skills\\chat-file-sender\\SKILL.md",
+        "bytes":  2277
+    },
+    {
+        "path":  "source-openclaw\\skills\\chat-file-sender\\scripts\\send_file.py",
+        "bytes":  2591
+    },
+    {
+        "path":  "source-openclaw\\skills\\chat-gateway\\SKILL.md",
+        "bytes":  1773
+    },
+    {
+        "path":  "source-openclaw\\skills\\chat-gateway\\_meta.json",
+        "bytes":  138
+    },
+    {
+        "path":  "source-openclaw\\skills\\chat-gateway\\references\\chat-gateway-bot-api.md",
+        "bytes":  2258
+    },
+    {
+        "path":  "source-openclaw\\skills\\chat-gateway\\references\\chat-gateway-commands-playbook.md",
+        "bytes":  1040
+    },
+    {
+        "path":  "source-openclaw\\skills\\chat-gateway\\references\\chat-gateway-request-templates.md",
+        "bytes":  695
+    },
+    {
+        "path":  "source-openclaw\\skills\\chat-gateway\\references\\chat-gateway-update-routing.md",
+        "bytes":  812
     },
     {
         "path":  "source-openclaw\\skills\\cro-strategist\\SKILL.md",
@@ -180,6 +208,10 @@
         "bytes":  12891
     },
     {
+        "path":  "source-openclaw\\skills\\mail-gateway\\SKILL.md",
+        "bytes":  1778
+    },
+    {
         "path":  "source-openclaw\\skills\\persona-builder\\SKILL.md",
         "bytes":  3454
     },
@@ -214,38 +246,6 @@
     {
         "path":  "source-openclaw\\skills\\symfony-architect\\SKILL.md",
         "bytes":  8476
-    },
-    {
-        "path":  "source-openclaw\\skills\\telegram\\SKILL.md",
-        "bytes":  1739
-    },
-    {
-        "path":  "source-openclaw\\skills\\telegram\\_meta.json",
-        "bytes":  132
-    },
-    {
-        "path":  "source-openclaw\\skills\\telegram\\references\\telegram-bot-api.md",
-        "bytes":  2236
-    },
-    {
-        "path":  "source-openclaw\\skills\\telegram\\references\\telegram-commands-playbook.md",
-        "bytes":  1034
-    },
-    {
-        "path":  "source-openclaw\\skills\\telegram\\references\\telegram-request-templates.md",
-        "bytes":  685
-    },
-    {
-        "path":  "source-openclaw\\skills\\telegram\\references\\telegram-update-routing.md",
-        "bytes":  806
-    },
-    {
-        "path":  "source-openclaw\\skills\\telegram-file-sender\\SKILL.md",
-        "bytes":  2235
-    },
-    {
-        "path":  "source-openclaw\\skills\\telegram-file-sender\\scripts\\send_file.py",
-        "bytes":  2581
     },
     {
         "path":  "source-openclaw\\skills\\tiktok-scraping\\SKILL.md",

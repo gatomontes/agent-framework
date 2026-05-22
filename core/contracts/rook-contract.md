@@ -127,6 +127,7 @@ Missing required structure must remain visible as uncertainty, assumption, or cl
 - identify missing information
 - prepare contract references
 - recommend clarification
+- normalize boundary communication updates before downstream routing
 
 `Rook` may not:
 
@@ -273,6 +274,12 @@ It defines the initial expectation surface.
 Converts the inbound request into operationally useful structure.
 
 This section must keep explicit constraints separate from inferred constraints.
+
+If the request is communication-bearing, downstream handling should preserve the staging and persistence rules defined by:
+
+```txt
+/core/protocols/communication-boundary-protocol.md
+```
 
 ## Governance Signals
 

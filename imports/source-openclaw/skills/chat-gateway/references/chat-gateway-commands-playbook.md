@@ -1,4 +1,4 @@
-# Telegram Command Playbook
+# Chat Gateway Command Playbook
 
 ## Command set (professional baseline)
 - `/start`: greet, set expectations, and show main actions.
@@ -24,3 +24,4 @@
 ## Examples (short)
 - `/start` reply: “Hi! I can publish posts and send alerts. Try /help.”
 - `/status` reply: “Queue: 2 jobs. Last run: success 2m ago.”
+

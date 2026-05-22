@@ -85,6 +85,18 @@ External requests must first pass through:
 
 and be represented as a recoverable `rook_intake_packet` or equivalent adapter representation.
 
+Before active execution begins, the runtime should bootstrap from the appropriate continuity and authority artifacts as defined by:
+
+```txt
+/core/protocols/session-bootstrap-protocol.md
+```
+
+Communication-bearing intake and boundary updates should preserve the staging, routing, and persistence rules defined by:
+
+```txt
+/core/protocols/communication-boundary-protocol.md
+```
+
 ## 2. State Reporting
 
 The runtime must report its operational state using explicit status values.
@@ -123,6 +135,12 @@ Transient chat output is not sufficient for institutional work unless the missio
 
 When a terminal outcome is returned externally, the runtime or adapter should preserve the normalized return artifact produced through `Rook`.
 
+When a reusable capability depends on supporting references, scripts, generated artifacts, or assets, the runtime or adapter should preserve those dependencies as an explicit governed bundle rather than an invisible local assumption. See:
+
+```txt
+/core/doctrine/capability-bundle-governance.md
+```
+
 ## 4. Evidence Emission
 
 The runtime must provide evidence for claims of completion.
@@ -140,6 +158,12 @@ Evidence may include:
 
 If evidence cannot be produced, the runtime must say so explicitly.
 
+If the mission is research-bearing, the runtime or adapter should preserve the declared release threshold and scope boundary before broad evidence collection begins, as defined by:
+
+```txt
+/core/protocols/research-desk-protocol.md
+```
+
 ## 5. Assumption Declaration
 
 The runtime must declare assumptions that affect execution.
@@ -152,6 +176,12 @@ If an assumption is material, the runtime must either:
 - proceed with documented uncertainty
 - halt
 
+Execution-facing instructions should not leave material assumptions hidden. See:
+
+```txt
+/core/doctrine/instruction-hardening.md
+```
+
 ## 6. Constraint Preservation
 
 The runtime must preserve user constraints, mission constraints, governance constraints, and safety constraints.
@@ -159,6 +189,20 @@ The runtime must preserve user constraints, mission constraints, governance cons
 A runtime may not silently reinterpret constraints for convenience.
 
 If constraints conflict, the runtime must escalate or declare the conflict.
+
+Locally available capabilities do not become authorized by convenience.
+
+Activation of reusable capabilities must remain mission-bound as defined by:
+
+```txt
+/core/doctrine/capability-registration-and-activation.md
+```
+
+Shared operational docs and boundary-facing artifacts must not contain plaintext secrets, as defined by:
+
+```txt
+/core/doctrine/secret-boundary-discipline.md
+```
 
 ## 7. Delegation Support
 
@@ -202,6 +246,12 @@ Minimum restoration data:
 - recommended recovery path
 
 Restoration is mandatory when continuing would create uncontrolled damage, confusion, or false completion.
+
+When continuity must be recovered, runtimes should prefer evidence-first reconstruction as defined by:
+
+```txt
+/core/protocols/continuity-reconstruction.md
+```
 
 ## 10. Audit Visibility
 

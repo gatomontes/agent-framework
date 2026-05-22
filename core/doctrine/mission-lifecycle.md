@@ -122,6 +122,7 @@ Classification determines:
 
 Classification may result in:
 - direct execution
+- research-desk setup
 - strategic decomposition
 - rejection
 - clarification request
@@ -193,6 +194,14 @@ Execution must continuously preserve:
 - authority boundaries
 - constraint awareness
 - audit traceability
+
+If the mission is evidence-seeking or research-bearing, execution should instantiate the protocol defined by:
+
+```txt
+/core/protocols/research-desk-protocol.md
+```
+
+before broad collection or synthesis release begins.
 
 ---
 
@@ -445,6 +454,10 @@ No stage may silently bypass:
 - authority assignment
 - final disposition
 - archival
+
+Deadline pressure may narrow scope.
+
+It may not silently lower evidence standards.
 
 Fast execution paths may exist, but the lifecycle semantics remain mandatory.
 

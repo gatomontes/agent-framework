@@ -1,7 +1,7 @@
-# Telegram Bot API Field Notes
+# Chat Gateway Bot API Field Notes
 
 ## 1) Base URL and request style
-- Base format: `https://api.telegram.org/bot<token>/<method>`
+- Base format: `https://api.chat-gateway.org/bot<token>/<method>`
 - Use GET or POST with JSON or form-encoded payloads.
 - File uploads use `multipart/form-data` and `attach://` references.
 
@@ -22,7 +22,7 @@ Use `allowed_updates` to limit which updates you receive.
 
 ## 3) High-traffic-safe patterns
 - Use `allowed_updates` to reduce noise.
-- Keep handlers idempotent (Telegram may retry).
+- Keep handlers idempotent (Chat Gateway may retry).
 - Return quickly from webhooks; process heavy work async.
 
 ## 4) Common methods (non-exhaustive)
@@ -59,5 +59,6 @@ Use `allowed_updates` to limit which updates you receive.
 - `403`: bot blocked or chat not accessible.
 
 ## 8) Reference links
-- https://core.telegram.org/bots/api
-- https://core.telegram.org/bots/faq
+- https://core.chat-gateway.org/bots/api
+- https://core.chat-gateway.org/bots/faq
+

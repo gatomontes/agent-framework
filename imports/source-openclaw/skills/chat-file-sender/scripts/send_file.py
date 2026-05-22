@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Prepare a file for Telegram document delivery.
+Prepare a file for Chat Gateway document delivery.
 
 Usage:
     python3 send_file.py <source_path> <target_chat_id> [caption]
@@ -18,7 +18,7 @@ import uuid
 import zipfile
 
 MAX_SIZE = 50 * 1024 * 1024  # 50 MB
-WORKSPACE_OUTBOX = r"C:\Users\gatom\.openclaw\workspace\telegram-outbox"
+WORKSPACE_OUTBOX = r"C:\Users\gatom\.openclaw\workspace\chat-gateway-outbox"
 
 
 def fail(message: str) -> None:
@@ -87,3 +87,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

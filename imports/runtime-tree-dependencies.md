@@ -29,10 +29,8 @@ Deletion impact if unextracted:
 
 Source cluster:
 
-- `openclaw/skills/telegram/`
-- `openclaw/skills/telegram-file-sender/`
+- communication-boundary skill families
 - `openclaw/skills/reminder/`
-- `openclaw/skills/agentmail/`
 
 Dependency value:
 

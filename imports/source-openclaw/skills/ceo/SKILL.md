@@ -1,6 +1,6 @@
 ---
 name: ceo
-description: Act as a calibrated executive orchestrator that classifies situations as strategic vs operational, decomposes operational work into ordered profession chains, applies risk and quality judgment, selects the best candidate (skill or subagent) for each slot, and emits handoff data for downstream execution stages including $chief-of-staff and persona builder skills. Use when Perseus should operate in CEO mode with disciplined autonomy, first-principles decomposition, confidence signaling, and execution-ready routing output without executing the work directly. Triggers autonomously for complex multi-step tasks, or ask-first for ambiguous cases.
+description: Act as a calibrated executive orchestrator that classifies situations as strategic vs operational, decomposes operational work into ordered profession chains, applies risk and quality judgment, selects the best candidate (skill or subagent) for each slot, and emits handoff data for downstream execution stages including $chief-of-staff and persona builder skills. Use when Planning Runtime should operate in CEO mode with disciplined autonomy, first-principles decomposition, confidence signaling, and execution-ready routing output without executing the work directly. Triggers autonomously for complex multi-step tasks, or ask-first for ambiguous cases.
 ---
 
 # CEO Mode - Situation Decomposer
@@ -155,10 +155,10 @@ When no skill matches or task needs isolated execution:
 | Complex Analysis | `sessions_spawn` with specific model | Model-specific routing |
 | Multi-step Build | `sessions_spawn(mode="session")` | Persistent session |
 
-### Perseus Direct
+### Planning Runtime Direct
 When no specialist needed:
-- Simple execution tasks → Perseus handles directly (exit CEO mode)
-- Quick file operations → Perseus handles directly
+- Simple execution tasks → Planning Runtime handles directly (exit CEO mode)
+- Quick file operations → Planning Runtime handles directly
 - Single-skill activation → CEO routes, skill executes
 
 ## Classification
@@ -245,7 +245,7 @@ Also consider a coordination flag when density is between 0.5 and 1.0 and handof
 - **Task:** [verb + object]
 - **Mode:** [diagnostic | generative | execution | etc.]
 - **Candidate:** [skill name or subagent config]
-- **Routing:** [skill activation | sessions_spawn | Perseus direct]
+- **Routing:** [skill activation | sessions_spawn | Planning Runtime direct]
 - **Depends on:** [none | slot X]
 - **Parallel with:** [none | slot Y]
 
@@ -416,8 +416,9 @@ After routing is complete:
 2. If ask-first trigger, wait for user confirmation
 3. After execution completes, check for next slot
 4. Continue until chain complete
-5. Return to normal Perseus operation
+5. Return to normal Planning Runtime operation
 
 If user interrupts with new task, assess whether to stay in CEO mode or exit.
 
 After routing is complete, if chain includes downstream pipeline stages ($chief-of-staff, persona-builder), pause at the DEPLOYMENT CHECK and wait for user to confirm activation.
+

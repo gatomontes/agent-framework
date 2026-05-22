@@ -1,4 +1,4 @@
-# Telegram Request Templates (HTTP)
+# Chat Gateway Request Templates (HTTP)
 
 ## sendMessage
 POST `/sendMessage`
@@ -35,8 +35,9 @@ POST `/answerCallbackQuery`
 POST `/setWebhook`
 ```json
 {
-  "url": "https://example.com/telegram/webhook",
+  "url": "https://example.com/chat-gateway/webhook",
   "secret_token": "your-secret",
   "allowed_updates": ["message","callback_query"]
 }
 ```
+

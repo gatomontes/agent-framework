@@ -78,7 +78,7 @@ Pattern:
 
 Observed in:
 
-- `telegram/` reference set
+- communication reference sets
 - `design-system-extractor/` scripts plus references
 - `web-demo-builder/` systems and assets
 - `here-now/` scripts plus references

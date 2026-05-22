@@ -10,6 +10,8 @@ It is not merely a framework.
 
 It is the stronghold beneath operational agent work: the place where authority, runtime law, verification doctrine, escalation rules, restoration procedures, and final disposition are defined.
 
+What Citadel physically delivers is constitutional operational artifacts and boundary-governed mission control.
+
 ---
 
 ![Doctrine of the Covenant](assets/covenant.png)
@@ -37,6 +39,8 @@ The Citadel exists to separate:
 The objective is not merely to store prompts or skills.
 
 The objective is to keep the inside of the institution doctrinally strict while keeping the outside world decoupled at the wall.
+
+Citadel delivers that by emitting and governing durable artifacts such as contracts, protocols, doctrine, intake packets, return packets, verification records, critique artifacts, restoration records, and final dispositions.
 
 The objective is to establish a disciplined architecture for:
 
@@ -78,14 +82,7 @@ The Citadel defines what that structure is allowed to do, how it reports, how it
 
 # Current Direction
 
-This repository is actively receiving skills and operational doctrine from multiple runtimes and agent systems.
-
-Current contributing runtimes/entities include:
-
-- Perseus
-- Loco
-- OpenClaw-oriented systems
-- Codex-oriented systems
+This repository is actively consolidating extracted operational doctrine into Citadel-owned core artifacts.
 
 The Citadel prioritizes:
 
@@ -102,13 +99,13 @@ The Citadel prioritizes:
 - review gates
 - trustworthy final disposition
 
-This repository is not implementation-neutral in its file layout.
+This repository is not abstract vapor.
 
-It currently carries first-class in-repo integrations for active runtime families, especially OpenClaw-oriented and Codex-oriented systems.
+It currently centers its active architecture in `/core` while carrying temporary import and migration material as extracted patterns are reissued into the constitutional core.
 
-That does not make those runtimes doctrinal authorities.
+That staging material is not doctrinal authority.
 
-It means Citadel is being developed against concrete initial integration targets while keeping the governance core decoupled at the boundary.
+It exists only to support consolidation and planned deletion while keeping the governance core decoupled at the boundary.
 
 ---
 
@@ -169,28 +166,20 @@ The Citadel favors:
   doctrine/
   governance/
   personas/
+  protocols/
+  runtime/
+  verification/
 
-/openclaw
-  wrappers/
-  orchestration/
-  runtimes/
-
-/codex
-  wrappers/
-  orchestration/
-  runtimes/
-
-/shared
-  skills/
-  patterns/
-  templates/
+/imports
+  extracted patterns/
+  migration archive/
 ```
 
 `/core` is the constitutional center.
 
-`/openclaw` and `/codex` are in-repo integration surfaces and adapter families, not claims that Citadel doctrine belongs to those runtimes.
+`/imports` is a temporary migration surface, not a doctrinal domain.
 
-Their top-level placement reflects active integration priority, not doctrinal supremacy.
+After cleanup, Citadel's live architecture is intended to resolve to the constitutional core and its boundary contracts rather than parallel runtime trees.
 
 Planned Citadel domains:
 

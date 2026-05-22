@@ -27,6 +27,7 @@ Examples include:
 - briefs
 - findings
 - contracts
+- capability registrations
 - critiques
 - verification reports
 - operational logs
@@ -84,6 +85,25 @@ Examples:
 Retained for continuity, lineage, or reconstruction.
 
 Historical retention does not imply current validity.
+
+## Capability Artifact
+
+Reusable operational infrastructure retained for future selection or activation.
+
+Examples:
+- skills
+- protocol implementations
+- adapter wrappers
+- automation templates
+
+Capability artifacts may also exist as bundles containing:
+- primary capability artifact
+- supporting references
+- helper scripts
+- generated support artifacts
+- bundled assets
+
+Such bundles remain governed artifacts rather than disposable packaging noise.
 
 ---
 
@@ -170,6 +190,12 @@ Every meaningful artifact should preserve:
 
 Operational history must remain reconstructable.
 
+Capability artifacts should also preserve:
+
+- registration status
+- activation history when materially used
+- provenance for imported or converted behavior
+
 ---
 
 # Artifact Trust
@@ -218,6 +244,28 @@ Critical operations require stronger preservation:
 - verification evidence
 - escalation records
 - final disposition history
+
+---
+
+# Registration And Activation Rule
+
+Creating or registering a capability artifact does not automatically make it active for a mission.
+
+Capability availability, registration, and activation are separate events governed by:
+
+```txt
+/core/doctrine/capability-registration-and-activation.md
+```
+
+Artifact law preserves the object.
+
+Authority doctrine governs whether it may be used now.
+
+Bundle structure for reusable capabilities is governed by:
+
+```txt
+/core/doctrine/capability-bundle-governance.md
+```
 
 ---
 

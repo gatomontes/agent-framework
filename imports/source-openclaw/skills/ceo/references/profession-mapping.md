@@ -17,7 +17,7 @@
 | **Lyric Generator** | `b-lyrics` | Skill activation | Bureau-native lyric writing |
 | **Title Ideation** | `b-title` | Skill activation | Song title generation |
 | **Reminder Handler** | `reminder` | Skill activation | Natural language reminders |
-| **Telegram Bot Designer** | `telegram` | Skill activation | Bot workflow design |
+| **Chat Gateway Bot Designer** | `chat-gateway` | Skill activation | Bot workflow design |
 
 ## Subagent Routing (Session Spawn)
 
@@ -59,9 +59,9 @@ Use `sessions_spawn` when:
 }
 ```
 
-## Perseus Direct Execution
+## Planning Runtime Direct Execution
 
-Route to Perseus (exit CEO mode) when:
+Route to Planning Runtime (exit CEO mode) when:
 - Simple single-step task
 - Quick file operation
 - Direct question/answer
@@ -81,5 +81,5 @@ Route to Perseus (exit CEO mode) when:
 
 3. Check complexity → warrants specialist?
    ├─ Yes → Ask user which route
-   └─ No → Perseus direct (exit CEO mode)
+   └─ No → Planning Runtime direct (exit CEO mode)
 ```

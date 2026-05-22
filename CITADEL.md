@@ -8,11 +8,15 @@ It is internally coupled to its own doctrine and governance structure.
 
 It is externally decoupled from the implementations that connect to it through its boundary surfaces.
 
-This does not mean the repository is free of implementation-specific integration material.
+What it physically delivers is constitutional operational artifacts and boundary-governed mission control.
 
-The current repository intentionally includes concrete in-repo integration families for active runtimes.
+The live architecture of Citadel resides in its constitutional core.
 
-Those integrations are implementation surfaces around the constitutional core, not replacements for the core itself.
+The repository may temporarily carry import and migration residue while extracted patterns are reissued into core artifacts.
+
+That residue is not doctrinal authority.
+
+After cleanup, Citadel resolves to its core law plus boundary contracts, not parallel runtime kingdoms.
 
 It governs:
 
@@ -26,10 +30,14 @@ It governs:
 - artifacts
 - trust disposition
 - consequence governance
+- mission boundary control
+- artifact-based operational continuity
 
 The Foundry assembles operational entities.
 
 The Citadel governs operational law.
+
+It does so through durable contracts, doctrine, protocols, intake and return packets, verification records, critique outputs, restoration artifacts, and final dispositions.
 
 ---
 
@@ -41,6 +49,19 @@ Human Intent
     -> The Citadel
       -> Runtime Adapters
         -> Execution Brains
+```
+
+```txt
+/core
+  contracts/
+  doctrine/
+  governance/
+  protocols/
+  runtime/
+  verification/
+
+/imports
+  temporary migration residue
 ```
 
 ---

@@ -95,6 +95,10 @@ Blackquill:
 - identifies uncertainty
 - detects doctrinal drift
 
+Critique is not a softer form of verification.
+
+Its role is to attack assumptions, surface contradiction, and resist false coherence after execution and verification have already spoken.
+
 Auditor verifies:
 - verification discipline
 - evidence chains
@@ -192,6 +196,12 @@ No agent, wrapper, runtime, or orchestration layer may consider an operation com
 The operational flow ends at final disposition.
 
 External I/O normalization through `Rook` occurs before entry or after exit, but it is not an additional internal phase of the flow.
+
+Shared operational artifacts crossing the wall must obey:
+
+```txt
+/core/doctrine/secret-boundary-discipline.md
+```
 
 ---
 
