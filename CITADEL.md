@@ -8,6 +8,12 @@ It is internally coupled to its own doctrine and governance structure.
 
 It is externally decoupled from the implementations that connect to it through its boundary surfaces.
 
+This does not mean the repository is free of implementation-specific integration material.
+
+The current repository intentionally includes concrete in-repo integration families for active runtimes.
+
+Those integrations are implementation surfaces around the constitutional core, not replacements for the core itself.
+
 It governs:
 
 - authority

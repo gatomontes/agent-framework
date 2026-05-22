@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Agentic Architect"
+  short_description: "Rewrite tasks for agent clarity"
+  default_prompt: "Use this skill to inspect the target brief or instructions, report findings first, and ask whether to proceed with fixes before rewriting or modifying anything."

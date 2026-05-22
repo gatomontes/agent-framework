@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Progress Reviewer"
+  short_description: "Review brief, assess state, write dated status"
+  default_prompt: "Use $project-progress-reviewer to compare a past project brief to the current project state and write a dated progress note."

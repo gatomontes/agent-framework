@@ -1,0 +1,4 @@
+interface:
+  display_name: "Researcher"
+  short_description: "Evidence-first verification and research workflow"
+  default_prompt: "Use $researcher to collect, verify, and organize evidence with explicit confidence labels and search bounds."

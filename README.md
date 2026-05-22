@@ -102,6 +102,14 @@ The Citadel prioritizes:
 - review gates
 - trustworthy final disposition
 
+This repository is not implementation-neutral in its file layout.
+
+It currently carries first-class in-repo integrations for active runtime families, especially OpenClaw-oriented and Codex-oriented systems.
+
+That does not make those runtimes doctrinal authorities.
+
+It means Citadel is being developed against concrete initial integration targets while keeping the governance core decoupled at the boundary.
+
 ---
 
 # Core Principle
@@ -177,6 +185,12 @@ The Citadel favors:
   patterns/
   templates/
 ```
+
+`/core` is the constitutional center.
+
+`/openclaw` and `/codex` are in-repo integration surfaces and adapter families, not claims that Citadel doctrine belongs to those runtimes.
+
+Their top-level placement reflects active integration priority, not doctrinal supremacy.
 
 Planned Citadel domains:
 

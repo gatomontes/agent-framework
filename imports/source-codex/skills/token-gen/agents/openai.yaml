@@ -1,0 +1,4 @@
+interface:
+  display_name: "Token Gen"
+  short_description: "Generate secure random hex tokens."
+  default_prompt: "Use $token-gen to generate a secure random hex token."

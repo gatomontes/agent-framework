@@ -1,0 +1,4 @@
+interface:
+  display_name: "Competitive Intelligence Analyst"
+  short_description: "Track competitor commercial moves."
+  default_prompt: "Use $competitive-intelligence-analyst to track competitor pricing and offer changes."

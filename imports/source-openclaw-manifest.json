@@ -1,0 +1,346 @@
+[
+    {
+        "path":  "source-openclaw\\.gitignore",
+        "bytes":  71
+    },
+    {
+        "path":  "source-openclaw\\AGENTS.md",
+        "bytes":  8086
+    },
+    {
+        "path":  "source-openclaw\\ceo.skill",
+        "bytes":  7069
+    },
+    {
+        "path":  "source-openclaw\\design-system-extractor.skill",
+        "bytes":  13147
+    },
+    {
+        "path":  "source-openclaw\\HEARTBEAT.md",
+        "bytes":  200
+    },
+    {
+        "path":  "source-openclaw\\IDENTITY.md",
+        "bytes":  506
+    },
+    {
+        "path":  "source-openclaw\\MEMORY.md",
+        "bytes":  467
+    },
+    {
+        "path":  "source-openclaw\\SOUL.md",
+        "bytes":  1709
+    },
+    {
+        "path":  "source-openclaw\\TOOLS.md",
+        "bytes":  640
+    },
+    {
+        "path":  "source-openclaw\\USER.md",
+        "bytes":  623
+    },
+    {
+        "path":  "source-openclaw\\vps-connect.skill",
+        "bytes":  1554
+    },
+    {
+        "path":  "source-openclaw\\custom-skills\\b-lyrics2.md",
+        "bytes":  8950
+    },
+    {
+        "path":  "source-openclaw\\custom-skills\\b-poems.md",
+        "bytes":  11784
+    },
+    {
+        "path":  "source-openclaw\\custom-skills\\vautBoy friction analysis.txt",
+        "bytes":  6236
+    },
+    {
+        "path":  "source-openclaw\\custom-skills\\web agency-redesign.txt",
+        "bytes":  2779
+    },
+    {
+        "path":  "source-openclaw\\custom-skills\\web-agency-growth-skill.md",
+        "bytes":  11271
+    },
+    {
+        "path":  "source-openclaw\\custom-skills\\web-agency-growth-skill2.md",
+        "bytes":  2332
+    },
+    {
+        "path":  "source-openclaw\\custom-skills\\web-agency-skill-audit.md",
+        "bytes":  5538
+    },
+    {
+        "path":  "source-openclaw\\custom-skills\\YouTube Veracity + Friction Audit.md",
+        "bytes":  3654
+    },
+    {
+        "path":  "source-openclaw\\custom-skills\\YouTube_Video_Procedure_Resource_Extractor_v2.md",
+        "bytes":  7268
+    },
+    {
+        "path":  "source-openclaw\\custom-skills\\yt-comment-friction-ai-gm2.txt",
+        "bytes":  6958
+    },
+    {
+        "path":  "source-openclaw\\custom-skills\\yt-comment-friction-miner-gm.txt",
+        "bytes":  3476
+    },
+    {
+        "path":  "source-openclaw\\custom-skills\\yt-comment-frinctio-ai-gm.txt",
+        "bytes":  4703
+    },
+    {
+        "path":  "source-openclaw\\custom-skills\\yt-credibility-auditor.md",
+        "bytes":  3681
+    },
+    {
+        "path":  "source-openclaw\\skills\\agentmail\\SKILL.md",
+        "bytes":  1740
+    },
+    {
+        "path":  "source-openclaw\\skills\\b-lyrics\\SKILL.md",
+        "bytes":  29194
+    },
+    {
+        "path":  "source-openclaw\\skills\\b-task\\SKILL.md",
+        "bytes":  14242
+    },
+    {
+        "path":  "source-openclaw\\skills\\b-title\\SKILL.md",
+        "bytes":  14474
+    },
+    {
+        "path":  "source-openclaw\\skills\\blackquill\\SKILL.md",
+        "bytes":  2960
+    },
+    {
+        "path":  "source-openclaw\\skills\\ceo\\SKILL.md",
+        "bytes":  19452
+    },
+    {
+        "path":  "source-openclaw\\skills\\ceo\\references\\activation-triggers.md",
+        "bytes":  3863
+    },
+    {
+        "path":  "source-openclaw\\skills\\ceo\\references\\profession-mapping.md",
+        "bytes":  2959
+    },
+    {
+        "path":  "source-openclaw\\skills\\cro-strategist\\SKILL.md",
+        "bytes":  13460
+    },
+    {
+        "path":  "source-openclaw\\skills\\design-system-extractor\\SKILL.md",
+        "bytes":  11228
+    },
+    {
+        "path":  "source-openclaw\\skills\\design-system-extractor\\assets\\template.md",
+        "bytes":  7327
+    },
+    {
+        "path":  "source-openclaw\\skills\\design-system-extractor\\references\\example-output.md",
+        "bytes":  14723
+    },
+    {
+        "path":  "source-openclaw\\skills\\design-system-extractor\\references\\extraction-guide.md",
+        "bytes":  9673
+    },
+    {
+        "path":  "source-openclaw\\skills\\design-system-extractor\\scripts\\sample_site.py",
+        "bytes":  15016
+    },
+    {
+        "path":  "source-openclaw\\skills\\direct-response-copywriter\\SKILL.md",
+        "bytes":  10797
+    },
+    {
+        "path":  "source-openclaw\\skills\\full-stack-growth-engineer\\SKILL.md",
+        "bytes":  9840
+    },
+    {
+        "path":  "source-openclaw\\skills\\golden-nugget-finder\\SKILL.md",
+        "bytes":  6075
+    },
+    {
+        "path":  "source-openclaw\\skills\\here-now\\SKILL.md",
+        "bytes":  19680
+    },
+    {
+        "path":  "source-openclaw\\skills\\here-now\\bin\\jq",
+        "bytes":  67
+    },
+    {
+        "path":  "source-openclaw\\skills\\here-now\\references\\REFERENCE.md",
+        "bytes":  29359
+    },
+    {
+        "path":  "source-openclaw\\skills\\here-now\\scripts\\publish.sh",
+        "bytes":  12891
+    },
+    {
+        "path":  "source-openclaw\\skills\\persona-builder\\SKILL.md",
+        "bytes":  3454
+    },
+    {
+        "path":  "source-openclaw\\skills\\persona-builder\\agents\\openai.yaml",
+        "bytes":  228
+    },
+    {
+        "path":  "source-openclaw\\skills\\persona-builder\\references\\builder-reference.md",
+        "bytes":  3545
+    },
+    {
+        "path":  "source-openclaw\\skills\\pitchman\\SKILL.md",
+        "bytes":  2617
+    },
+    {
+        "path":  "source-openclaw\\skills\\project\\SKILL.md",
+        "bytes":  14245
+    },
+    {
+        "path":  "source-openclaw\\skills\\reminder\\SKILL.md",
+        "bytes":  2716
+    },
+    {
+        "path":  "source-openclaw\\skills\\reminder\\assets\\events.template.yml",
+        "bytes":  147
+    },
+    {
+        "path":  "source-openclaw\\skills\\researcher\\SKILL.md",
+        "bytes":  8769
+    },
+    {
+        "path":  "source-openclaw\\skills\\symfony-architect\\SKILL.md",
+        "bytes":  8476
+    },
+    {
+        "path":  "source-openclaw\\skills\\telegram\\SKILL.md",
+        "bytes":  1739
+    },
+    {
+        "path":  "source-openclaw\\skills\\telegram\\_meta.json",
+        "bytes":  132
+    },
+    {
+        "path":  "source-openclaw\\skills\\telegram\\references\\telegram-bot-api.md",
+        "bytes":  2236
+    },
+    {
+        "path":  "source-openclaw\\skills\\telegram\\references\\telegram-commands-playbook.md",
+        "bytes":  1034
+    },
+    {
+        "path":  "source-openclaw\\skills\\telegram\\references\\telegram-request-templates.md",
+        "bytes":  685
+    },
+    {
+        "path":  "source-openclaw\\skills\\telegram\\references\\telegram-update-routing.md",
+        "bytes":  806
+    },
+    {
+        "path":  "source-openclaw\\skills\\telegram-file-sender\\SKILL.md",
+        "bytes":  2235
+    },
+    {
+        "path":  "source-openclaw\\skills\\telegram-file-sender\\scripts\\send_file.py",
+        "bytes":  2581
+    },
+    {
+        "path":  "source-openclaw\\skills\\tiktok-scraping\\SKILL.md",
+        "bytes":  11982
+    },
+    {
+        "path":  "source-openclaw\\skills\\tiktok-scraping\\_meta.json",
+        "bytes":  139
+    },
+    {
+        "path":  "source-openclaw\\skills\\tiktok-scraping\\scripts\\convert_cookies.py",
+        "bytes":  1019
+    },
+    {
+        "path":  "source-openclaw\\skills\\tiktok-scraping\\scripts\\tiktok_scrape.py",
+        "bytes":  9337
+    },
+    {
+        "path":  "source-openclaw\\skills\\tiktok-scraping\\scripts\\tiktok_search.py",
+        "bytes":  14001
+    },
+    {
+        "path":  "source-openclaw\\skills\\vps-connect\\SKILL.md",
+        "bytes":  1986
+    },
+    {
+        "path":  "source-openclaw\\skills\\vps-connect\\scripts\\vps-exec.py",
+        "bytes":  911
+    },
+    {
+        "path":  "source-openclaw\\skills\\web-demo-builder\\SKILL.md",
+        "bytes":  5757
+    },
+    {
+        "path":  "source-openclaw\\skills\\web-demo-builder\\assets\\css\\style.css",
+        "bytes":  4005
+    },
+    {
+        "path":  "source-openclaw\\skills\\web-demo-builder\\assets\\js\\main.js",
+        "bytes":  5168
+    },
+    {
+        "path":  "source-openclaw\\skills\\web-demo-builder\\references\\developer-persona.yaml",
+        "bytes":  2850
+    },
+    {
+        "path":  "source-openclaw\\skills\\web-demo-builder\\systems\\aguasdeibiza-design-system\\DESIGN.md",
+        "bytes":  14393
+    },
+    {
+        "path":  "source-openclaw\\skills\\web-demo-builder\\systems\\aguasdeibiza-design-system\\index.html",
+        "bytes":  8144
+    },
+    {
+        "path":  "source-openclaw\\skills\\web-demo-builder\\systems\\aguasdeibiza-design-system\\assets\\css\\showcase.css",
+        "bytes":  7159
+    },
+    {
+        "path":  "source-openclaw\\skills\\web-demo-builder\\systems\\aguasdeibiza-design-system\\assets\\js\\showcase.js",
+        "bytes":  67
+    },
+    {
+        "path":  "source-openclaw\\skills\\web-demo-builder\\systems\\upperhouse-design-system\\DESIGN.md",
+        "bytes":  13894
+    },
+    {
+        "path":  "source-openclaw\\skills\\web-demo-builder\\systems\\upperhouse-design-system\\index.html",
+        "bytes":  8412
+    },
+    {
+        "path":  "source-openclaw\\skills\\web-demo-builder\\systems\\upperhouse-design-system\\assets\\css\\showcase.css",
+        "bytes":  8497
+    },
+    {
+        "path":  "source-openclaw\\skills\\web-demo-builder\\systems\\upperhouse-design-system\\assets\\js\\showcase.js",
+        "bytes":  67
+    },
+    {
+        "path":  "source-openclaw\\skills\\web-design-orchestrator\\SKILL.md",
+        "bytes":  9655
+    },
+    {
+        "path":  "source-openclaw\\skills\\web-task\\SKILL.md",
+        "bytes":  9496
+    },
+    {
+        "path":  "source-openclaw\\skills\\youtube-transcript-fetcher\\SKILL.md",
+        "bytes":  1462
+    },
+    {
+        "path":  "source-openclaw\\skills\\youtube-transcript-fetcher\\scripts\\fetch_transcript.py",
+        "bytes":  4337
+    },
+    {
+        "path":  "source-openclaw\\skills\\yt-ai-gm\\SKILL.md",
+        "bytes":  4703
+    }
+]

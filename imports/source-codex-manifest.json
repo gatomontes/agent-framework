@@ -1,0 +1,462 @@
+[
+    {
+        "path":  "source-codex\\skills\\blackquill\\SKILL.md",
+        "bytes":  2960
+    },
+    {
+        "path":  "source-codex\\skills\\ceo\\ceo.md",
+        "bytes":  15217
+    },
+    {
+        "path":  "source-codex\\skills\\ceo\\SKILL.md",
+        "bytes":  16104
+    },
+    {
+        "path":  "source-codex\\skills\\ceo\\agents\\openai.yaml",
+        "bytes":  293
+    },
+    {
+        "path":  "source-codex\\skills\\ceo\\references\\persona-factory-reference.md",
+        "bytes":  15559
+    },
+    {
+        "path":  "source-codex\\skills\\chief-of-staff\\SKILL.md",
+        "bytes":  9186
+    },
+    {
+        "path":  "source-codex\\skills\\chief-of-staff\\agents\\openai.yaml",
+        "bytes":  289
+    },
+    {
+        "path":  "source-codex\\skills\\chief-security-architect\\SKILL.md",
+        "bytes":  6767
+    },
+    {
+        "path":  "source-codex\\skills\\commercial-synthesis-analyst\\SKILL.md",
+        "bytes":  2038
+    },
+    {
+        "path":  "source-codex\\skills\\commercial-synthesis-analyst\\agents\\openai.yaml",
+        "bytes":  256
+    },
+    {
+        "path":  "source-codex\\skills\\competitive-intelligence-analyst\\SKILL.md",
+        "bytes":  1885
+    },
+    {
+        "path":  "source-codex\\skills\\competitive-intelligence-analyst\\agents\\openai.yaml",
+        "bytes":  229
+    },
+    {
+        "path":  "source-codex\\skills\\core-payroll-workflow-reviewer\\SKILL.md",
+        "bytes":  5090
+    },
+    {
+        "path":  "source-codex\\skills\\core-payroll-workflow-reviewer\\agents\\openai.yaml",
+        "bytes":  242
+    },
+    {
+        "path":  "source-codex\\skills\\data-document-researcher\\SKILL.md",
+        "bytes":  2212
+    },
+    {
+        "path":  "source-codex\\skills\\data-document-researcher\\agents\\openai.yaml",
+        "bytes":  241
+    },
+    {
+        "path":  "source-codex\\skills\\design-system-extractor\\SKILL.md",
+        "bytes":  18809
+    },
+    {
+        "path":  "source-codex\\skills\\design-system-extractor\\assets\\showcase-template.html",
+        "bytes":  4458
+    },
+    {
+        "path":  "source-codex\\skills\\design-system-extractor\\assets\\showcase.css",
+        "bytes":  3418
+    },
+    {
+        "path":  "source-codex\\skills\\design-system-extractor\\assets\\showcase.js",
+        "bytes":  67
+    },
+    {
+        "path":  "source-codex\\skills\\design-system-extractor\\assets\\template.md",
+        "bytes":  7850
+    },
+    {
+        "path":  "source-codex\\skills\\design-system-extractor\\references\\example-output.md",
+        "bytes":  14723
+    },
+    {
+        "path":  "source-codex\\skills\\design-system-extractor\\references\\extraction-guide.md",
+        "bytes":  13007
+    },
+    {
+        "path":  "source-codex\\skills\\design-system-extractor\\references\\site-families.json",
+        "bytes":  2492
+    },
+    {
+        "path":  "source-codex\\skills\\design-system-extractor\\scripts\\sample_site.py",
+        "bytes":  20087
+    },
+    {
+        "path":  "source-codex\\skills\\design-system-ui-developer\\SKILL.md",
+        "bytes":  5455
+    },
+    {
+        "path":  "source-codex\\skills\\design-system-ui-developer\\agents\\openai.yaml",
+        "bytes":  234
+    },
+    {
+        "path":  "source-codex\\skills\\financial-document-print-workflow-designer\\SKILL.md",
+        "bytes":  4007
+    },
+    {
+        "path":  "source-codex\\skills\\generic-ui-enforcer\\SKILL.md",
+        "bytes":  7390
+    },
+    {
+        "path":  "source-codex\\skills\\here-now\\SKILL.md",
+        "bytes":  19680
+    },
+    {
+        "path":  "source-codex\\skills\\here-now\\bin\\jq",
+        "bytes":  67
+    },
+    {
+        "path":  "source-codex\\skills\\here-now\\bin\\jq.exe",
+        "bytes":  1026560
+    },
+    {
+        "path":  "source-codex\\skills\\here-now\\references\\REFERENCE.md",
+        "bytes":  29359
+    },
+    {
+        "path":  "source-codex\\skills\\here-now\\scripts\\publish.sh",
+        "bytes":  12891
+    },
+    {
+        "path":  "source-codex\\skills\\junie-handoff\\SKILL.md",
+        "bytes":  2509
+    },
+    {
+        "path":  "source-codex\\skills\\junie-handoff\\agents\\openai.yaml",
+        "bytes":  214
+    },
+    {
+        "path":  "source-codex\\skills\\kds-ui-enforcer\\SKILL.md",
+        "bytes":  6361
+    },
+    {
+        "path":  "source-codex\\skills\\kds-ui-enforcer\\agents\\openai.yaml",
+        "bytes":  231
+    },
+    {
+        "path":  "source-codex\\skills\\kds-ux-architect\\SKILL.md",
+        "bytes":  9698
+    },
+    {
+        "path":  "source-codex\\skills\\kds-ux-architect\\agents\\openai.yaml",
+        "bytes":  259
+    },
+    {
+        "path":  "source-codex\\skills\\market-research-analyst\\SKILL.md",
+        "bytes":  1956
+    },
+    {
+        "path":  "source-codex\\skills\\market-research-analyst\\agents\\openai.yaml",
+        "bytes":  227
+    },
+    {
+        "path":  "source-codex\\skills\\material-kit-pro-local-elements\\SKILL.md",
+        "bytes":  4482
+    },
+    {
+        "path":  "source-codex\\skills\\material-kit-pro-local-elements\\agents\\openai.yaml",
+        "bytes":  247
+    },
+    {
+        "path":  "source-codex\\skills\\material-kit-pro-local-elements\\references\\composition-rules.md",
+        "bytes":  1564
+    },
+    {
+        "path":  "source-codex\\skills\\material-kit-pro-local-elements\\references\\inventory.md",
+        "bytes":  3978
+    },
+    {
+        "path":  "source-codex\\skills\\material-kit-pro-local-elements\\scripts\\build_inventory.py",
+        "bytes":  2463
+    },
+    {
+        "path":  "source-codex\\skills\\nomina-db-backup\\SKILL.md",
+        "bytes":  1176
+    },
+    {
+        "path":  "source-codex\\skills\\nomina-db-backup\\agents\\openai.yaml",
+        "bytes":  222
+    },
+    {
+        "path":  "source-codex\\skills\\nomina-db-restore\\SKILL.md",
+        "bytes":  1391
+    },
+    {
+        "path":  "source-codex\\skills\\nomina-db-restore\\agents\\openai.yaml",
+        "bytes":  230
+    },
+    {
+        "path":  "source-codex\\skills\\open-web-osint-researcher\\SKILL.md",
+        "bytes":  2168
+    },
+    {
+        "path":  "source-codex\\skills\\open-web-osint-researcher\\agents\\openai.yaml",
+        "bytes":  231
+    },
+    {
+        "path":  "source-codex\\skills\\payroll-compliance-specialist\\SKILL.md",
+        "bytes":  3655
+    },
+    {
+        "path":  "source-codex\\skills\\payroll-disbursement-systems-analyst\\SKILL.md",
+        "bytes":  4041
+    },
+    {
+        "path":  "source-codex\\skills\\payroll-tax-operations-specialist\\SKILL.md",
+        "bytes":  4445
+    },
+    {
+        "path":  "source-codex\\skills\\pentester-kernel\\SKILL.md",
+        "bytes":  3878
+    },
+    {
+        "path":  "source-codex\\skills\\persona-builder\\SKILL.md",
+        "bytes":  6434
+    },
+    {
+        "path":  "source-codex\\skills\\persona-builder\\agents\\openai.yaml",
+        "bytes":  228
+    },
+    {
+        "path":  "source-codex\\skills\\persona-builder\\references\\builder-reference.md",
+        "bytes":  3545
+    },
+    {
+        "path":  "source-codex\\skills\\persona-publisher\\SKILL.md",
+        "bytes":  4637
+    },
+    {
+        "path":  "source-codex\\skills\\persona-publisher\\agents\\openai.yaml",
+        "bytes":  244
+    },
+    {
+        "path":  "source-codex\\skills\\persona-publisher\\references\\publisher-reference.md",
+        "bytes":  3096
+    },
+    {
+        "path":  "source-codex\\skills\\persona-to-skill\\SKILL.md",
+        "bytes":  4471
+    },
+    {
+        "path":  "source-codex\\skills\\persona-to-skill\\agents\\openai.yaml",
+        "bytes":  243
+    },
+    {
+        "path":  "source-codex\\skills\\persona-to-skill\\references\\conversion-reference.md",
+        "bytes":  2339
+    },
+    {
+        "path":  "source-codex\\skills\\pricing-analyst\\SKILL.md",
+        "bytes":  1975
+    },
+    {
+        "path":  "source-codex\\skills\\pricing-analyst\\agents\\openai.yaml",
+        "bytes":  204
+    },
+    {
+        "path":  "source-codex\\skills\\project-loader\\SKILL.md",
+        "bytes":  4475
+    },
+    {
+        "path":  "source-codex\\skills\\project-loader\\agents\\openai.yaml",
+        "bytes":  238
+    },
+    {
+        "path":  "source-codex\\skills\\project-manager-kernel\\SKILL.md",
+        "bytes":  6125
+    },
+    {
+        "path":  "source-codex\\skills\\project-manager-kernel\\agents\\openai.yaml",
+        "bytes":  325
+    },
+    {
+        "path":  "source-codex\\skills\\project-progress-reviewer\\SKILL.md",
+        "bytes":  4384
+    },
+    {
+        "path":  "source-codex\\skills\\project-progress-reviewer\\agents\\openai.yaml",
+        "bytes":  274
+    },
+    {
+        "path":  "source-codex\\skills\\project-progress-reviewer\\references\\progress-note-template.md",
+        "bytes":  1194
+    },
+    {
+        "path":  "source-codex\\skills\\red-team-fact-checker\\SKILL.md",
+        "bytes":  2109
+    },
+    {
+        "path":  "source-codex\\skills\\red-team-fact-checker\\agents\\openai.yaml",
+        "bytes":  221
+    },
+    {
+        "path":  "source-codex\\skills\\research-synthesis-writer\\SKILL.md",
+        "bytes":  2199
+    },
+    {
+        "path":  "source-codex\\skills\\research-synthesis-writer\\agents\\openai.yaml",
+        "bytes":  224
+    },
+    {
+        "path":  "source-codex\\skills\\researcher\\SKILL.md",
+        "bytes":  2637
+    },
+    {
+        "path":  "source-codex\\skills\\researcher\\agents\\openai.yaml",
+        "bytes":  246
+    },
+    {
+        "path":  "source-codex\\skills\\researcher\\references\\researcher-revised.md",
+        "bytes":  9723
+    },
+    {
+        "path":  "source-codex\\skills\\senior-agentic-architect\\ceo-proposed-draft-v2.md",
+        "bytes":  10660
+    },
+    {
+        "path":  "source-codex\\skills\\senior-agentic-architect\\chief-of-staff-proposed-draft.md",
+        "bytes":  10691
+    },
+    {
+        "path":  "source-codex\\skills\\senior-agentic-architect\\core-payroll-workflow-reviewer-proposed-draft.md",
+        "bytes":  8737
+    },
+    {
+        "path":  "source-codex\\skills\\senior-agentic-architect\\marketing-draft.md",
+        "bytes":  16128
+    },
+    {
+        "path":  "source-codex\\skills\\senior-agentic-architect\\payroll-compliance-specialist-proposed-draft.md",
+        "bytes":  8714
+    },
+    {
+        "path":  "source-codex\\skills\\senior-agentic-architect\\researcher-revised.md",
+        "bytes":  17271
+    },
+    {
+        "path":  "source-codex\\skills\\senior-agentic-architect\\senior-agentic-architect-proposed-draft.md",
+        "bytes":  8467
+    },
+    {
+        "path":  "source-codex\\skills\\senior-agentic-architect\\senior-symfony-backend-engineer-proposed-draft.md",
+        "bytes":  9129
+    },
+    {
+        "path":  "source-codex\\skills\\senior-agentic-architect\\SKILL.md",
+        "bytes":  21077
+    },
+    {
+        "path":  "source-codex\\skills\\senior-agentic-architect\\agents\\blackquill.md",
+        "bytes":  5276
+    },
+    {
+        "path":  "source-codex\\skills\\senior-agentic-architect\\agents\\openai.yaml",
+        "bytes":  294
+    },
+    {
+        "path":  "source-codex\\skills\\senior-symfony-backend-engineer\\SKILL.md",
+        "bytes":  3613
+    },
+    {
+        "path":  "source-codex\\skills\\sentinel\\SKILL.md",
+        "bytes":  4188
+    },
+    {
+        "path":  "source-codex\\skills\\soft-ui-design-system-pro-local-elements\\SKILL.md",
+        "bytes":  4587
+    },
+    {
+        "path":  "source-codex\\skills\\soft-ui-design-system-pro-local-elements\\agents\\openai.yaml",
+        "bytes":  255
+    },
+    {
+        "path":  "source-codex\\skills\\soft-ui-design-system-pro-local-elements\\references\\composition-rules.md",
+        "bytes":  1675
+    },
+    {
+        "path":  "source-codex\\skills\\soft-ui-design-system-pro-local-elements\\references\\inventory.md",
+        "bytes":  3115
+    },
+    {
+        "path":  "source-codex\\skills\\soft-ui-design-system-pro-local-elements\\scripts\\build_inventory.py",
+        "bytes":  2504
+    },
+    {
+        "path":  "source-codex\\skills\\source-verification-analyst\\SKILL.md",
+        "bytes":  2221
+    },
+    {
+        "path":  "source-codex\\skills\\source-verification-analyst\\agents\\openai.yaml",
+        "bytes":  226
+    },
+    {
+        "path":  "source-codex\\skills\\token-gen\\SKILL.md",
+        "bytes":  1572
+    },
+    {
+        "path":  "source-codex\\skills\\token-gen\\agents\\openai.yaml",
+        "bytes":  175
+    },
+    {
+        "path":  "source-codex\\skills\\token-gen\\scripts\\generate_token.py",
+        "bytes":  1223
+    },
+    {
+        "path":  "source-codex\\skills\\ui-kit-builder\\SKILL.md",
+        "bytes":  4824
+    },
+    {
+        "path":  "source-codex\\skills\\ui-kit-builder\\agents\\openai.yaml",
+        "bytes":  191
+    },
+    {
+        "path":  "source-codex\\skills\\ui-kit-builder\\references\\composition-rules.md",
+        "bytes":  1612
+    },
+    {
+        "path":  "source-codex\\skills\\ui-kit-builder\\scripts\\build_inventory.py",
+        "bytes":  5651
+    },
+    {
+        "path":  "source-codex\\skills\\web-discovery-researcher\\SKILL.md",
+        "bytes":  2308
+    },
+    {
+        "path":  "source-codex\\skills\\web-discovery-researcher\\agents\\openai.yaml",
+        "bytes":  219
+    },
+    {
+        "path":  "source-codex\\skills\\web-research-lead\\SKILL.md",
+        "bytes":  3263
+    },
+    {
+        "path":  "source-codex\\skills\\web-research-lead\\agents\\openai.yaml",
+        "bytes":  216
+    },
+    {
+        "path":  "source-codex\\skills\\webpage-builder-engineer\\SKILL.md",
+        "bytes":  5593
+    },
+    {
+        "path":  "source-codex\\skills\\webpage-builder-engineer\\agents\\openai.yaml",
+        "bytes":  296
+    }
+]

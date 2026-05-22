@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Loader"
+  short_description: "Resume work from project artifacts in E:\\ai\\projects."
+  default_prompt: "Load a project from E:\\ai\\projects and recover where work left off before coding starts."

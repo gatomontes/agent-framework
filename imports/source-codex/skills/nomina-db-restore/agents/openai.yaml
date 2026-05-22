@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nomina DB Restore"
+  short_description: "Restore the Nomina DB from a chosen dump."
+  default_prompt: "Use $nomina-db-restore to restore the Nomina PostgreSQL database from a selected backup dump."

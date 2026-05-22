@@ -12,6 +12,15 @@ This does not mean AFW is internally uncoupled.
 
 It means AFW remains externally decoupled from the runtimes and implementations attached through adapters and boundary surfaces.
 
+This doctrine does not require the repository layout to look implementation-neutral.
+
+AFW may keep concrete adapter families in-repo while those implementations remain:
+
+- boundary-scoped
+- replaceable
+- non-authoritative with respect to doctrine
+- subordinate to the constitutional core
+
 ## Canonical Position
 
 ```txt

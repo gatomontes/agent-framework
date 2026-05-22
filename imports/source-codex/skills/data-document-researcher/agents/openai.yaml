@@ -1,0 +1,4 @@
+interface:
+  display_name: "Data and Document Researcher"
+  short_description: "Extract evidence from datasets and documents."
+  default_prompt: "Use $data-document-researcher to extract reliable facts from PDFs, filings, and datasets."

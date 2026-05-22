@@ -1,0 +1,4 @@
+interface:
+  display_name: "Persona Publisher"
+  short_description: "Render polished persona spec artifacts"
+  default_prompt: "Use $persona-publisher to turn $persona-builder output into polished persona markdown or agent spec artifacts."

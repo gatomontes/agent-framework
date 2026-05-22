@@ -1,0 +1,4 @@
+interface:
+  display_name: "Web Discovery Researcher"
+  short_description: "Find strong open-web evidence fast."
+  default_prompt: "Use $web-discovery-researcher to map the search space and surface strong sources."

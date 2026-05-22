@@ -1,0 +1,4 @@
+interface:
+  display_name: "Junie Handoff"
+  short_description: "Create paste-ready prompts and handoffs for Junie."
+  default_prompt: "Prepare a precise prompt or implementation brief I can paste into Junie."
