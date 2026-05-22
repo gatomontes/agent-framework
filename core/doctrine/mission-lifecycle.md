@@ -52,15 +52,16 @@ If work cannot be placed inside the lifecycle, the work is either:
 
 ```txt
 Intent
-  -> Classification
-    -> Topology Synthesis
-      -> Authority Assignment
-        -> Execution
-          -> Verification
-            -> Critique
-              -> Restoration or Escalation
-                -> Final Disposition
-                  -> Archival
+  -> Rook Intake
+    -> Classification
+      -> Topology Synthesis
+        -> Authority Assignment
+          -> Execution
+            -> Verification
+              -> Critique
+                -> Restoration or Escalation
+                  -> Final Disposition
+                    -> Archival
 ```
 
 The lifecycle is directional but not strictly linear.
@@ -95,6 +96,14 @@ Intent may be:
 Intent alone is not executable.
 
 Intent must not bypass classification.
+
+Intent must first cross the institutional intake boundary defined by:
+
+```txt
+/core/contracts/rook-contract.md
+```
+
+before it becomes classifiable mission material.
 
 ---
 

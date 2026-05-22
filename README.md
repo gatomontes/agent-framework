@@ -124,11 +124,13 @@ Every meaningful interaction between agents should define:
 - failure handling
 - final disposition rules
 
-Inbound requests should first become inspectable intake packets through:
+Inbound requests enter Citadel through:
 
 ```txt
 /core/contracts/rook-contract.md
 ```
+
+`Rook` is the exclusive bidirectional I/O boundary around Citadel, not an internal governance phase.
 
 The Citadel favors:
 

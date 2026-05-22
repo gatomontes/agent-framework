@@ -53,13 +53,15 @@ The task is not immediately executed as a freeform prompt.
 
 It first enters The Citadel.
 
-The initial Citadel I/O surface is:
+The Citadel I/O boundary is:
 
 ```txt
 /core/contracts/rook-contract.md
 ```
 
-`Rook` converts the inbound request into a governed intake packet that preserves what is expected before consequence classification and execution begin.
+`Rook` converts the inbound request into a governed intake packet before consequence classification and execution begin.
+
+If the task later reaches a terminal disposition that must be returned externally, `Rook` also normalizes that outcome for output.
 
 ---
 

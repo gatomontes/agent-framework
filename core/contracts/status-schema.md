@@ -113,6 +113,20 @@ DEAD_LETTER
 
 `DEAD_LETTER` indicates escalation or restoration could not resolve the operation.
 
+Any terminal outcome intended for return to a requester may be handed to:
+
+```txt
+/core/contracts/rook-contract.md
+```
+
+for normalization into a consequent return packet.
+
+This normalization occurs after final disposition.
+
+It does not extend the operational flow or change the fact that final disposition is the terminal institutional determination.
+
+If `UNTRUSTED` has no separately defined downstream path, treat it as a final determination and return it through `Rook`.
+
 ---
 
 # Governance Rule

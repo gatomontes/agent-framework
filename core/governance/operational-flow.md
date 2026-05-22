@@ -22,13 +22,13 @@ Every operation must traverse the complete operational flow before final disposi
 
 # Phase 0: Intake & Triage
 
-Incoming tasks should first pass through:
+Incoming tasks enter Citadel through:
 
 ```txt
 /core/contracts/rook-contract.md
 ```
 
-`Rook` receives inbound intent and emits an intake packet before classification begins.
+`Rook` is the exclusive external I/O boundary that normalizes inbound intent into an intake packet before classification begins.
 
 Incoming tasks are classified using:
 
@@ -188,6 +188,10 @@ Critical operations marked `UNTRUSTED` require explicit human override.
 # Operational Invariant
 
 No agent, wrapper, runtime, or orchestration layer may consider an operation complete until it traverses the full operational flow.
+
+The operational flow ends at final disposition.
+
+External I/O normalization through `Rook` occurs before entry or after exit, but it is not an additional internal phase of the flow.
 
 ---
 

@@ -75,6 +75,16 @@ The runtime must accept a task with:
 
 The runtime must preserve the task context during execution.
 
+If the task originates outside Citadel governance, the runtime or adapter must not inject it directly into execution flow.
+
+External requests must first pass through:
+
+```txt
+/core/contracts/rook-contract.md
+```
+
+and be represented as a recoverable `rook_intake_packet` or equivalent adapter representation.
+
 ## 2. State Reporting
 
 The runtime must report its operational state using explicit status values.
@@ -110,6 +120,8 @@ Artifacts may include:
 - structured records
 
 Transient chat output is not sufficient for institutional work unless the mission explicitly defines chat as the artifact.
+
+When a terminal outcome is returned externally, the runtime or adapter should preserve the normalized return artifact produced through `Rook`.
 
 ## 4. Evidence Emission
 
@@ -216,6 +228,7 @@ runtime_report:
   runtime_name: null
   adapter_name: null
   actor_role: null
+  rook_intake_reference: null
   authority_chain: []
   objective: null
   scope: null
@@ -232,6 +245,7 @@ runtime_report:
   escalation_required: false
   restoration_required: false
   final_disposition: null
+  rook_return_reference: null
 ```
 
 The exact serialization may vary by adapter, but the information must remain recoverable.
