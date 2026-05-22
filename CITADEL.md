@@ -4,6 +4,10 @@
 
 The Citadel is the constitutional governance substrate beneath operational agent systems.
 
+It is internally coupled to its own doctrine and governance structure.
+
+It is externally decoupled from the implementations that connect to it through its boundary surfaces.
+
 It governs:
 
 - authority

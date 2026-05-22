@@ -1,6 +1,10 @@
 # The Citadel
 
-The Citadel is an agent-agnostic governance layer for orchestrating, validating, critiquing, governing, restoring, and evolving interoperable AI agent systems.
+The Citadel is a governance layer for orchestrating, validating, critiquing, governing, restoring, and evolving interoperable AI agent systems.
+
+It is internally coupled to its own doctrine, contracts, and operational components.
+
+It is externally decoupled from the implementations beyond its boundary surfaces.
 
 It is not merely a framework.
 
@@ -31,6 +35,8 @@ The Citadel exists to separate:
 - memory and artifact discipline
 
 The objective is not merely to store prompts or skills.
+
+The objective is to keep the inside of the institution doctrinally strict while keeping the outside world decoupled at the wall.
 
 The objective is to establish a disciplined architecture for:
 
