@@ -185,11 +185,16 @@ Adjacent repository layers remain allowed when they serve distinct institutional
 ```txt
 /intake    -> boundary-facing intake doctrine and welcome material
 /memory    -> dated institutional memory artifacts
+/archives  -> long-term memory, lineage, postmortems, and retired doctrine custody
 /records   -> durable records and personnel-adjacent filings
 /docs      -> migration notes and supporting documentation
 ```
 
 Citadel's live architecture resolves to the constitutional core and its boundary contracts rather than parallel runtime trees or a resident skill inventory.
+
+The Archives are a governed records-and-lineage layer.
+
+They preserve long-term memory without becoming a second constitutional center.
 
 ---
 

@@ -39,6 +39,8 @@ A reusable operational object such as:
 - verification utility
 - execution scaffold
 
+Capabilities derived from professions or reusable roles should not automatically become personas.
+
 ## Registration
 
 Registration records that a capability exists, can be inspected, and may be selected in future work.
@@ -69,6 +71,11 @@ Creation answers:
 - what outputs it produces
 - what risks it carries
 - what authority it assumes
+
+If the artifact proposes persona form, creation should also answer:
+- why governed role form is insufficient
+- why persistent distinction is justified
+- what lifecycle or dormancy rules will govern it
 
 ## 2. Registration
 
@@ -106,9 +113,20 @@ Activation should answer:
 - what outputs are expected
 - what verification path will apply
 
+For persona-bearing capabilities, activation should also answer:
+- why persona form is necessary for this mission
+- why ordinary role activation would be insufficient
+- whether the persona should remain dormant after mission completion
+
 ## 5. Suspension Or Deprecation
 
 Capabilities may be suspended, deprecated, or retired when they drift, conflict with doctrine, or no longer justify their risks.
+
+Capability growth should also remain cognitively selectable under:
+
+```txt
+/core/doctrine/cognitive-footprint-governance.md
+```
 
 ---
 
@@ -158,3 +176,5 @@ If the capability is bundle-backed, registration should also preserve the bundle
 Reusable infrastructure is governed inventory.
 
 Inventory is not permission.
+
+Inventory that cannot be meaningfully selected, distinguished, or retired has become governance residue rather than usable infrastructure.

@@ -235,6 +235,8 @@ Signals include:
 - audit exhaustion
 - doctrine unreadability
 - authority inflation
+- memory accumulation without interpretability
+- persona proliferation without distinct governance value
 - semantic fragmentation
 - dependency chaos
 - complexity worship
@@ -246,6 +248,12 @@ Institutional drift requires:
 - governance review
 - doctrinal simplification
 - or constitutional redesign.
+
+Footprint growth by memory, personas, planning, logging, or capability accumulation should be governed through:
+
+```txt
+/core/doctrine/cognitive-footprint-governance.md
+```
 
 ---
 

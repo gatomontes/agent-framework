@@ -6,6 +6,12 @@ Memory Doctrine defines how operational memory is classified, preserved, reconst
 
 The goal is continuity without uncontrolled accumulation.
 
+Memory footprint must also remain bounded under:
+
+```txt
+/core/doctrine/cognitive-footprint-governance.md
+```
+
 ---
 
 # Core Principle
@@ -62,6 +68,12 @@ Examples:
 Preserved for reconstruction, lineage, or audit.
 
 Historical retention does not imply operational validity.
+
+Historical memory and long-duration custody should remain governed by:
+
+```txt
+/core/memory/archives-doctrine.md
+```
 
 ---
 
@@ -168,6 +180,8 @@ Memory must therefore support:
 - restoration
 - lineage tracing
 
+Memory governance should also detect when continuity surfaces have become too dense to remain operationally interpretable.
+
 ---
 
 # Memory and Truth
@@ -198,6 +212,8 @@ Humans may:
 Human intervention must still preserve lineage and operational traceability.
 
 Lessons learned should update the relevant governing artifact when they change operational understanding.
+
+Superseded lessons, postmortems, and lineage records may remain preserved in The Archives without silently becoming live authority.
 
 ---
 

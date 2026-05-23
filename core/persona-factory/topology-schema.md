@@ -37,6 +37,12 @@ Without topology structure:
 
 Topology exists to preserve institutional coherence.
 
+Topology density and operator proliferation must also remain bounded under:
+
+```txt
+/core/doctrine/cognitive-footprint-governance.md
+```
+
 ---
 
 # Core Principle
@@ -100,6 +106,12 @@ Nodes may represent:
 Nodes are doctrinal roles.
 
 They are not runtime identities.
+
+Node proliferation without distinct authority, verification, or mission consequence value is footprint inflation rather than legitimate specialization.
+
+Profession slots should default to governed roles.
+
+Persistent persona form should be introduced only when the mission or institution can justify durable distinction beyond ordinary role semantics.
 
 ---
 

@@ -16,6 +16,8 @@ Its live architecture resolves to its core law plus boundary contracts, not para
 
 Adjacent top-level directories may preserve intake surfaces, memory artifacts, records, and supporting documentation without becoming alternate constitutional centers.
 
+The Archives are the long-term records-and-lineage layer for preserved historical matter, not a shadow authority surface.
+
 It governs:
 
 - authority
@@ -69,6 +71,7 @@ Human Intent
 
 ```txt
 /intake
+/archives
 /memory
 /records
 /docs

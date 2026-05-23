@@ -86,6 +86,12 @@ Retained for continuity, lineage, or reconstruction.
 
 Historical retention does not imply current validity.
 
+Historical artifacts entering long-term custody should obey:
+
+```txt
+/core/memory/archives-doctrine.md
+```
+
 ## Capability Artifact
 
 Reusable operational infrastructure retained for future selection or activation.
@@ -136,6 +142,8 @@ A newer artifact replaced operational authority.
 ## ARCHIVED
 
 Retained for continuity.
+
+Archived artifacts remain preserved, not automatically authoritative.
 
 ## DEPRECATED
 
@@ -244,6 +252,12 @@ Critical operations require stronger preservation:
 - verification evidence
 - escalation records
 - final disposition history
+
+Long-term retention and archival custody should remain governed by:
+
+```txt
+/core/memory/archives-doctrine.md
+```
 
 ---
 

@@ -106,6 +106,8 @@ Compression triggers must remain observable.
 Compression may apply to:
 - doctrine
 - protocols
+- memory surfaces
+- persona inventories
 - topology
 - coordination structure
 - escalation routes
