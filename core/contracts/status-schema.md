@@ -20,6 +20,10 @@ A task is complete only when final disposition is resolved.
 
 ```yaml
 operational_status:
+  context:
+    consequence_tier: "TRIVIAL" | "ROUTINE" | "IMPORTANT" | "CRITICAL"
+    lifecycle_state: optional
+
   execution:
     state: "PENDING" | "IN_PROGRESS" | "SUCCESS" | "FAILED"
     artifact: optional reference
@@ -113,6 +117,10 @@ DEAD_LETTER
 
 `DEAD_LETTER` indicates escalation or restoration could not resolve the operation.
 
+When `human_override` is true, the status object should preserve `override_authority`.
+
+Critical operations marked `UNTRUSTED` require explicit `human_override` before they may be externally accepted as resolved.
+
 Any terminal outcome intended for return to a requester may be handed to:
 
 ```txt
@@ -134,3 +142,5 @@ If `UNTRUSTED` has no separately defined downstream path, treat it as a final de
 The status object is the operational truth source.
 
 No agent, wrapper, or runtime may summarize an operation as complete without preserving or reporting final disposition.
+
+The status object should preserve enough context to evaluate consequence-sensitive rules, including active consequence tier.

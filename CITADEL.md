@@ -143,14 +143,17 @@ Operational trust is earned through governance flow, not confidence alone.
 # Operational Flow
 
 ```txt
-Classify
-  -> Execute
-    -> Verify
-      -> Critique
-        -> Audit
-          -> Check Coherence
-            -> Restore or Escalate
-              -> Final Disposition
+Rook Intake
+  -> Classify
+    -> Topology Synthesis
+      -> Authority Assignment
+        -> Execute
+          -> Verify
+            -> Critique
+              -> Audit
+                -> Check Coherence
+                  -> Restore or Escalate
+                    -> Final Disposition
 ```
 
 ---

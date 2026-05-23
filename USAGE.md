@@ -14,15 +14,17 @@ Every task moves through the same conceptual path:
 
 ```txt
 Task
-  -> Classify
-    -> Select Runtime / Capability Shape
-      -> Execute
-        -> Verify
-          -> Critique
-            -> Audit
-              -> Check Coherence
-                -> Restore or Escalate
-                  -> Final Disposition
+  -> Rook Intake
+    -> Classify
+      -> Topology Synthesis / Authority Assignment
+        -> Select Runtime / Capability Shape
+          -> Execute
+            -> Verify
+              -> Critique
+                -> Audit
+                  -> Check Coherence
+                    -> Restore or Escalate
+                      -> Final Disposition
 ```
 
 The Citadel answers one question:
@@ -331,6 +333,10 @@ Every operation should emit an operational status object:
 
 ```yaml
 operational_status:
+  context:
+    consequence_tier: IMPORTANT
+    lifecycle_state: FINALIZING
+
   execution:
     state: SUCCESS
     artifact: path-or-reference
@@ -411,7 +417,7 @@ Verification: structure/rules checker
 Critique: Blackquill style and constraint review
 Audit: sampled or optional unless high importance
 Coherence: ensure no skipped required contract
-Final Disposition: TRUSTED or NEEDS_REVISION
+Final Disposition: TRUSTED or UNTRUSTED
 ```
 
 Output artifact:

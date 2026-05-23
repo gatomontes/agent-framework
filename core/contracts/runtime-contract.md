@@ -109,11 +109,12 @@ Allowed minimum states:
 - needs-human-decision
 - needs-higher-authority
 - completed-unverified
-- completed-verified
 - failed
 - halted
 
 State reports must include enough context for another actor to resume or audit the work.
+
+These runtime-local states do not replace institutional final disposition.
 
 ## 3. Artifact Emission
 
@@ -316,10 +317,25 @@ A runtime may not independently claim final trust unless the mission grants it v
 
 Default final states:
 - completed-unverified: work appears done, but independent verification has not occurred
-- completed-verified: verification standard was satisfied
 - failed: runtime could not satisfy the objective
 - blocked: runtime cannot proceed without external input or authority
 - halted: runtime stopped to prevent damage, drift, or unauthorized action
+
+Institutional final disposition remains governed by:
+
+```txt
+/core/contracts/status-schema.md
+```
+
+and resolves through:
+
+```txt
+TRUSTED
+UNTRUSTED
+UNCERTAIN
+BLOCKED
+DEAD_LETTER
+```
 
 ---
 

@@ -219,14 +219,17 @@ The Citadel is designed to:
 All operations must traverse:
 
 ```txt
-Classify
-  -> Execute
-    -> Verify
-      -> Critique
-        -> Audit
-          -> Check Coherence
-            -> Restore or Escalate
-              -> Final Disposition
+Rook Intake
+  -> Classify
+    -> Topology Synthesis
+      -> Authority Assignment
+        -> Execute
+          -> Verify
+            -> Critique
+              -> Audit
+                -> Check Coherence
+                  -> Restore or Escalate
+                    -> Final Disposition
 ```
 
 Execution is not trust.

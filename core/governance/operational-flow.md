@@ -20,7 +20,7 @@ Every operation must traverse the complete operational flow before final disposi
 
 ---
 
-# Phase 0: Intake & Triage
+# Phase 0: Intake, Classification, and Mission Assembly
 
 Incoming tasks enter Citadel through:
 
@@ -42,7 +42,14 @@ The system assigns:
 - verification depth
 - escalation sensitivity
 
-A contract is born.
+Before execution begins, the mission must also establish:
+- topology synthesis
+- authority assignment
+- verification routing
+- critique routing
+- escalation ownership
+
+This phase transforms ambiguous inbound intent into authorized mission structure.
 
 ---
 
@@ -186,6 +193,16 @@ DEAD_LETTER
 ```
 
 Critical operations marked `UNTRUSTED` require explicit human override.
+
+---
+
+# Post-Flow: Archival
+
+After final disposition, the institution may preserve archival records, snapshots, and lessons learned.
+
+Archival is mandatory for continuity when required by mission class or consequence tier.
+
+It is not an additional trust-determining phase of the operational flow.
 
 ---
 

@@ -24,6 +24,10 @@ Missing state is operational uncertainty.
 
 The operation has been accepted but execution has not yet started.
 
+## INTAKING
+
+The operation is crossing the institutional boundary and being normalized for governed handling.
+
 ## CLASSIFYING
 
 The system is determining:
@@ -33,6 +37,14 @@ The system is determining:
 - required authority
 - verification requirements
 - escalation sensitivity
+
+## ASSEMBLING
+
+Topology, authority, verification routing, and mission structure are being assembled.
+
+## AUTHORIZING
+
+Authority is being assigned and validated before execution may begin.
 
 ## READY
 
@@ -56,13 +68,17 @@ Critique systems are pressure-testing coherence, assumptions, and structural int
 
 Audit systems are validating the verification and critique chain.
 
+## COHERENCE_CHECK
+
+The operation is being checked against active doctrine before finalization.
+
 ## RESTORING
 
 The operation entered a recovery or coherence restoration path.
 
-## BLOCKED
+## WAITING_ON_BLOCKER
 
-The operation cannot continue under current constraints.
+The operation cannot continue until a blocking condition is resolved.
 
 Blocking reasons may include:
 
@@ -73,35 +89,43 @@ Blocking reasons may include:
 - runtime failure
 - unavailable dependency
 
-## ESCALATED
+## UNDER_ESCALATION
 
-The operation requires higher authority or human intervention.
+The operation requires higher authority or human intervention and is awaiting that routing.
 
-## SUCCESS
+## FINALIZING
 
-Execution completed successfully.
+The operation is resolving final disposition and preserving required terminal records.
 
-This is not equivalent to TRUSTED.
+## ARCHIVED
+
+Post-disposition preservation has completed.
 
 ## FAILURE
 
-Execution or operational flow failed.
+Execution or operational flow failed before terminal governance resolution completed.
 
-## UNCERTAIN
+---
 
-Evidence or confidence was insufficient to establish trust.
+# Final Dispositions
 
-## TRUSTED
+Final disposition is separate from lifecycle state.
 
-Execution, verification, critique, audit, and coherence checks completed successfully.
+Allowed final dispositions are:
 
-## UNTRUSTED
+```txt
+TRUSTED
+UNTRUSTED
+UNCERTAIN
+BLOCKED
+DEAD_LETTER
+```
 
-A required gate failed.
-
-## DEAD_LETTER
-
-The operation could not be recovered or meaningfully continued.
+- `TRUSTED` is an earned terminal determination, not a mid-flow state.
+- `UNTRUSTED` is a terminal determination that a required gate failed.
+- `UNCERTAIN` is a terminal determination that confidence or evidence remained insufficient.
+- `BLOCKED` is a terminal determination when the mission cannot proceed under current constraints.
+- `DEAD_LETTER` is a terminal determination when restoration or escalation cannot recover the mission.
 
 ---
 
@@ -111,13 +135,18 @@ The operation could not be recovered or meaningfully continued.
 
 ```txt
 PENDING
-  -> CLASSIFYING
-    -> READY
-      -> EXECUTING
-        -> VERIFYING
-          -> CRITIQUING
-            -> AUDITING
-              -> TRUSTED
+  -> INTAKING
+    -> CLASSIFYING
+      -> ASSEMBLING
+        -> AUTHORIZING
+          -> READY
+            -> EXECUTING
+              -> VERIFYING
+                -> CRITIQUING
+                  -> AUDITING
+                    -> COHERENCE_CHECK
+                      -> FINALIZING
+                        -> ARCHIVED
 ```
 
 ## Failure Example
@@ -127,27 +156,27 @@ EXECUTING
   -> VERIFYING
     -> FAILURE
       -> RESTORING
-        -> ESCALATED
+        -> UNDER_ESCALATION
 ```
 
 ## Uncertain Example
 
 ```txt
 VERIFYING
-  -> UNCERTAIN
-    -> ESCALATED
+  -> COHERENCE_CHECK
+    -> UNDER_ESCALATION
 ```
 
 ---
 
 # Transition Constraints
 
-1. TRUSTED may only occur after verification.
-2. Critical operations may require audit before TRUSTED.
+1. Final disposition may only be assigned after required lifecycle gates resolve.
+2. Critical operations may require audit before `TRUSTED`.
 3. RESTORING may transition back into READY.
-4. DEAD_LETTER is terminal.
-5. ESCALATED requires external authority resolution.
-6. SUCCESS without verification remains operationally incomplete.
+4. `DEAD_LETTER` is terminal as a disposition, not as a mid-flow lifecycle state.
+5. UNDER_ESCALATION requires external authority resolution.
+6. Execution success without verification remains operationally incomplete.
 
 ---
 
@@ -173,6 +202,7 @@ Every operation must emit:
 - responsible authority
 - timestamp
 - active consequence tier
+- final disposition when terminal
 
 Operational history must remain reconstructable.
 

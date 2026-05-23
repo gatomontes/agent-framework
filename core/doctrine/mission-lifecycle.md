@@ -59,9 +59,11 @@ Intent
           -> Execution
             -> Verification
               -> Critique
-                -> Restoration or Escalation
-                  -> Final Disposition
-                    -> Archival
+                -> Audit
+                  -> Coherence Check
+                    -> Restoration or Escalation
+                      -> Final Disposition
+                        -> Archival (post-flow preservation)
 ```
 
 The lifecycle is directional but not strictly linear.
@@ -242,7 +244,36 @@ Blackquill and similar systems operate primarily in this layer.
 
 ---
 
-## 8. Restoration or Escalation
+## 8. Audit
+
+Audit verifies the integrity of the verification and critique chain.
+
+Audit should assess:
+- verifier independence
+- evidence-chain sufficiency
+- critique discipline
+- confidence justification
+- contract adherence
+
+Audit exists because an institution can lie to itself through performative verification.
+
+---
+
+## 9. Coherence Check
+
+Before finalization, the mission must evaluate whether it preserved active doctrine.
+
+The coherence check asks:
+- whether verification was bypassed
+- whether authority drift occurred
+- whether exceptions were normalized
+- whether restoration is required before conclusion
+
+Coherence failure aborts trusted finalization until restoration or escalation resolves it.
+
+---
+
+## 10. Restoration or Escalation
 
 When coherence degrades, missions must either:
 - restore
@@ -258,25 +289,29 @@ Continuing without restoration or escalation creates operational corruption.
 
 ---
 
-## 9. Final Disposition
+## 11. Final Disposition
 
 Every mission must end with explicit disposition.
 
 Allowed canonical dispositions:
-- completed-verified
-- completed-conditional
-- failed
-- blocked
-- halted
-- abandoned
-- superseded
-- archived-incomplete
+- TRUSTED
+- UNTRUSTED
+- UNCERTAIN
+- BLOCKED
+- DEAD_LETTER
+
+Meaning:
+- `TRUSTED` means the mission passed required governance gates.
+- `UNTRUSTED` means a required gate failed.
+- `UNCERTAIN` means confidence or evidence remained insufficient.
+- `BLOCKED` means the mission could not proceed under current constraints.
+- `DEAD_LETTER` means restoration or escalation could not recover the mission.
 
 No mission may silently disappear.
 
 ---
 
-## 10. Archival
+## 12. Archival
 
 Archival preserves institutional memory.
 
@@ -295,23 +330,29 @@ Archive records should preserve:
 
 Institutional memory is a strategic asset.
 
+Archival follows final disposition as post-flow preservation.
+
+It does not redefine the fact that operational flow terminates at explicit final disposition.
+
 ---
 
 # Mission States
 
 Minimum mission states:
 - proposed
+- intake
 - classified
 - assembling
 - authorized
 - executing
 - verifying
 - under-critique
+- under-audit
+- coherence-check
 - restoring
 - escalating
-- blocked
-- halted
-- completed
+- waiting-on-blocker
+- finalized
 - archived
 
 State transitions must be observable.
