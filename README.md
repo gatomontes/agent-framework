@@ -101,7 +101,9 @@ The Citadel prioritizes:
 
 This repository is not abstract vapor.
 
-Its active architecture resides in `/core` and its boundary contracts.
+Its constitutional architecture resides in `/core` and its boundary contracts.
+
+Adjacent top-level directories preserve supporting institutional surfaces such as intake material, records, memory artifacts, and migration notes.
 
 Citadel no longer depends on parallel runtime trees or temporary import staging to express its live doctrine.
 
@@ -160,28 +162,34 @@ The Citadel favors:
 
 ```txt
 /core
+  authority/
+  artifacts/
   contracts/
   doctrine/
   governance/
+  memory/
+  persona-factory/
   personas/
+  profiles/
   protocols/
+  reviews/
   runtime/
+  states/
   verification/
 ```
 
 `/core` is the constitutional center.
 
-Citadel's live architecture resolves to the constitutional core and its boundary contracts rather than parallel runtime trees or a resident skill inventory.
-
-Planned Citadel domains:
+Adjacent repository layers remain allowed when they serve distinct institutional purposes:
 
 ```txt
-/core/authority
-/core/runtime
-/core/verification
-/core/states
-/core/memory
+/intake    -> boundary-facing intake doctrine and welcome material
+/memory    -> dated institutional memory artifacts
+/records   -> durable records and personnel-adjacent filings
+/docs      -> migration notes and supporting documentation
 ```
+
+Citadel's live architecture resolves to the constitutional core and its boundary contracts rather than parallel runtime trees or a resident skill inventory.
 
 ---
 
@@ -232,6 +240,14 @@ See:
 ```
 
 for operational examples and runtime integration guidance.
+
+The top-level `OPERATIONAL_FLOW.md` is a companion edict surface.
+
+The canonical operational flow artifact remains:
+
+```txt
+/core/governance/operational-flow.md
+```
 
 ---
 

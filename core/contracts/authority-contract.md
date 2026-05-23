@@ -2,9 +2,9 @@
 
 ## Status
 
-Canonical AFW contract.
+Canonical Citadel contract.
 
-This document defines how authority is granted, inherited, constrained, escalated, suspended, and audited inside AFW-governed operations.
+This document defines how authority is granted, inherited, constrained, escalated, suspended, and audited inside Citadel-governed operations.
 
 Authority is not intelligence.
 
@@ -18,7 +18,7 @@ Authority is permission to act within a defined boundary.
 
 # Purpose
 
-AFW requires authority semantics because autonomous and semi-autonomous systems can otherwise drift from assistance into unauthorized action.
+Citadel requires authority semantics because autonomous and semi-autonomous systems can otherwise drift from assistance into unauthorized action.
 
 This contract exists to prevent:
 - silent authority expansion
@@ -311,7 +311,7 @@ Stale authority must be renewed before high-impact action.
 
 # Emergency Halt Authority
 
-Every AFW actor has emergency halt authority.
+Every Citadel actor has emergency halt authority.
 
 Any actor may stop execution when continuing risks:
 - data loss

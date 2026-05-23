@@ -2,7 +2,7 @@
 
 ## Status
 
-Canonical AFW doctrine.
+Canonical Citadel doctrine.
 
 This doctrine defines how reusable capabilities may carry supporting references, scripts, generated artifacts, and assets without collapsing governance into opaque local machinery.
 

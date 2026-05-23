@@ -2,7 +2,7 @@
 
 ## Status
 
-Canonical AFW doctrine.
+Canonical Citadel doctrine.
 
 This doctrine defines how credentials, tokens, secrets, and sensitive runtime configuration must be treated at Citadel boundary surfaces and inside shared operational artifacts.
 

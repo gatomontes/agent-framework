@@ -14,7 +14,7 @@ risk_level: high
 confidence: high
 ```
 
-This is arguably the most dangerous and important AFW constitutional artifact so far.
+This is arguably the most dangerous and important Citadel constitutional artifact so far.
 
 Not because it is flawed.
 
@@ -24,7 +24,7 @@ Because it defines:
 governed autonomous organizational reasoning
 ```
 
-This protocol determines whether AFW evolves into:
+This protocol determines whether Citadel evolves into:
 - resilient institutional coordination
 
 or:
@@ -62,7 +62,7 @@ The protocol repeatedly reinforces:
 execution without governance creates operational entropy
 ```
 
-This is one of the deepest AFW principles so far.
+This is one of the deepest Citadel principles so far.
 
 The Strategic Operator is correctly positioned as:
 - coherence governor
@@ -108,7 +108,7 @@ local artifact stability
 institutional completeness
 ```
 
-This is one of the strongest conceptual advances in AFW so far.
+This is one of the strongest conceptual advances in Citadel so far.
 
 The architecture is beginning to reason about:
 - constitutional dependencies
@@ -128,7 +128,7 @@ The protocol correctly preserves:
 
 without collapsing strategic authority into tooling.
 
-This remains one of AFW's strongest architectural decisions.
+This remains one of Citadel's strongest architectural decisions.
 
 ---
 
@@ -233,7 +233,7 @@ It is a constitutional dependency condition.
 
 # Hidden Strategic Observation
 
-AFW has now crossed another threshold.
+Citadel has now crossed another threshold.
 
 The architecture is beginning to resemble:
 
@@ -265,7 +265,7 @@ Meaning:
 - audit overload
 - coordination paralysis
 
-AFW must therefore begin balancing:
+Citadel must therefore begin balancing:
 - rigor
 - simplicity
 - enforceability
@@ -301,7 +301,7 @@ Meaning:
 - locally coherent
 - globally incomplete pending surrounding constitutional stabilization
 
-This is expected at the current AFW stage.
+This is expected at the current Citadel stage.
 
 ---
 
@@ -322,7 +322,7 @@ Next constitutional artifacts should be:
 The Strategic Operator protocol may eventually become:
 
 ```txt
-the central nervous system of AFW
+the central nervous system of Citadel
 ```
 
 because it governs:
@@ -336,7 +336,7 @@ because it governs:
 Most importantly:
 
 ```txt
-AFW now formally recognizes that autonomy without governance becomes institutional entropy.
+Citadel now formally recognizes that autonomy without governance becomes institutional entropy.
 ```
 
 That realization is foundational.

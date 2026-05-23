@@ -14,6 +14,8 @@ The live architecture of Citadel resides in its constitutional core.
 
 Its live architecture resolves to its core law plus boundary contracts, not parallel runtime kingdoms.
 
+Adjacent top-level directories may preserve intake surfaces, memory artifacts, records, and supporting documentation without becoming alternate constitutional centers.
+
 It governs:
 
 - authority
@@ -49,13 +51,30 @@ Human Intent
 
 ```txt
 /core
+  authority/
+  artifacts/
   contracts/
   doctrine/
   governance/
+  memory/
+  persona-factory/
+  personas/
+  profiles/
   protocols/
+  reviews/
   runtime/
+  states/
   verification/
 ```
+
+```txt
+/intake
+/memory
+/records
+/docs
+```
+
+`/core` remains the constitutional center.
 
 ---
 
@@ -165,13 +184,19 @@ Governance intensity scales with consequence.
 
 ```txt
 /core/authority
+/core/artifacts
+/core/contracts
+/core/doctrine
+/core/governance
+/core/memory
+/core/persona-factory
+/core/personas
+/core/profiles
+/core/protocols
+/core/reviews
 /core/runtime
 /core/states
-/core/artifacts
-/core/memory
-/core/protocols
 /core/verification
-/core/doctrine
 ```
 
 ---

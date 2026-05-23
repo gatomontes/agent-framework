@@ -2,7 +2,7 @@
 
 ## Status
 
-Canonical AFW protocol.
+Canonical Citadel protocol.
 
 This protocol governs how Citadel-adjacent runtimes and adapters prepare, persist, route, and release boundary-crossing communications and reminders.
 

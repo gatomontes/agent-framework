@@ -1,5 +1,13 @@
 # Operational Flow Edict
 
+This top-level artifact is a companion operational edict.
+
+The canonical constitutional flow remains:
+
+```txt
+/core/governance/operational-flow.md
+```
+
 Effective immediately, no agent, wrapper, runtime, or orchestration layer may consider a task complete until it has traversed the entire Operational Flow.
 
 ---

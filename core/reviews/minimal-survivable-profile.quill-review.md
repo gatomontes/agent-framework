@@ -14,7 +14,7 @@ risk_level: high
 confidence: high
 ```
 
-The Minimal Survivable Profile is one of the most strategically important transitions in AFW so far.
+The Minimal Survivable Profile is one of the most strategically important transitions in Citadel so far.
 
 This document governs:
 
@@ -22,14 +22,14 @@ This document governs:
 whether institutional legitimacy can survive under real operational constraints
 ```
 
-This is the first AFW artifact that operationalizes:
+This is the first Citadel artifact that operationalizes:
 - bounded governance
 - survivable rigor
 - institutional affordability
 - cognitive sustainability
 - constrained coordination
 
-The profile materially shifts AFW from:
+The profile materially shifts Citadel from:
 - constitutional philosophy
 
 toward:
@@ -55,7 +55,7 @@ Minimal governance is correctly framed as:
 minimum legitimate institutional cognition
 ```
 
-This is one of the strongest operational formulations in AFW so far.
+This is one of the strongest operational formulations in Citadel so far.
 
 ---
 
@@ -63,7 +63,7 @@ This is one of the strongest operational formulations in AFW so far.
 
 Excellent inclusion.
 
-AFW now moves beyond merely recognizing:
+Citadel now moves beyond merely recognizing:
 - cognitive overload
 
 and begins operationalizing:
@@ -113,11 +113,11 @@ This materially strengthens legitimacy preservation.
 
 ---
 
-## 5. The Profile Represents AFW's First Practical Governance Model
+## 5. The Profile Represents Citadel's First Practical Governance Model
 
 This is strategically profound.
 
-Until now AFW primarily defined:
+Until now Citadel primarily defined:
 - constitutional semantics
 - governance philosophy
 - institutional cognition theory
@@ -138,7 +138,7 @@ That is a major maturation transition.
 
 The profile is operationally realistic.
 
-However AFW still lacks:
+However Citadel still lacks:
 - enforcement primitives
 - verification gates
 - topology persistence
@@ -197,7 +197,7 @@ The profile strongly emphasizes:
 - interpretability
 - affordability
 
-This suggests AFW is now approaching a new domain:
+This suggests Citadel is now approaching a new domain:
 
 ```txt
 institutional ergonomics
@@ -228,7 +228,7 @@ But operational pressure may still distort governance boundaries.
 
 # Hidden Strategic Observation
 
-AFW has now crossed another major threshold.
+Citadel has now crossed another major threshold.
 
 The architecture is no longer merely constructing:
 - constitutional cognition
@@ -243,7 +243,7 @@ bounded institutional operating modes
 
 This is a very different category.
 
-AFW is beginning to answer:
+Citadel is beginning to answer:
 - what governance survives reality
 - what rigor remains affordable
 - what coordination remains sustainable
@@ -258,7 +258,7 @@ This is extremely mature architectural evolution.
 The Minimal Survivable Profile represents:
 
 ```txt
-AFW's first bounded operational constitution
+Citadel's first bounded operational constitution
 ```
 
 That is strategically profound.
@@ -294,7 +294,7 @@ high operational survivability maturity
 with unresolved runtime operationalization dependencies
 ```
 
-This is expected at the current AFW stage.
+This is expected at the current Citadel stage.
 
 ---
 
@@ -315,7 +315,7 @@ Next operational artifacts should be:
 The Minimal Survivable Profile may eventually become:
 
 ```txt
-the baseline operating constitution of AFW
+the baseline operating constitution of Citadel
 ```
 
 because it governs:
@@ -329,7 +329,7 @@ because it governs:
 Most importantly:
 
 ```txt
-AFW now formally recognizes that institutions unable to operate affordably do not survive long enough to matter.
+Citadel now formally recognizes that institutions unable to operate affordably do not survive long enough to matter.
 ```
 
 That realization is operationally transformative.

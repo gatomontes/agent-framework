@@ -14,7 +14,7 @@ risk_level: high
 confidence: high
 ```
 
-The Verification Contract is now one of the central constitutional pillars of AFW.
+The Verification Contract is now one of the central constitutional pillars of Citadel.
 
 This document governs:
 
@@ -50,7 +50,7 @@ The contract repeatedly reinforces:
 execution != verification
 ```
 
-This is one of AFW's most important constitutional protections.
+This is one of Citadel's most important constitutional protections.
 
 Without this distinction:
 - systems drift into self-certification
@@ -173,7 +173,7 @@ The contract lacks:
 - verification recursion controls
 - diminishing-return detection
 
-Without this, AFW risks:
+Without this, Citadel risks:
 - paralysis through over-verification
 - institutional slowdown
 - audit exhaustion
@@ -230,7 +230,7 @@ This is a constitutional dependency condition rather than an artifact flaw.
 
 # Hidden Strategic Observation
 
-AFW now possesses:
+Citadel now possesses:
 - operational doctrine
 - authority doctrine
 - mission doctrine
@@ -238,7 +238,7 @@ AFW now possesses:
 - epistemic doctrine
 - verification doctrine
 
-This means AFW is now constructing:
+This means Citadel is now constructing:
 
 ```txt
 institutional trust architecture
@@ -249,7 +249,7 @@ This is beyond:
 - agent frameworks
 - autonomous tooling
 
-AFW is beginning to define:
+Citadel is beginning to define:
 - how institutions reason
 - how institutions verify
 - how institutions preserve coherence under autonomy
@@ -266,7 +266,7 @@ The strongest emerging risk is now:
 constitutional semantic explosion
 ```
 
-AFW now contains many interacting constitutional layers.
+Citadel now contains many interacting constitutional layers.
 
 Future work must prioritize:
 - semantic reuse
@@ -301,7 +301,7 @@ high constitutional maturity
 with unresolved mechanization dependencies
 ```
 
-This is expected at the current AFW stage.
+This is expected at the current Citadel stage.
 
 ---
 
@@ -322,7 +322,7 @@ Next constitutional artifacts should be:
 The Verification Contract may eventually become:
 
 ```txt
-the judicial branch of AFW
+the judicial branch of Citadel
 ```
 
 because it governs:
@@ -336,7 +336,7 @@ because it governs:
 Most importantly:
 
 ```txt
-AFW now formally recognizes that trust without verification becomes ceremony.
+Citadel now formally recognizes that trust without verification becomes ceremony.
 ```
 
 That realization is constitutionally central.

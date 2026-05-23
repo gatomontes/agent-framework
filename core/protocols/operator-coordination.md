@@ -2,9 +2,9 @@
 
 ## Status
 
-Canonical AFW protocol.
+Canonical Citadel protocol.
 
-This document defines how multiple operators coordinate within AFW-governed institutional operations.
+This document defines how multiple operators coordinate within Citadel-governed institutional operations.
 
 The protocol governs:
 - coordination semantics
@@ -22,7 +22,7 @@ Operator coordination exists to preserve institutional coherence under distribut
 
 # Purpose
 
-AFW requires explicit coordination doctrine because multiple operators create risks including:
+Citadel requires explicit coordination doctrine because multiple operators create risks including:
 - authority collision
 - coordination fragmentation
 - recursive escalation
@@ -284,7 +284,7 @@ Coordination drift requires:
 
 # Coordination Compression
 
-AFW recognizes coordination density as survivability risk.
+Citadel recognizes coordination density as survivability risk.
 
 Compression may include:
 - coordination route reduction
@@ -363,7 +363,7 @@ Topology fragmentation weakens coordination legitimacy.
 
 # Runtime Independence
 
-Coordination semantics belong to AFW doctrine.
+Coordination semantics belong to Citadel doctrine.
 
 They do not belong to:
 - orchestration runtimes

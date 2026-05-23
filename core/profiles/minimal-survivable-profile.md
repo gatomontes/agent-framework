@@ -2,7 +2,7 @@
 
 ## Status
 
-Canonical AFW operational profile.
+Canonical Citadel operational profile.
 
 This document defines the smallest governance footprint capable of preserving:
 - institutional legitimacy
@@ -20,7 +20,7 @@ The Minimal Survivable Profile exists to preserve survivable institutional cogni
 
 # Purpose
 
-AFW recognizes that not all missions can sustain:
+Citadel recognizes that not all missions can sustain:
 - maximal audit depth
 - dense topology
 - full arbitration layering
@@ -344,7 +344,7 @@ Verification reduction must remain legitimate.
 
 # Runtime Independence
 
-This profile belongs to AFW doctrine.
+This profile belongs to Citadel doctrine.
 
 It does not belong to:
 - runtimes

@@ -2,7 +2,7 @@
 
 ## Status
 
-Canonical AFW doctrine.
+Canonical Citadel doctrine.
 
 This document defines the distinction between creating a reusable capability, registering it as available infrastructure, and activating it for present operational use.
 

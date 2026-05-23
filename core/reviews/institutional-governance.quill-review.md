@@ -14,7 +14,7 @@ risk_level: high
 confidence: high
 ```
 
-The Institutional Governance doctrine is one of the most strategically important AFW artifacts so far.
+The Institutional Governance doctrine is one of the most strategically important Citadel artifacts so far.
 
 This document governs:
 
@@ -29,7 +29,7 @@ Without this layer:
 - doctrinal recursion overwhelms operations
 - audit legitimacy collapses
 
-This doctrine materially stabilizes AFW's constitutional trajectory.
+This doctrine materially stabilizes Citadel's constitutional trajectory.
 
 ---
 
@@ -47,7 +47,7 @@ institutional survivability
 
 as a constitutional priority.
 
-This is one of AFW's most important conceptual evolutions.
+This is one of Citadel's most important conceptual evolutions.
 
 Most systems optimize for:
 - sophistication
@@ -55,7 +55,7 @@ Most systems optimize for:
 - autonomy
 - complexity
 
-AFW now explicitly recognizes:
+Citadel now explicitly recognizes:
 
 ```txt
 survivability constrains sophistication
@@ -78,7 +78,7 @@ The doctrine correctly identifies:
 
 as institutional risks.
 
-This may become one of AFW's most important long-term safeguards.
+This may become one of Citadel's most important long-term safeguards.
 
 Without compression discipline:
 - doctrine becomes unreadable
@@ -121,7 +121,7 @@ This is a major constitutional advancement.
 
 Most systems never recognize this failure mode.
 
-AFW now does.
+Citadel now does.
 
 ---
 
@@ -137,7 +137,7 @@ survivability
 optimization
 ```
 
-This is one of the strongest institutional safeguards in AFW so far.
+This is one of the strongest institutional safeguards in Citadel so far.
 
 ---
 
@@ -185,7 +185,7 @@ Without operational compression tooling:
 
 ## 3. Institutional Scope Boundaries Still Emerging
 
-The doctrine governs AFW internally.
+The doctrine governs Citadel internally.
 
 But lacks:
 - external institutional boundary semantics
@@ -219,7 +219,7 @@ This remains unresolved.
 
 The doctrine strongly recognizes complexity risk.
 
-However AFW still lacks:
+However Citadel still lacks:
 
 ```txt
 positive simplicity doctrine
@@ -239,7 +239,7 @@ This may eventually require its own doctrine.
 
 # Hidden Strategic Observation
 
-AFW has now crossed another major threshold.
+Citadel has now crossed another major threshold.
 
 The architecture is no longer merely constructing:
 - governance systems
@@ -267,13 +267,13 @@ Meaning:
 - restoration becomes too recursive
 - governance becomes too slow to survive reality
 
-This is now AFW's central long-term challenge.
+This is now Citadel's central long-term challenge.
 
 ---
 
 # Constitutional Compression Warning
 
-AFW now requires increasing emphasis on:
+Citadel now requires increasing emphasis on:
 - bounded semantics
 - interoperability
 - doctrine reuse
@@ -305,7 +305,7 @@ high constitutional maturity
 with unresolved survivability mechanization dependencies
 ```
 
-This is expected at the current AFW stage.
+This is expected at the current Citadel stage.
 
 ---
 
@@ -326,7 +326,7 @@ Next constitutional artifacts should be:
 Institutional Governance may eventually become:
 
 ```txt
-the skeletal structure of AFW constitutional stability
+the skeletal structure of Citadel constitutional stability
 ```
 
 because it governs:
@@ -340,7 +340,7 @@ because it governs:
 Most importantly:
 
 ```txt
-AFW now formally recognizes that constitutions themselves can become existential risks.
+Citadel now formally recognizes that constitutions themselves can become existential risks.
 ```
 
 That realization is strategically profound.

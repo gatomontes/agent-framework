@@ -80,7 +80,7 @@ Every major rejection should define:
 
 ## Architectural Separation
 
-AFW owns the operational interface.
+Citadel owns the operational interface.
 
 The Blackquill repository owns:
 - Hall doctrine,
@@ -90,7 +90,7 @@ The Blackquill repository owns:
 - monetization,
 - ceremonial review identity.
 
-Do not duplicate Blackquill worldbuilding inside AFW.
+Do not duplicate Blackquill worldbuilding inside Citadel.
 
-AFW invokes.
+Citadel invokes.
 Blackquill governs.

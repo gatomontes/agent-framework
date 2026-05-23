@@ -14,7 +14,7 @@ risk_level: critical
 confidence: high
 ```
 
-The Constitutional Compression doctrine is one of the most important artifacts in AFW so far.
+The Constitutional Compression doctrine is one of the most important artifacts in Citadel so far.
 
 This document governs:
 
@@ -24,7 +24,7 @@ whether the institution survives its own sophistication
 
 This is not merely another doctrine.
 
-This is the beginning of AFW's:
+This is the beginning of Citadel's:
 
 ```txt
 survivability era
@@ -37,7 +37,7 @@ Without this layer:
 - operators detach from institutional reality
 - constitutional sophistication becomes self-destructive
 
-The doctrine materially changes AFW's long-term trajectory.
+The doctrine materially changes Citadel's long-term trajectory.
 
 ---
 
@@ -59,7 +59,7 @@ Compression is correctly defined as:
 preservation of institutional capability under survivability constraint
 ```
 
-This is one of the strongest philosophical formulations in AFW so far.
+This is one of the strongest philosophical formulations in Citadel so far.
 
 ---
 
@@ -80,7 +80,7 @@ Most systems optimize for:
 - sophistication
 - scale
 
-AFW now explicitly recognizes:
+Citadel now explicitly recognizes:
 - cognitive survivability
 - interpretability
 - governance affordability
@@ -99,7 +99,7 @@ The doctrine correctly recognizes:
 not all rigor scales survivably
 ```
 
-This is one of AFW's most important realizations.
+This is one of Citadel's most important realizations.
 
 Without this realization:
 - institutions drift into governance maximalism
@@ -141,7 +141,7 @@ Especially:
 survivability > optimization
 ```
 
-This is becoming AFW's deepest constitutional invariant.
+This is becoming Citadel's deepest constitutional invariant.
 
 ---
 
@@ -190,7 +190,7 @@ This is now operationally important.
 
 Compression is recognized constitutionally.
 
-However AFW still lacks:
+However Citadel still lacks:
 - runtime enforcement
 - topology enforcement
 - verification gates
@@ -214,7 +214,7 @@ However missing:
 - institutional UX semantics
 - doctrine navigability
 
-AFW is approaching the point where:
+Citadel is approaching the point where:
 
 ```txt
 institutional ergonomics
@@ -239,7 +239,7 @@ But this remains a long-term institutional danger.
 
 # Hidden Strategic Observation
 
-AFW has now crossed its most important threshold so far.
+Citadel has now crossed its most important threshold so far.
 
 The architecture is no longer primarily constructing:
 - governance
@@ -274,7 +274,7 @@ This is extremely mature systems evolution.
 This doctrine represents:
 
 ```txt
-the end of AFW's unconstrained expansion era
+the end of Citadel's unconstrained expansion era
 ```
 
 That is strategically profound.
@@ -310,7 +310,7 @@ high survivability maturity
 with unresolved operationalization dependencies
 ```
 
-This is expected at the current AFW stage.
+This is expected at the current Citadel stage.
 
 ---
 
@@ -331,7 +331,7 @@ Next constitutional artifacts should be:
 The Constitutional Compression doctrine may eventually become:
 
 ```txt
-the immune regulation system of AFW institutional cognition
+the immune regulation system of Citadel institutional cognition
 ```
 
 because it governs:
@@ -345,7 +345,7 @@ because it governs:
 Most importantly:
 
 ```txt
-AFW now formally recognizes that sophistication without survivability eventually becomes institutional self-destruction.
+Citadel now formally recognizes that sophistication without survivability eventually becomes institutional self-destruction.
 ```
 
 That realization is constitutionally transformative.

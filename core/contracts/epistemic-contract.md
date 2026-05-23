@@ -2,9 +2,9 @@
 
 ## Status
 
-Canonical AFW contract.
+Canonical Citadel contract.
 
-This document defines how information enters, propagates, transforms, conflicts, decays, and becomes trusted within AFW-governed operations.
+This document defines how information enters, propagates, transforms, conflicts, decays, and becomes trusted within Citadel-governed operations.
 
 The Epistemic Contract governs:
 - external knowledge ingress
@@ -20,7 +20,7 @@ The Epistemic Contract governs:
 
 # Purpose
 
-AFW requires epistemic governance because operational correctness depends upon informational integrity.
+Citadel requires epistemic governance because operational correctness depends upon informational integrity.
 
 Without epistemic governance:
 - false information contaminates reasoning
@@ -51,7 +51,7 @@ Institutional trust must remain evidence-bound, auditable, and revisable.
 
 # Epistemic States
 
-Information inside AFW must remain classifiable.
+Information inside Citadel must remain classifiable.
 
 Minimum epistemic states:
 - observed
@@ -292,7 +292,7 @@ Epistemic drift is governance corruption.
 
 # Runtime Separation
 
-AFW distinguishes between:
+Citadel distinguishes between:
 - runtime memory
 - mission memory
 - institutional memory

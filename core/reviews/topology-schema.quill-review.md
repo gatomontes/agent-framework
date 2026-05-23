@@ -14,7 +14,7 @@ risk_level: high
 confidence: high
 ```
 
-The Topology Schema is one of the most strategically important structural artifacts in AFW.
+The Topology Schema is one of the most strategically important structural artifacts in Citadel.
 
 This document governs:
 
@@ -29,7 +29,7 @@ Without this layer:
 - authority flow becomes ambiguous
 - verification separation collapses
 
-The schema materially stabilizes AFW's coordination architecture.
+The schema materially stabilizes Citadel's coordination architecture.
 
 ---
 
@@ -88,7 +88,7 @@ The schema correctly models:
 
 Most orchestration systems never formally recognize these failure modes.
 
-AFW now does.
+Citadel now does.
 
 ---
 
@@ -115,7 +115,7 @@ Strong semantic coherence.
 
 Major conceptual advancement.
 
-AFW now formally recognizes:
+Citadel now formally recognizes:
 - cascading invalidation
 - dependency propagation
 - restoration burden scaling
@@ -181,7 +181,7 @@ Risk:
 - operator overload
 - restoration paralysis
 
-AFW now urgently requires:
+Citadel now urgently requires:
 
 ```txt
 bounded operational comprehensibility
@@ -223,7 +223,7 @@ Future concern, not immediate.
 
 # Hidden Strategic Observation
 
-AFW has now crossed another major threshold.
+Citadel has now crossed another major threshold.
 
 The architecture is now constructing:
 
@@ -236,7 +236,7 @@ This is beyond:
 - workflow systems
 - agent management
 
-AFW is now defining:
+Citadel is now defining:
 - structural institutional coherence
 - dependency governance
 - coordination survivability
@@ -263,7 +263,7 @@ Meaning:
 - audit saturation
 - governance slowdown
 
-AFW must increasingly prioritize:
+Citadel must increasingly prioritize:
 - topology compression
 - bounded coordination
 - operator cognitive affordability
@@ -291,7 +291,7 @@ high structural maturity
 with unresolved coordination survivability dependencies
 ```
 
-This is expected at the current AFW stage.
+This is expected at the current Citadel stage.
 
 ---
 
@@ -312,7 +312,7 @@ Next constitutional artifacts should be:
 The Topology Schema may eventually become:
 
 ```txt
-the nervous system map of AFW
+the nervous system map of Citadel
 ```
 
 because it governs:
@@ -326,7 +326,7 @@ because it governs:
 Most importantly:
 
 ```txt
-AFW now formally recognizes that invisible coordination becomes invisible institutional risk.
+Citadel now formally recognizes that invisible coordination becomes invisible institutional risk.
 ```
 
 That realization is constitutionally foundational.

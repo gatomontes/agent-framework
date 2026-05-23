@@ -14,7 +14,7 @@ risk_level: high
 confidence: high
 ```
 
-The Epistemic Contract is one of the most foundational AFW artifacts created so far.
+The Epistemic Contract is one of the most foundational Citadel artifacts created so far.
 
 This document governs:
 
@@ -29,7 +29,7 @@ Without this layer:
 - authority decisions drift from reality
 - strategic reasoning becomes theater
 
-This contract materially strengthens AFW constitutional architecture.
+This contract materially strengthens Citadel constitutional architecture.
 
 ---
 
@@ -104,7 +104,7 @@ Excellent.
 
 Most systems attempt to suppress contradictions.
 
-AFW instead treats them as:
+Citadel instead treats them as:
 - governance-relevant
 - restoration-relevant
 - topology-relevant
@@ -225,14 +225,14 @@ This remains unresolved institutional territory.
 
 # Hidden Strategic Observation
 
-AFW now possesses:
+Citadel now possesses:
 - operational doctrine
 - authority doctrine
 - mission doctrine
 - strategic orchestration doctrine
 - epistemic doctrine
 
-This means AFW is no longer merely constructing:
+This means Citadel is no longer merely constructing:
 - orchestration architecture
 
 It is constructing:
@@ -256,7 +256,7 @@ Meaning:
 - restoration recursion
 - institutional paralysis
 
-AFW must now begin emphasizing:
+Citadel must now begin emphasizing:
 - constitutional compression
 - semantic reuse
 - doctrine interoperability
@@ -287,7 +287,7 @@ strong constitutional foundation
 with suspended mechanization dependencies
 ```
 
-This is expected at the current AFW stage.
+This is expected at the current Citadel stage.
 
 ---
 
@@ -308,7 +308,7 @@ Next constitutional artifacts should be:
 The Epistemic Contract may eventually become:
 
 ```txt
-the immune system of AFW
+the immune system of Citadel
 ```
 
 because it governs:
@@ -321,7 +321,7 @@ because it governs:
 Most importantly:
 
 ```txt
-AFW now formally recognizes that governance without epistemic discipline becomes performance theater.
+Citadel now formally recognizes that governance without epistemic discipline becomes performance theater.
 ```
 
 That realization is constitutionally foundational.

@@ -2,9 +2,9 @@
 
 ## Status
 
-Canonical AFW doctrine.
+Canonical Citadel doctrine.
 
-This document defines how work exists, progresses, transforms, pauses, restores, escalates, concludes, and persists inside AFW-governed operations.
+This document defines how work exists, progresses, transforms, pauses, restores, escalates, concludes, and persists inside Citadel-governed operations.
 
 A mission is not merely a task.
 
@@ -148,7 +148,7 @@ This may include:
 - mission dependencies
 - sub-mission decomposition
 
-Topology synthesis belongs to AFW doctrine, not runtime preference.
+Topology synthesis belongs to Citadel doctrine, not runtime preference.
 
 ---
 

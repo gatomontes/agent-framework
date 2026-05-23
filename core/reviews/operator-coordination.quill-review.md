@@ -14,7 +14,7 @@ risk_level: high
 confidence: high
 ```
 
-The Operator Coordination Protocol is one of the most strategically dangerous and important AFW artifacts so far.
+The Operator Coordination Protocol is one of the most strategically dangerous and important Citadel artifacts so far.
 
 This document governs:
 
@@ -29,7 +29,7 @@ Without this layer:
 - escalation loops recurse infinitely
 - split-brain orchestration destabilizes governance
 
-The protocol materially strengthens AFW's distributed survivability architecture.
+The protocol materially strengthens Citadel's distributed survivability architecture.
 
 ---
 
@@ -66,7 +66,7 @@ incompatible operational realities
 
 as institutional threat.
 
-AFW now does.
+Citadel now does.
 
 This materially improves:
 - restoration survivability
@@ -91,7 +91,7 @@ The protocol correctly models:
 
 These are major real-world coordination failure modes.
 
-AFW now formally recognizes them.
+Citadel now formally recognizes them.
 
 ---
 
@@ -124,13 +124,13 @@ The protocol repeatedly emphasizes:
 
 This is strategically mature.
 
-AFW is increasingly optimizing for:
+Citadel is increasingly optimizing for:
 - survivable autonomy
 
 rather than:
 - maximal autonomy.
 
-This is one of AFW's strongest philosophical directions.
+This is one of Citadel's strongest philosophical directions.
 
 ---
 
@@ -210,7 +210,7 @@ Future concern, not immediate.
 
 The protocol is constitutionally strong.
 
-However AFW is now accumulating:
+However Citadel is now accumulating:
 - heavy audit semantics
 - deep dependency semantics
 - dense coordination semantics
@@ -222,7 +222,7 @@ Risk:
 operational coordination cost exceeds operational value
 ```
 
-AFW now urgently requires:
+Citadel now urgently requires:
 - constitutional compression
 - bounded operational profiles
 - simplified execution modes
@@ -234,7 +234,7 @@ This is becoming strategically critical.
 
 # Hidden Strategic Observation
 
-AFW has now crossed another major threshold.
+Citadel has now crossed another major threshold.
 
 The architecture is now constructing:
 
@@ -247,7 +247,7 @@ This is beyond:
 - multi-agent systems
 - workflow coordination
 
-AFW is now defining:
+Citadel is now defining:
 - distributed authority coherence
 - synchronization survivability
 - topology reconciliation
@@ -274,7 +274,7 @@ Meaning:
 - audit overload
 - coordination paralysis
 
-AFW must increasingly prioritize:
+Citadel must increasingly prioritize:
 - bounded coordination
 - synchronization minimization
 - arbitration affordability
@@ -302,7 +302,7 @@ high distributed coordination maturity
 with unresolved coordination affordability dependencies
 ```
 
-This is expected at the current AFW stage.
+This is expected at the current Citadel stage.
 
 ---
 
@@ -323,7 +323,7 @@ Next constitutional artifacts should be:
 The Operator Coordination Protocol may eventually become:
 
 ```txt
-the synchronization layer of AFW institutional cognition
+the synchronization layer of Citadel institutional cognition
 ```
 
 because it governs:
@@ -337,7 +337,7 @@ because it governs:
 Most importantly:
 
 ```txt
-AFW now formally recognizes that distributed autonomy without bounded coordination becomes institutional fragmentation.
+Citadel now formally recognizes that distributed autonomy without bounded coordination becomes institutional fragmentation.
 ```
 
 That realization is constitutionally foundational.

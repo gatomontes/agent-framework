@@ -2,9 +2,9 @@
 
 ## Status
 
-Canonical AFW doctrine.
+Canonical Citadel doctrine.
 
-This document defines how AFW governs:
+This document defines how Citadel governs:
 - constitutional authority
 - doctrinal coherence
 - institutional arbitration
@@ -20,7 +20,7 @@ Institutional Governance governs the institution itself.
 
 # Purpose
 
-AFW requires institutional governance because constitutional systems eventually face:
+Citadel requires institutional governance because constitutional systems eventually face:
 - semantic conflict
 - authority overlap
 - doctrinal drift
@@ -74,7 +74,7 @@ Governance exists to sustain coherence under complexity.
 
 # Constitutional Hierarchy
 
-AFW constitutional artifacts operate within layered governance.
+Citadel constitutional artifacts operate within layered governance.
 
 Primary constitutional layers currently include:
 - runtime doctrine
@@ -144,7 +144,7 @@ Resolution must preserve audit visibility.
 
 # Constitutional Compression
 
-AFW recognizes constitutional density as a survivability risk.
+Citadel recognizes constitutional density as a survivability risk.
 
 Constitutional compression exists to reduce:
 - semantic duplication
@@ -169,7 +169,7 @@ Compression must not become oversimplification theater.
 
 Institutional survivability is a first-class governance concern.
 
-AFW doctrine must remain:
+Citadel doctrine must remain:
 - interpretable
 - operable
 - reviewable
@@ -186,7 +186,7 @@ Constitutions that become unreadable eventually become ceremonial.
 
 Human governance remains strategically important.
 
-AFW doctrine must remain understandable to:
+Citadel doctrine must remain understandable to:
 - operators
 - reviewers
 - auditors
@@ -221,7 +221,7 @@ Governance recursion is institutional instability.
 
 # Institutional Drift
 
-Institutional drift occurs when AFW gradually diverges from:
+Institutional drift occurs when Citadel gradually diverges from:
 - epistemic discipline
 - authority discipline
 - operational coherence
@@ -329,7 +329,7 @@ Restoration must remain auditable.
 
 # Constitutional Evolution
 
-AFW doctrine may evolve.
+Citadel doctrine may evolve.
 
 Evolution should preserve:
 - interoperability
@@ -362,7 +362,7 @@ Memory loss weakens institutional continuity.
 
 # Runtime Independence
 
-Institutional governance belongs to AFW doctrine.
+Institutional governance belongs to Citadel doctrine.
 
 It does not belong to:
 - runtimes

@@ -2,9 +2,9 @@
 
 ## Status
 
-Canonical AFW protocol.
+Canonical Citadel protocol.
 
-This protocol governs research missions, evidence collection, synthesis release, and adversarial review inside AFW-governed operations.
+This protocol governs research missions, evidence collection, synthesis release, and adversarial review inside Citadel-governed operations.
 
 Research is not casual search.
 

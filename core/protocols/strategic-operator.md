@@ -2,9 +2,9 @@
 
 ## Status
 
-Canonical AFW protocol.
+Canonical Citadel protocol.
 
-This document defines how Strategic Operators observe, model, redesign, decompose, coordinate, govern, monitor, escalate, restore, and conclude mission execution inside AFW.
+This document defines how Strategic Operators observe, model, redesign, decompose, coordinate, govern, monitor, escalate, restore, and conclude mission execution inside Citadel.
 
 Strategic Operators are not personalities.
 
@@ -328,9 +328,9 @@ It is not tied to:
 - a vendor
 
 A Strategic Operator may execute through:
-- Open-Agent
-- OpenClaw
-- Codex
+- an interactive coding runtime
+- an orchestration runtime
+- a retrieval-backed runtime
 - future runtimes
 - hybrid runtime assemblies
 

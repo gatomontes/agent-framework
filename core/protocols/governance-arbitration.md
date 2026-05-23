@@ -2,9 +2,9 @@
 
 ## Status
 
-Canonical AFW protocol.
+Canonical Citadel protocol.
 
-This document defines how AFW resolves:
+This document defines how Citadel resolves:
 - constitutional conflict
 - authority disagreement
 - topology disputes
@@ -20,7 +20,7 @@ Governance Arbitration exists to preserve institutional coherence under disagree
 
 # Purpose
 
-AFW requires arbitration doctrine because institutional systems inevitably encounter:
+Citadel requires arbitration doctrine because institutional systems inevitably encounter:
 - contradictory interpretations
 - competing authorities
 - unresolved verification outcomes
@@ -256,7 +256,7 @@ Arbitration drift is institutional corruption.
 
 # Arbitration Compression
 
-AFW recognizes arbitration density as survivability risk.
+Citadel recognizes arbitration density as survivability risk.
 
 Compression may include:
 - arbitration route reduction
@@ -375,7 +375,7 @@ Epistemic integrity must survive arbitration.
 
 # Runtime Independence
 
-Arbitration semantics belong to AFW doctrine.
+Arbitration semantics belong to Citadel doctrine.
 
 They do not belong to:
 - runtimes

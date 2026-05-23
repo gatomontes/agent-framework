@@ -2,9 +2,9 @@
 
 ## Status
 
-Canonical AFW contract.
+Canonical Citadel contract.
 
-This document defines how AFW structurally represents, weights, evaluates, propagates, preserves, and audits evidence.
+This document defines how Citadel structurally represents, weights, evaluates, propagates, preserves, and audits evidence.
 
 The Evidence Schema exists to support:
 - epistemic governance
@@ -18,7 +18,7 @@ The Evidence Schema exists to support:
 
 # Purpose
 
-AFW requires canonical evidence semantics because:
+Citadel requires canonical evidence semantics because:
 - evidence quality varies
 - provenance quality varies
 - confidence may become detached from support
@@ -343,7 +343,7 @@ The Evidence Schema supports structured weighting.
 
 However:
 
-AFW must avoid collapsing epistemology into simplistic scoring systems.
+Citadel must avoid collapsing epistemology into simplistic scoring systems.
 
 Numeric scoring alone cannot fully represent:
 - uncertainty
@@ -418,7 +418,7 @@ Governance pressure does not strengthen weak evidence.
 
 # Runtime Independence
 
-Evidence semantics belong to AFW doctrine.
+Evidence semantics belong to Citadel doctrine.
 
 They do not belong to:
 - a runtime

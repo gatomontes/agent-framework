@@ -405,8 +405,8 @@ Flow:
 
 ```txt
 Classify: routine
-Runtime: OpenClaw or writing agent
-Skill: lyric-composition
+Runtime: writing-oriented runtime
+Capability shape: lyric composition
 Verification: structure/rules checker
 Critique: Blackquill style and constraint review
 Audit: sampled or optional unless high importance

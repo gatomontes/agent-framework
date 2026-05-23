@@ -1,6 +1,6 @@
 # Runtime Independence Doctrine
 
-AFW must never depend on a single runtime outside its boundary wall.
+Citadel must never depend on a single runtime outside its boundary wall.
 
 The framework exists above runtimes.
 
@@ -8,13 +8,13 @@ Runtimes are interchangeable execution substrates.
 
 Doctrine is the invariant.
 
-This does not mean AFW is internally uncoupled.
+This does not mean Citadel is internally uncoupled.
 
-It means AFW remains externally decoupled from the runtimes and implementations attached through adapters and boundary surfaces.
+It means Citadel remains externally decoupled from the runtimes and implementations attached through adapters and boundary surfaces.
 
 This doctrine does not require the repository layout to look implementation-neutral.
 
-AFW may keep concrete adapter families in-repo while those implementations remain:
+Citadel may keep concrete adapter families in-repo while those implementations remain:
 
 - boundary-scoped
 - replaceable
@@ -24,7 +24,7 @@ AFW may keep concrete adapter families in-repo while those implementations remai
 ## Canonical Position
 
 ```txt
-AFW
+Citadel
   -> doctrine
   -> contracts
   -> governance
@@ -32,9 +32,9 @@ AFW
   -> verification semantics
 
 Runtime Adapters
-  -> Open-Agent
-  -> OpenClaw
-  -> Codex
+  -> interactive coding runtime
+  -> orchestration runtime
+  -> retrieval-backed runtime
   -> future runtimes
 ```
 
@@ -42,7 +42,7 @@ Strategic Operators are doctrinal roles, not runtime identities.
 
 Persona Factory compiles organizational topology, not runtime-specific personalities.
 
-All runtime references inside AFW must remain:
+All runtime references inside Citadel must remain:
 - replaceable
 - adapter-oriented
 - non-authoritative

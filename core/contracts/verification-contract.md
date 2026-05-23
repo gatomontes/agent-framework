@@ -2,9 +2,9 @@
 
 ## Status
 
-Canonical AFW contract.
+Canonical Citadel contract.
 
-This document defines how AFW evaluates whether operational outputs, claims, actions, evidence, and knowledge satisfy institutional acceptance requirements.
+This document defines how Citadel evaluates whether operational outputs, claims, actions, evidence, and knowledge satisfy institutional acceptance requirements.
 
 Verification is the bridge between:
 - execution
@@ -347,7 +347,7 @@ Governance pressure does not convert weak evidence into verified truth.
 
 # Runtime Independence
 
-Verification belongs to AFW doctrine.
+Verification belongs to Citadel doctrine.
 
 It does not belong to:
 - a runtime

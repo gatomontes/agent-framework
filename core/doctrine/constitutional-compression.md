@@ -2,9 +2,9 @@
 
 ## Status
 
-Canonical AFW doctrine.
+Canonical Citadel doctrine.
 
-This document defines how AFW preserves:
+This document defines how Citadel preserves:
 - institutional survivability
 - operational affordability
 - bounded governance
@@ -21,7 +21,7 @@ Constitutional Compression exists to preserve institutional coherence under comp
 
 # Purpose
 
-AFW recognizes that constitutional systems eventually encounter:
+Citadel recognizes that constitutional systems eventually encounter:
 - semantic density growth
 - governance recursion
 - coordination overload
@@ -141,7 +141,7 @@ Compression must not become:
 
 # Bounded Complexity
 
-AFW recognizes complexity as both:
+Citadel recognizes complexity as both:
 - capability source
 - survivability threat
 
@@ -181,7 +181,7 @@ Lossy compression of constitutional meaning is governance corruption.
 
 # Operational Profiles
 
-AFW may define bounded operational profiles.
+Citadel may define bounded operational profiles.
 
 Profiles may vary by:
 - mission criticality
@@ -199,7 +199,7 @@ Operational profiles must remain explicit.
 
 # Minimum Survivable Governance
 
-AFW recognizes:
+Citadel recognizes:
 
 ```txt
 not all institutional rigor scales survivably
@@ -233,7 +233,7 @@ Compression boundaries must remain explicit.
 
 # Cognitive Affordability
 
-AFW recognizes operator cognition as institutional infrastructure.
+Citadel recognizes operator cognition as institutional infrastructure.
 
 Cognitive overload signals include:
 - unreadable topology
@@ -411,7 +411,7 @@ Compression must not erase unresolved institutional disagreement.
 
 # Runtime Independence
 
-Compression doctrine belongs to AFW.
+Compression doctrine belongs to Citadel.
 
 It does not belong to:
 - runtimes

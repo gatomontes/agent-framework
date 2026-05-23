@@ -24,9 +24,9 @@ A runtime is any execution environment capable of:
 
 Examples include:
 
-- OpenClaw
-- Codex-oriented systems
-- Open-Agent
+- interactive coding runtimes
+- orchestration shells
+- retrieval-backed agent systems
 - local orchestration shells
 - future autonomous execution layers
 

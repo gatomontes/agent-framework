@@ -2,13 +2,13 @@
 
 ## Status
 
-Canonical AFW contract.
+Canonical Citadel contract.
 
-This document defines the minimum requirements for any runtime that participates in AFW-governed work.
+This document defines the minimum requirements for any runtime that participates in Citadel-governed work.
 
 A runtime may be a coding agent, orchestration shell, local agent host, cloud agent, script runner, IDE assistant, workflow engine, or future execution substrate.
 
-AFW does not grant authority to a runtime because of its brand, interface, model, or apparent intelligence.
+Citadel does not grant authority to a runtime because of its brand, interface, model, or apparent intelligence.
 
 A runtime earns participation by satisfying this contract.
 
@@ -16,9 +16,9 @@ A runtime earns participation by satisfying this contract.
 
 # Purpose
 
-The Runtime Contract separates AFW doctrine from runtime implementation.
+The Runtime Contract separates Citadel doctrine from runtime implementation.
 
-AFW owns:
+Citadel owns:
 - doctrine
 - governance
 - verification semantics
@@ -38,7 +38,7 @@ Runtimes provide:
 
 The runtime is a vessel.
 
-AFW is the law by which the vessel is used.
+Citadel is the law by which the vessel is used.
 
 ---
 
@@ -58,7 +58,7 @@ A runtime must report what it did, what it changed, what it observed, what it as
 
 # Participation Requirements
 
-A runtime MAY participate in AFW work only if it can support the following minimum capabilities.
+A runtime MAY participate in Citadel work only if it can support the following minimum capabilities.
 
 ## 1. Task Intake
 
@@ -344,7 +344,7 @@ When authority is unclear, the runtime must escalate.
 
 # Adapter Responsibilities
 
-Runtime adapters translate AFW doctrine into runtime-specific operations.
+Runtime adapters translate Citadel doctrine into runtime-specific operations.
 
 An adapter must define:
 - how tasks are injected
@@ -355,7 +355,7 @@ An adapter must define:
 - how escalation is surfaced
 - how restoration data is preserved
 
-Adapters must not weaken AFW doctrine to match runtime convenience.
+Adapters must not weaken Citadel doctrine to match runtime convenience.
 
 If a runtime cannot satisfy a requirement, the adapter must declare the gap.
 
@@ -408,7 +408,7 @@ Must support delegation, audit, restoration, and adapter-level governance.
 
 ## Level 4: Institutional Runtime
 
-Can participate in long-running AFW operations with persistent memory, traceability, audit chains, and formal verification routes.
+Can participate in long-running Citadel operations with persistent memory, traceability, audit chains, and formal verification routes.
 
 No runtime receives Level 4 status by assumption.
 
@@ -416,7 +416,7 @@ No runtime receives Level 4 status by assumption.
 
 # Prohibited Couplings
 
-AFW core doctrine must not:
+Citadel core doctrine must not:
 - depend on a named runtime
 - grant authority based on runtime identity
 - define cognition as belonging to one execution substrate

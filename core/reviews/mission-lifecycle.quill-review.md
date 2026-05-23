@@ -14,7 +14,7 @@ risk_level: moderate
 confidence: high
 ```
 
-This is the strongest AFW constitutional artifact so far.
+This is the strongest Citadel constitutional artifact so far.
 
 The document successfully transforms:
 
@@ -30,7 +30,7 @@ institutionally governed operational flow
 
 That distinction is foundational.
 
-The lifecycle doctrine materially advances AFW from:
+The lifecycle doctrine materially advances Citadel from:
 - agent framework concepts
 
 into:
@@ -55,7 +55,7 @@ This prevents:
 - runtime-defined process
 - silent operational drift
 
-This is one of the most important governance protections in AFW so far.
+This is one of the most important governance protections in Citadel so far.
 
 ---
 
@@ -166,7 +166,7 @@ The doctrine lacks:
 - concurrent mission governance
 - preemption semantics
 
-This becomes critical once AFW operates multiple persistent missions simultaneously.
+This becomes critical once Citadel operates multiple persistent missions simultaneously.
 
 ---
 
@@ -227,7 +227,7 @@ It may instead indicate:
 - unavailable topology semantics
 - incomplete authority integration
 
-AFW constitutional artifacts must therefore be evaluated not only in isolation, but also in terms of:
+Citadel constitutional artifacts must therefore be evaluated not only in isolation, but also in terms of:
 - dependency readiness
 - semantic coupling
 - doctrinal prerequisites
@@ -266,12 +266,12 @@ This distinction is strategically important.
 
 # Hidden Strategic Observation
 
-AFW now possesses:
+Citadel now possesses:
 - runtime doctrine
 - authority doctrine
 - mission lifecycle doctrine
 
-This means AFW has crossed a major threshold.
+This means Citadel has crossed a major threshold.
 
 The architecture is no longer primarily:
 - prompt engineering
@@ -315,7 +315,7 @@ Next constitutional artifacts should be:
 
 # Final Quill Position
 
-The Mission Lifecycle doctrine is the first AFW artifact that truly feels institutional.
+The Mission Lifecycle doctrine is the first Citadel artifact that truly feels institutional.
 
 It establishes:
 - operational continuity
@@ -328,7 +328,7 @@ It establishes:
 Most importantly:
 
 ```txt
-AFW now treats work as governed institutional state rather than transient execution.
+Citadel now treats work as governed institutional state rather than transient execution.
 ```
 
 That is a profound architectural transition.

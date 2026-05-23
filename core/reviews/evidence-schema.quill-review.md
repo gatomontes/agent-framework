@@ -14,7 +14,7 @@ risk_level: high
 confidence: high
 ```
 
-The Evidence Schema is one of the most structurally important AFW artifacts so far.
+The Evidence Schema is one of the most structurally important Citadel artifacts so far.
 
 This document governs:
 
@@ -34,7 +34,7 @@ Without this layer:
 - provenance integrity degrades
 - contradiction management destabilizes
 
-The contract materially strengthens AFW constitutional coherence.
+The contract materially strengthens Citadel constitutional coherence.
 
 ---
 
@@ -70,7 +70,7 @@ The document correctly warns against:
 collapsing epistemology into simplistic scoring systems
 ```
 
-This is one of the most strategically important safeguards in AFW so far.
+This is one of the most strategically important safeguards in Citadel so far.
 
 Without this warning:
 - institutions drift into metric theater
@@ -114,7 +114,7 @@ invalid evidence may cascade institutionally
 
 This is a major conceptual improvement.
 
-AFW is beginning to reason about:
+Citadel is beginning to reason about:
 - dependency propagation
 - cascading invalidation
 - restoration blast radius
@@ -157,7 +157,7 @@ Without compression strategies:
 - missions slow dramatically
 - institutional friction escalates
 
-This is becoming the dominant AFW risk.
+This is becoming the dominant Citadel risk.
 
 ---
 
@@ -169,7 +169,7 @@ Correct.
 
 However:
 
-AFW still lacks:
+Citadel still lacks:
 - bounded confidence aggregation rules
 - conflict-resolution weighting semantics
 - dependency-confidence propagation
@@ -212,7 +212,7 @@ Risk:
 - semantic overload
 - governance detachment from operators
 
-AFW must eventually ensure:
+Citadel must eventually ensure:
 
 ```txt
 institutional rigor
@@ -243,7 +243,7 @@ This is a dependency condition rather than a schema flaw.
 
 # Hidden Strategic Observation
 
-AFW is now crossing another threshold.
+Citadel is now crossing another threshold.
 
 The architecture is beginning to resemble:
 
@@ -256,7 +256,7 @@ rather than:
 - orchestration systems
 - workflow governance
 
-AFW is now defining:
+Citadel is now defining:
 - institutional truth semantics
 - institutional evidence semantics
 - institutional trust propagation
@@ -274,7 +274,7 @@ The dominant emerging threat is now:
 institutional unsustainability through semantic density
 ```
 
-AFW is becoming powerful.
+Citadel is becoming powerful.
 
 But power increases:
 - complexity
@@ -316,7 +316,7 @@ high constitutional sophistication
 with unresolved operational simplification dependencies
 ```
 
-This is expected at the current AFW stage.
+This is expected at the current Citadel stage.
 
 ---
 
@@ -337,7 +337,7 @@ Next constitutional artifacts should be:
 The Evidence Schema may eventually become:
 
 ```txt
-the circulatory system of AFW epistemology
+the circulatory system of Citadel epistemology
 ```
 
 because it governs:
@@ -351,7 +351,7 @@ because it governs:
 Most importantly:
 
 ```txt
-AFW now formally recognizes that evidence without structure becomes institutional folklore.
+Citadel now formally recognizes that evidence without structure becomes institutional folklore.
 ```
 
 That realization is constitutionally foundational.

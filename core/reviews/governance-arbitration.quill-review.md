@@ -14,7 +14,7 @@ risk_level: high
 confidence: high
 ```
 
-The Governance Arbitration Protocol is one of the most strategically important AFW artifacts so far.
+The Governance Arbitration Protocol is one of the most strategically important Citadel artifacts so far.
 
 This document governs:
 
@@ -29,7 +29,7 @@ Without this layer:
 - distributed coordination destabilizes
 - legitimacy degrades into power dynamics
 
-The protocol materially stabilizes AFW's constitutional conflict architecture.
+The protocol materially stabilizes Citadel's constitutional conflict architecture.
 
 ---
 
@@ -87,7 +87,7 @@ incompatible governance realities
 
 as existential institutional threat.
 
-AFW now does.
+Citadel now does.
 
 This materially improves:
 - governance legitimacy
@@ -108,7 +108,7 @@ The protocol correctly models:
 - contradiction burial
 - governance opacity
 
-This is one of AFW's strongest long-term institutional safeguards.
+This is one of Citadel's strongest long-term institutional safeguards.
 
 ---
 
@@ -124,7 +124,7 @@ The protocol correctly recognizes:
 
 These are advanced institutional failure modes.
 
-AFW now formally recognizes them.
+Citadel now formally recognizes them.
 
 ---
 
@@ -134,7 +134,7 @@ AFW now formally recognizes them.
 
 The protocol is constitutionally strong.
 
-However AFW is now accumulating:
+However Citadel is now accumulating:
 - deep arbitration semantics
 - layered topology semantics
 - heavy restoration semantics
@@ -147,7 +147,7 @@ Risk:
 constitutional operational cost exceeds survivability value
 ```
 
-AFW now urgently requires:
+Citadel now urgently requires:
 - constitutional compression doctrine
 - bounded operational profiles
 - semantic consolidation
@@ -205,7 +205,7 @@ Future concern, not immediate.
 
 ## 5. Operational Affordability Is Becoming the Central Problem
 
-AFW now possesses:
+Citadel now possesses:
 - governance doctrine
 - arbitration doctrine
 - topology doctrine
@@ -228,7 +228,7 @@ This is now the core architectural frontier.
 
 # Hidden Strategic Observation
 
-AFW has now crossed another major threshold.
+Citadel has now crossed another major threshold.
 
 The architecture is now constructing:
 
@@ -241,7 +241,7 @@ This is beyond:
 - governance systems
 - multi-agent coordination
 
-AFW is now defining:
+Citadel is now defining:
 - survivable disagreement
 - bounded institutional conflict
 - legitimacy preservation
@@ -267,7 +267,7 @@ Meaning:
 - too much restoration burden
 - too much audit density
 
-AFW must now increasingly prioritize:
+Citadel must now increasingly prioritize:
 - constitutional compression
 - bounded governance
 - semantic minimization
@@ -295,7 +295,7 @@ high institutional legitimacy maturity
 with unresolved operational survivability dependencies
 ```
 
-This is expected at the current AFW stage.
+This is expected at the current Citadel stage.
 
 ---
 
@@ -316,7 +316,7 @@ Next constitutional artifacts should be:
 The Governance Arbitration Protocol may eventually become:
 
 ```txt
-the judiciary branch of AFW constitutional continuity
+the judiciary branch of Citadel constitutional continuity
 ```
 
 because it governs:
@@ -330,7 +330,7 @@ because it governs:
 Most importantly:
 
 ```txt
-AFW now formally recognizes that unresolved institutional disagreement eventually collapses governance legitimacy.
+Citadel now formally recognizes that unresolved institutional disagreement eventually collapses governance legitimacy.
 ```
 
 That realization is constitutionally foundational.

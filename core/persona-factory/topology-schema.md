@@ -2,9 +2,9 @@
 
 ## Status
 
-Canonical AFW schema doctrine.
+Canonical Citadel schema doctrine.
 
-This document defines how AFW structurally represents:
+This document defines how Citadel structurally represents:
 - mission topology
 - operator relationships
 - authority flow
@@ -20,7 +20,7 @@ The Topology Schema governs organizational structure under operational autonomy.
 
 # Purpose
 
-AFW requires topology semantics because complex institutional operations cannot safely rely upon:
+Citadel requires topology semantics because complex institutional operations cannot safely rely upon:
 - implicit coordination
 - invisible dependencies
 - informal delegation
@@ -286,7 +286,7 @@ Topology drift requires:
 
 # Topology Compression
 
-AFW recognizes topology density as survivability risk.
+Citadel recognizes topology density as survivability risk.
 
 Compression may include:
 - dependency reduction
@@ -431,7 +431,7 @@ Governance does not erase topology audit history.
 
 # Runtime Independence
 
-Topology semantics belong to AFW doctrine.
+Topology semantics belong to Citadel doctrine.
 
 They do not belong to:
 - orchestration runtimes

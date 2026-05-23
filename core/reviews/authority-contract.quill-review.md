@@ -14,7 +14,7 @@ risk_level: high
 confidence: high
 ```
 
-The Authority Contract materially strengthens AFW constitutional architecture.
+The Authority Contract materially strengthens Citadel constitutional architecture.
 
 It successfully separates:
 - capability from permission
@@ -50,7 +50,7 @@ This prevents:
 - emergent unauthorized autonomy
 - capability worship
 
-This is one of the most important constitutional protections in AFW so far.
+This is one of the most important constitutional protections in Citadel so far.
 
 ---
 
@@ -194,13 +194,13 @@ The contract recognizes stale authority but lacks:
 - persistent-operation refresh rules
 - long-running mission review intervals
 
-This becomes critical once AFW supports persistent autonomous operations.
+This becomes critical once Citadel supports persistent autonomous operations.
 
 ---
 
 # Hidden Strategic Risk
 
-AFW now possesses:
+Citadel now possesses:
 - runtime doctrine
 - authority doctrine
 
@@ -241,7 +241,7 @@ Do not aggressively expand runtime adapters before these stabilize.
 
 The Authority Contract is constitutionally significant.
 
-It is likely one of the foundational documents that future AFW governance will rely upon.
+It is likely one of the foundational documents that future Citadel governance will rely upon.
 
 Its strongest contribution is this:
 
@@ -253,7 +253,7 @@ That principle alone prevents many forms of future governance decay.
 
 However, the institution above the contract is still emerging.
 
-AFW now needs:
+Citadel now needs:
 - mission semantics
 - institutional semantics
 - orchestration semantics

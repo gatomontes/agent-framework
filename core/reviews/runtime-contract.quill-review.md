@@ -28,7 +28,7 @@ The contract correctly removes runtime-authoritative thinking.
 
 This is critical.
 
-AFW now treats runtimes as replaceable substrates rather than philosophical centers.
+Citadel now treats runtimes as replaceable substrates rather than philosophical centers.
 
 This materially reduces:
 - runtime lock-in
@@ -47,7 +47,7 @@ output != evidence
 confidence != verification
 ```
 
-This is foundational AFW doctrine and was preserved successfully.
+This is foundational Citadel doctrine and was preserved successfully.
 
 ---
 
@@ -183,7 +183,7 @@ The runtime contract is now stronger than the current mission lifecycle doctrine
 
 Meaning:
 
-AFW now knows:
+Citadel now knows:
 - how runtimes should behave
 
 but still lacks:
@@ -213,7 +213,7 @@ before expanding runtime integrations.
 The Runtime Contract is doctrinally strong enough to become:
 
 ```txt
-Canonical AFW Constitutional Artifact v1
+Canonical Citadel Constitutional Artifact v1
 ```
 
 provided the following are recognized as unresolved:
