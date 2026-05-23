@@ -42,6 +42,8 @@ The objective is to keep the inside of the institution doctrinally strict while 
 
 Citadel delivers that by emitting and governing durable artifacts such as contracts, protocols, doctrine, intake packets, return packets, verification records, critique artifacts, restoration records, and final dispositions.
 
+Boundary packets should also preserve movement lineage through traveling audit scrolls and Citadel-side scribe recording.
+
 The objective is to establish a disciplined architecture for:
 
 - spawning agents

@@ -29,6 +29,7 @@ Its purpose is to:
 - emit an intake packet that downstream orchestration can classify, execute, verify, and audit
 - receive terminal rejections, blocked outcomes, and unsolved tasks back from Citadel
 - normalize those outcomes into a consequent return packet
+- preserve or attach the audit scroll that records packet movement across boundary stations
 
 ---
 
@@ -119,6 +120,11 @@ Missing required structure must remain visible as uncertainty, assumption, or cl
 - accept terminal outcomes handed back from downstream Citadel stages
 - normalize institutional failure, rejection, and unsolved-task outcomes into a coherent return packet
 - preserve the reason the task could not be completed, trusted, or continued
+- preserve movement lineage through the attached audit scroll as defined by:
+
+```txt
+/core/contracts/audit-scroll-schema.md
+```
 
 `Rook` may:
 
@@ -161,6 +167,7 @@ Every governed `Rook` emission should be recoverable in this shape:
 ```yaml
 rook_intake_packet:
   packet_id: null
+  audit_scroll: null
   created_at: null
   source_type: "human" | "delegation" | "runtime_event" | "automation" | "restoration" | "other"
   source_identity: null
@@ -213,6 +220,7 @@ Terminal rejections or unsolved outcomes returned to the requester should be rec
 ```yaml
 rook_return_packet:
   packet_id: null
+  audit_scroll: null
   created_at: null
   continuity_reference: null
 
@@ -316,6 +324,7 @@ The return packet must preserve:
 - why the operation could not be completed or trusted
 - which institutional gate or stage produced the terminal outcome
 - what safe next action remains available
+- how the packet moved across boundary stations
 
 This makes terminal failure inspectable and actionable instead of merely abrupt.
 
@@ -347,3 +356,9 @@ Failure should produce:
 No inbound request should enter Citadel execution flow without first passing through `Rook` and becoming an inspectable intake packet.
 
 No final rejection, blocked mission, or unsolved task should leave Citadel without first being handed back to `Rook` for normalization and consequent output.
+
+Citadel-side boundary movement should remain scroll-bearing as defined by:
+
+```txt
+/core/protocols/citadel-scribe-protocol.md
+```
