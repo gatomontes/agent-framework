@@ -30,6 +30,7 @@ Its purpose is to:
 - receive terminal rejections, blocked outcomes, and unsolved tasks back from Citadel
 - normalize those outcomes into a consequent return scroll
 - preserve or attach the audit scroll that records scroll movement across boundary stations
+- preserve or require the notarial summary that records station findings and proposed actions before return
 
 ---
 
@@ -121,9 +122,16 @@ Missing required structure must remain visible as uncertainty, assumption, or cl
 - normalize institutional failure, rejection, and unsolved-task outcomes into a coherent return scroll
 - preserve the reason the task could not be completed, trusted, or continued
 - preserve movement lineage through the attached audit scroll as defined by:
+- require a pre-return notarial summary and archival reference before external return when the scroll is return-capable
 
 ```txt
 /core/contracts/audit-scroll-schema.md
+```
+
+and substantive return summaries as defined by:
+
+```txt
+/core/protocols/notarial-protocol.md
 ```
 
 `Rook` may:
@@ -221,6 +229,7 @@ Terminal rejections or unsolved outcomes returned to the requester should be rec
 rook_return_scroll:
   scroll_id: null
   audit_scroll: null
+  notarial_record: null
   created_at: null
   continuity_reference: null
 
@@ -250,6 +259,8 @@ rook_return_scroll:
 
   return_status:
     normalized_by_rook: true
+    notarial_summary_present: false
+    archival_copy_confirmed: false
     ready_for_external_return: false
 ```
 
@@ -325,6 +336,8 @@ The return scroll must preserve:
 - which institutional gate or stage produced the terminal outcome
 - what safe next action remains available
 - how the scroll moved across boundary stations
+- what stations materially concluded and proposed before return
+- whether the notarial summary was copied into archival custody
 
 This makes terminal failure inspectable and actionable instead of merely abrupt.
 
@@ -341,6 +354,8 @@ This makes terminal failure inspectable and actionable instead of merely abrupt.
 - routes forward without enough information to classify responsibly
 - launders authority through confident phrasing
 - emits a terminal rejection without normalization
+- emits a return-capable scroll without required notarial summary
+- emits a return-capable scroll without archival-copy confirmation
 - returns a dead-letter or blocked result without preserved institutional reasoning
 
 Failure should produce:

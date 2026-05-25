@@ -29,6 +29,8 @@ Citadel Scribe does not:
 - verify mission correctness
 - critique architecture
 - assign final disposition
+- prepare station findings summaries
+- replace Notary
 - replace Auditor
 - replace Rook
 

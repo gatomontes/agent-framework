@@ -204,6 +204,8 @@ Archival is mandatory for continuity when required by mission class or consequen
 
 It is not an additional trust-determining phase of the operational flow.
 
+When a governed outcome is being prepared for external return through `Rook`, a notarial pre-return summary should be attached to the scroll and copied into archival custody before outbound normalization.
+
 ---
 
 # Operational Invariant

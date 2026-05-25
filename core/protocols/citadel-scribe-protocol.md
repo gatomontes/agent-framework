@@ -84,6 +84,7 @@ Citadel Scribe may not:
 - erase Foundry-side lineage
 - invent scroll movement that did not occur
 - rewrite scroll substance as though movement recording were governance
+- prepare substantive station findings in place of Notary
 - treat scroll completion as proof of mission correctness
 
 ---

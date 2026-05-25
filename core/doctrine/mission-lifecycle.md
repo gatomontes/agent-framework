@@ -325,6 +325,8 @@ Archive records should preserve:
 - critique outcomes
 - restoration history
 - disposition
+- notarial pre-return summary
+- proposed follow-up actions
 - unresolved concerns
 - lessons learned
 
@@ -333,6 +335,8 @@ Institutional memory is a strategic asset.
 Archival follows final disposition as post-flow preservation.
 
 It does not redefine the fact that operational flow terminates at explicit final disposition.
+
+When a mission is preparing an external return through `Rook`, the notarial pre-return summary should enter archival custody before the return leaves Citadel.
 
 ---
 

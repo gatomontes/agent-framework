@@ -16,6 +16,7 @@ The Archives provide custody for:
 - long-term memory
 - historical artifact storage
 - decision lineage
+- notarial return summaries
 - postmortems
 - lessons learned
 - archival continuity material
@@ -54,6 +55,15 @@ Records explaining:
 - why it changed
 - what authority approved it
 - what alternatives were rejected
+
+## Notarial Return Summaries
+
+Structured summaries preserving:
+- station findings
+- proposed actions
+- blocked actions
+- required human decisions
+- pre-return continuity context
 
 ## Postmortems
 
@@ -136,6 +146,7 @@ The Archives may preserve:
 - the underlying incident
 - the reasoning path
 - the superseded prior state
+- the notarial summary that framed return readiness
 
 If the lesson materially changes institutional behavior, the lesson should update the relevant governing artifact.
 

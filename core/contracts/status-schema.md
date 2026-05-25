@@ -44,6 +44,11 @@ operational_status:
     status: "COHERENT" | "DRIFT_DETECTED" | "RESTORING" | "DECOMMISSIONED"
     restoration_state: optional
 
+  notarial:
+    state: "NOT_REQUIRED" | "PENDING" | "PREPARED" | "ARCHIVED" | "FAILED"
+    prepared_by: optional
+    archival_reference: optional
+
   final_disposition:
     value: "TRUSTED" | "UNTRUSTED" | "UNCERTAIN" | "BLOCKED" | "DEAD_LETTER"
     human_override: boolean
@@ -134,6 +139,14 @@ This normalization occurs after final disposition.
 It does not extend the operational flow or change the fact that final disposition is the terminal institutional determination.
 
 If `UNTRUSTED` has no separately defined downstream path, treat it as a final determination and return it through `Rook`.
+
+## Notarial
+
+Notarial state records whether the substantive return summary was prepared and copied into archival custody when required for return handling.
+
+Notarial preparation does not change final disposition.
+
+It records boundary readiness for external return and continuity preservation.
 
 ---
 

@@ -128,6 +128,7 @@ foundry-rook
 foundry-scribe
 citadel-rook
 citadel-scribe
+citadel-notary
 citadel-core
 verification
 critique
@@ -150,6 +151,7 @@ scroll-forwarded
 scroll-received
 scroll-recorded
 scroll-reviewed
+scroll-notarized
 scroll-repackaged
 scroll-returned
 ```
@@ -182,6 +184,8 @@ The audit scroll may not:
 `Rook` owns boundary normalization.
 
 The audit scroll owns boundary movement continuity.
+
+`Notary` owns substantive pre-return summary preservation.
 
 Rook should attach or preserve the audit scroll before:
 
