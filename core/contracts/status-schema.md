@@ -127,7 +127,7 @@ Any terminal outcome intended for return to a requester may be handed to:
 /core/contracts/rook-contract.md
 ```
 
-for normalization into a consequent return packet.
+for normalization into a consequent return scroll.
 
 This normalization occurs after final disposition.
 

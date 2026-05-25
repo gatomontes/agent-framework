@@ -159,7 +159,7 @@ If the threshold changes during the mission, the change must be recorded.
 Research missions should emit durable artifacts such as:
 - discovery logs
 - source verification notes
-- extracted evidence packets
+- extracted evidence scrolls
 - synthesis briefs
 - adversarial review notes
 - release decisions

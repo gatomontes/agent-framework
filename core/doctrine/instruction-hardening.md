@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Instruction Hardening defines how operational instructions, task packets, and execution-facing briefs should be shaped before delegated work begins.
+Instruction Hardening defines how operational instructions, task scrolls, and execution-facing briefs should be shaped before delegated work begins.
 
 It exists to reduce hidden assumptions, fabricated certainty, unsafe irreversibility, and lifecycle corruption.
 

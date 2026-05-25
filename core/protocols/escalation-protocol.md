@@ -32,11 +32,11 @@ Escalation should occur when:
 
 ---
 
-# Escalation Packet
+# Escalation Scroll
 
 Escalation must preserve operational continuity.
 
-A valid escalation packet should include:
+A valid escalation scroll should include:
 
 ```yaml
 operation:

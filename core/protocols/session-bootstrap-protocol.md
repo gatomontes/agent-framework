@@ -22,7 +22,7 @@ When a runtime or operator begins work, load only enough context to establish co
 
 1. active role and authority context
 2. user or mission-owner context when relevant
-3. current mission or task packet
+3. current mission or task scroll
 4. recent operational continuity artifacts
 5. longer-duration memory only when authority and context permit it
 
@@ -34,11 +34,11 @@ Conversation history alone is not a sufficient bootstrap surface when governed a
 
 Prefer:
 
-- active task packets
+- active task scrolls
 - mission artifacts
-- authority packets
+- authority scrolls
 - runtime reports
-- restoration packets
+- restoration scrolls
 - recent operational logs
 - curated institutional memory
 

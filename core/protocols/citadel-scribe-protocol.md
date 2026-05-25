@@ -2,13 +2,13 @@
 
 ## Status
 
-Adopted protocol for packet-movement recording inside Citadel-governed boundary flow.
+Adopted protocol for scroll-movement recording inside Citadel-governed boundary flow.
 
 ---
 
 # Purpose
 
-Citadel Scribe records the movement of governed packets across Citadel-side stations.
+Citadel Scribe records the movement of governed scrolls across Citadel-side stations.
 
 Citadel Scribe is not:
 
@@ -20,7 +20,7 @@ Citadel Scribe is not:
 
 Citadel Scribe is:
 
-- packet-movement recorder
+- scroll-movement recorder
 - boundary lineage custodian
 - audit-scroll continuity maintainer
 
@@ -28,7 +28,7 @@ Citadel Scribe is:
 
 # Core Role
 
-Citadel Scribe follows the packet.
+Citadel Scribe follows the scroll.
 
 Citadel Scribe records:
 
@@ -53,7 +53,7 @@ Foundry Boundary
       -> Citadel Core
         -> Citadel Scribe records governed return
           -> Citadel Rook
-            -> outbound return packet
+            -> outbound return scroll
 ```
 
 Rook moves and normalizes.
@@ -66,24 +66,24 @@ Citadel Scribe records and preserves movement lineage.
 
 Citadel Scribe must:
 
-- inspect whether an inbound packet already carries an audit scroll
+- inspect whether an inbound scroll already carries an audit scroll
 - attach a new scroll when required by policy
 - append Citadel-side movement entries
-- preserve prior entries when the packet is repackaged
+- preserve prior entries when the scroll is repackaged
 - keep movement summaries concise and interpretable
-- ensure the return packet leaves with Citadel-side lineage intact
+- ensure the return scroll leaves with Citadel-side lineage intact
 
 Citadel Scribe may:
 
 - normalize station labels
 - add adapter-local clarifying notes
-- annotate packet repackaging
+- annotate scroll repackaging
 
 Citadel Scribe may not:
 
 - erase Foundry-side lineage
-- invent packet movement that did not occur
-- rewrite packet substance as though movement recording were governance
+- invent scroll movement that did not occur
+- rewrite scroll substance as though movement recording were governance
 - treat scroll completion as proof of mission correctness
 
 ---
@@ -106,23 +106,23 @@ Citadel Scribe should record at minimum:
 audit_scroll:
   entries:
     - station: foundry-rook
-      action: packet-forwarded
+      action: scroll-forwarded
       summary: Foundry forwarded intake to Citadel.
     - station: citadel-rook
-      action: packet-received
+      action: scroll-received
       summary: Citadel Rook received governed intake.
     - station: citadel-scribe
-      action: packet-recorded
+      action: scroll-recorded
       summary: Citadel Scribe recorded inbound custody.
     - station: citadel-core
-      action: packet-reviewed
+      action: scroll-reviewed
       summary: Citadel determined clarification is required.
     - station: citadel-scribe
-      action: packet-recorded
+      action: scroll-recorded
       summary: Citadel Scribe recorded governed return.
     - station: citadel-rook
-      action: packet-returned
-      summary: Citadel Rook emitted return packet toward Foundry.
+      action: scroll-returned
+      summary: Citadel Rook emitted return scroll toward Foundry.
 ```
 
 ---
@@ -131,14 +131,14 @@ audit_scroll:
 
 Citadel Scribe should escalate when:
 
-- inbound packet has no reconstructable identity
-- packet repackaging would erase lineage
+- inbound scroll has no reconstructable identity
+- scroll repackaging would erase lineage
 - competing scroll histories appear
 - station movement occurred but cannot be summarized honestly
-- outbound packet would leave Citadel with broken movement continuity
+- outbound scroll would leave Citadel with broken movement continuity
 
 ---
 
 # Constitutional Rule
 
-Citadel may not claim boundary cleanliness when its own packet movement is not scroll-auditable.
+Citadel may not claim boundary cleanliness when its own scroll movement is not scroll-auditable.

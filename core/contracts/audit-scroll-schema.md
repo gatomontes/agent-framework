@@ -4,9 +4,9 @@
 
 Canonical Citadel contract.
 
-This schema defines the traveling audit companion that follows a packet across boundary stations, governed routing surfaces, review points, and return flow.
+This schema defines the traveling audit companion that follows a scroll across boundary stations, governed routing surfaces, review points, and return flow.
 
-The audit scroll exists so packet movement remains reconstructable without relying on recollection, chat fragments, or inferred timeline repair.
+The audit scroll exists so scroll movement remains reconstructable without relying on recollection, chat fragments, or inferred timeline repair.
 
 ---
 
@@ -14,41 +14,41 @@ The audit scroll exists so packet movement remains reconstructable without relyi
 
 Citadel already requires:
 
-- inspectable packets
+- inspectable scrolls
 - artifact lineage
 - audit continuity
 - recoverable state
 
-The audit scroll binds those requirements to packet movement itself.
+The audit scroll binds those requirements to scroll movement itself.
 
 It records:
 
-- where a packet traveled
+- where a scroll traveled
 - who recorded it
 - what transition occurred
 - why the transition happened
 
 The audit scroll is not a replacement for evidence artifacts, verification reports, or status schemas.
 
-It is the movement lineage layer for governed packets.
+It is the movement lineage layer for governed scrolls.
 
 ---
 
 # Core Principle
 
-A packet that crosses stations without preserved movement lineage has boundary ambiguity.
+A scroll that crosses stations without preserved movement lineage has boundary ambiguity.
 
 Boundary ambiguity weakens:
 
 - audit reconstruction
 - restoration
 - escalation legitimacy
-- return-packet trustworthiness
+- return-scroll trustworthiness
 
 Therefore:
 
 ```text
-packet movement must remain scroll-bearing
+scroll movement must remain scroll-bearing
 ```
 
 ---
@@ -57,12 +57,12 @@ packet movement must remain scroll-bearing
 
 An audit scroll may accompany:
 
-- rook intake packets
-- rook return packets
-- delegation packets
-- restoration packets
-- verification-bearing packets
-- boundary clarification packets
+- rook intake scrolls
+- rook return scrolls
+- delegation scrolls
+- restoration scrolls
+- verification-bearing scrolls
+- boundary clarification scrolls
 - production-ready mission orders returned to implementation layers
 
 The exact serialization may vary by runtime or adapter.
@@ -78,7 +78,7 @@ Every governed audit scroll should be recoverable in this shape:
 ```yaml
 audit_scroll:
   scroll_id: null
-  packet_id: null
+  attached_scroll_id: null
   mission_id: null
   entries:
     - at: null
@@ -95,11 +95,11 @@ audit_scroll:
 
 Stable identity for the scroll itself.
 
-## `packet_id`
+## `attached_scroll_id`
 
-Current packet identity the scroll is attached to.
+Current scroll identity the audit scroll is attached to.
 
-If the packet is repackaged, the scroll should preserve continuity rather than resetting.
+If the scroll is repackaged, the audit scroll should preserve continuity rather than resetting.
 
 ## `mission_id`
 
@@ -145,13 +145,13 @@ Adapters may add runtime-local stations if they remain interpretable and auditab
 The initial action vocabulary should support at least:
 
 ```text
-packet-created
-packet-forwarded
-packet-received
-packet-recorded
-packet-reviewed
-packet-repackaged
-packet-returned
+scroll-created
+scroll-forwarded
+scroll-received
+scroll-recorded
+scroll-reviewed
+scroll-repackaged
+scroll-returned
 ```
 
 Additional action classes are allowed when they improve reconstruction without obscuring meaning.
@@ -162,7 +162,7 @@ Additional action classes are allowed when they improve reconstruction without o
 
 The audit scroll must:
 
-- travel with the packet
+- travel with the scroll
 - preserve prior entries during repackaging
 - remain append-only during ordinary operation
 - remain inspectable by auditors
@@ -195,14 +195,14 @@ Rook should attach or preserve the audit scroll before:
 
 Audit scroll failure includes:
 
-- packet crosses boundary with no scroll
-- packet is repackaged with erased prior entries
+- scroll crosses boundary with no scroll
+- scroll is repackaged with erased prior entries
 - station movement occurs without recorded entry
-- return packet lacks inbound lineage continuity
+- return scroll lacks inbound lineage continuity
 - scroll exists but is too vague to reconstruct movement
 
 ---
 
 # Constitutional Rule
 
-If packet movement cannot be reconstructed, boundary trust is degraded even when packet contents appear complete.
+If scroll movement cannot be reconstructed, boundary trust is degraded even when scroll contents appear complete.

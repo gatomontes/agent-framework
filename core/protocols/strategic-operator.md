@@ -129,10 +129,10 @@ Decomposition must not dissolve accountability.
 
 The Strategic Operator may delegate bounded work.
 
-Delegation packets should preserve:
+Delegation scrolls should preserve:
 - objective
 - scope
-- authority packet
+- authority scroll
 - constraints
 - expected artifacts
 - verification requirements

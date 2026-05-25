@@ -25,11 +25,11 @@ Its purpose is to:
 - receive inbound human or system intent
 - preserve the request without laundering ambiguity away
 - identify what is expected
-- transform the request into a contract-bearing intake packet
-- emit an intake packet that downstream orchestration can classify, execute, verify, and audit
+- transform the request into a contract-bearing intake scroll
+- emit an intake scroll that downstream orchestration can classify, execute, verify, and audit
 - receive terminal rejections, blocked outcomes, and unsolved tasks back from Citadel
-- normalize those outcomes into a consequent return packet
-- preserve or attach the audit scroll that records packet movement across boundary stations
+- normalize those outcomes into a consequent return scroll
+- preserve or attach the audit scroll that records scroll movement across boundary stations
 
 ---
 
@@ -50,7 +50,7 @@ Output is not yet trust.
 ```txt
 Inbound Request
   -> Rook
-      -> Intake Packet
+      -> Intake Scroll
           -> Classification
               -> Execution
                   -> Verification
@@ -60,7 +60,7 @@ Inbound Request
                                   -> Restoration or Escalation
                                       -> Final Disposition
                                           -> Rook
-                                              -> Consequent Output Packet
+                                              -> Consequent Output Scroll
 ```
 
 `Rook` does not assign final trust.
@@ -116,9 +116,9 @@ Missing required structure must remain visible as uncertainty, assumption, or cl
 - surface ambiguity that affects execution, authority, or verification
 - identify candidate consequence tier inputs for later classification
 - preserve continuity when the request is a follow-up to existing work
-- emit a packet that another governed actor can inspect without reconstructing hidden context
+- emit a scroll that another governed actor can inspect without reconstructing hidden context
 - accept terminal outcomes handed back from downstream Citadel stages
-- normalize institutional failure, rejection, and unsolved-task outcomes into a coherent return packet
+- normalize institutional failure, rejection, and unsolved-task outcomes into a coherent return scroll
 - preserve the reason the task could not be completed, trusted, or continued
 - preserve movement lineage through the attached audit scroll as defined by:
 
@@ -151,8 +151,8 @@ Missing required structure must remain visible as uncertainty, assumption, or cl
 The initial `Rook` contract must define:
 
 1. what is expected from the inbound request
-2. what the intake packet contains
-3. what the terminal return packet contains
+2. what the intake scroll contains
+3. what the terminal return scroll contains
 
 This version intentionally focuses on structural completeness rather than advanced routing policy.
 
@@ -160,13 +160,13 @@ It also defines the minimum return behavior for terminal institutional outcomes.
 
 ---
 
-# Required Intake Packet
+# Required Intake Scroll
 
 Every governed `Rook` emission should be recoverable in this shape:
 
 ```yaml
-rook_intake_packet:
-  packet_id: null
+rook_intake_scroll:
+  scroll_id: null
   audit_scroll: null
   created_at: null
   source_type: "human" | "delegation" | "runtime_event" | "automation" | "restoration" | "other"
@@ -203,7 +203,7 @@ rook_intake_packet:
     recommended_contracts: []
     recommended_roles: []
 
-  packet_status:
+  scroll_status:
     intake_state: "RECEIVED" | "CLARIFIED" | "AMBIGUOUS" | "BLOCKED"
     clarification_required: false
     ready_for_classification: false
@@ -213,13 +213,13 @@ The exact serialization may vary by runtime or adapter, but the meaning must rem
 
 ---
 
-# Required Return Packet
+# Required Return Scroll
 
 Terminal rejections or unsolved outcomes returned to the requester should be recoverable in this shape:
 
 ```yaml
-rook_return_packet:
-  packet_id: null
+rook_return_scroll:
+  scroll_id: null
   audit_scroll: null
   created_at: null
   continuity_reference: null
@@ -253,13 +253,13 @@ rook_return_packet:
     ready_for_external_return: false
 ```
 
-The return packet exists so terminal institutional outcomes are not emitted as raw runtime fragments, isolated status codes, or decontextualized refusal text.
+The return scroll exists so terminal institutional outcomes are not emitted as raw runtime fragments, isolated status codes, or decontextualized refusal text.
 
 If `UNTRUSTED` has no separately defined downstream recovery path, it should be treated as a final determination and handed to `Rook` for output normalization.
 
 ---
 
-# Packet Semantics
+# Scroll Semantics
 
 ## Inbound Request
 
@@ -302,29 +302,29 @@ These signals help downstream actors determine:
 
 ## Routing
 
-Directs the packet toward the next governed step.
+Directs the scroll toward the next governed step.
 
 Default next phase is `classify`.
 
-## Intake Packet Status
+## Intake Scroll Status
 
 Records whether the request is merely received, sufficiently clarified, still ambiguous, or blocked.
 
-`ready_for_classification: true` means the packet is structured enough to enter Citadel workflow.
+`ready_for_classification: true` means the scroll is structured enough to enter Citadel workflow.
 
 It does not mean the mission is approved, executed, or trusted.
 
-## Return Packet
+## Return Scroll
 
 Normalizes final rejections and unsolved work into a coherent institutional output after final disposition has already been determined.
 
-The return packet must preserve:
+The return scroll must preserve:
 
 - what was originally requested
 - why the operation could not be completed or trusted
 - which institutional gate or stage produced the terminal outcome
 - what safe next action remains available
-- how the packet moved across boundary stations
+- how the scroll moved across boundary stations
 
 This makes terminal failure inspectable and actionable instead of merely abrupt.
 
@@ -337,7 +337,7 @@ This makes terminal failure inspectable and actionable instead of merely abrupt.
 - drops the original request
 - hides ambiguity that materially affects execution
 - merges assumptions into facts
-- emits a packet without expected outcome structure
+- emits a scroll without expected outcome structure
 - routes forward without enough information to classify responsibly
 - launders authority through confident phrasing
 - emits a terminal rejection without normalization
@@ -346,14 +346,14 @@ This makes terminal failure inspectable and actionable instead of merely abrupt.
 Failure should produce:
 
 - explicit ambiguity markers
-- blocked or not-ready packet status
+- blocked or not-ready scroll status
 - clarification or escalation recommendation
 
 ---
 
 # Constitutional Rule
 
-No inbound request should enter Citadel execution flow without first passing through `Rook` and becoming an inspectable intake packet.
+No inbound request should enter Citadel execution flow without first passing through `Rook` and becoming an inspectable intake scroll.
 
 No final rejection, blocked mission, or unsolved task should leave Citadel without first being handed back to `Rook` for normalization and consequent output.
 

@@ -61,7 +61,7 @@ The Citadel I/O boundary is:
 /core/contracts/rook-contract.md
 ```
 
-`Rook` converts the inbound request into a governed intake packet before consequence classification and execution begin.
+`Rook` converts the inbound request into a governed intake scroll before consequence classification and execution begin.
 
 If the task later reaches a terminal disposition that must be returned externally, `Rook` also normalizes that outcome for output.
 

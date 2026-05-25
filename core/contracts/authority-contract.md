@@ -48,7 +48,7 @@ Authority may come from:
 - mission blueprint
 - governance contract
 - runtime adapter policy
-- delegated task packet
+- delegated task scroll
 - standing operational rule
 - emergency halt rule
 
@@ -63,12 +63,12 @@ Authority does not come from:
 
 ---
 
-# Authority Packet
+# Authority Scroll
 
-Every significant delegated task should carry an authority packet.
+Every significant delegated task should carry an authority scroll.
 
 ```yaml
-authority_packet:
+authority_scroll:
   granted_by: null
   granted_to: null
   authority_level: null

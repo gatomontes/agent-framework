@@ -83,7 +83,7 @@ External requests must first pass through:
 /core/contracts/rook-contract.md
 ```
 
-and be represented as a recoverable `rook_intake_packet` or equivalent adapter representation.
+and be represented as a recoverable `rook_intake_scroll` or equivalent adapter representation.
 
 Before active execution begins, the runtime should bootstrap from the appropriate continuity and authority artifacts as defined by:
 

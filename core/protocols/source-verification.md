@@ -64,7 +64,7 @@ UNVERIFIED
 - `PRIMARY` means the source is close to the originating event, record, system, or authority.
 - `SECONDARY` means the source interprets or summarizes primary material.
 - `DERIVATIVE` means the source largely repeats or reformats other reporting.
-- `OPERATIONAL` means the source is an internal runtime artifact, log, contract, packet, or report.
+- `OPERATIONAL` means the source is an internal runtime artifact, log, contract, scroll, or report.
 - `UNVERIFIED` means provenance or independence could not be established sufficiently.
 
 ---

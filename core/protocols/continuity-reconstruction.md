@@ -33,7 +33,7 @@ Prefer:
 - status notes
 - decisions
 - logs
-- restoration packets
+- restoration scrolls
 - recent review outputs
 
 Avoid broad context loading when a smaller evidence surface is enough.

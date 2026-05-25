@@ -28,7 +28,7 @@ Incoming tasks enter Citadel through:
 /core/contracts/rook-contract.md
 ```
 
-`Rook` is the exclusive external I/O boundary that normalizes inbound intent into an intake packet before classification begins.
+`Rook` is the exclusive external I/O boundary that normalizes inbound intent into an intake scroll before classification begins.
 
 Incoming tasks are classified using:
 

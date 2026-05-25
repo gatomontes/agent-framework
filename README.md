@@ -40,9 +40,9 @@ The objective is not merely to store prompts or inherited capability inventories
 
 The objective is to keep the inside of the institution doctrinally strict while keeping the outside world decoupled at the wall.
 
-Citadel delivers that by emitting and governing durable artifacts such as contracts, protocols, doctrine, intake packets, return packets, verification records, critique artifacts, restoration records, and final dispositions.
+Citadel delivers that by emitting and governing durable artifacts such as contracts, protocols, doctrine, intake scrolls, return scrolls, verification records, critique artifacts, restoration records, and final dispositions.
 
-Boundary packets should also preserve movement lineage through traveling audit scrolls and Citadel-side scribe recording.
+Boundary scrolls should also preserve movement lineage through traveling audit scrolls and Citadel-side scribe recording.
 
 The objective is to establish a disciplined architecture for:
 

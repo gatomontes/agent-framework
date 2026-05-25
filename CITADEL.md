@@ -37,7 +37,7 @@ The Foundry assembles operational entities.
 
 The Citadel governs operational law.
 
-It does so through durable contracts, doctrine, protocols, intake and return packets, verification records, critique outputs, restoration artifacts, and final dispositions.
+It does so through durable contracts, doctrine, protocols, intake and return scrolls, verification records, critique outputs, restoration artifacts, and final dispositions.
 
 ---
 

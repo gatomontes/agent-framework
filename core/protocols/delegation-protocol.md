@@ -36,9 +36,9 @@ Delegation without operational contract is uncontrolled assignment.
 
 ---
 
-# Delegation Packet
+# Delegation Scroll
 
-A delegation packet should minimally contain:
+A delegation scroll should minimally contain:
 
 ```yaml
 operation:

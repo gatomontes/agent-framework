@@ -85,7 +85,7 @@ Recovery failed or operational trust cannot be restored.
 
 ---
 
-# Restoration Packet
+# Restoration Scroll
 
 A restoration operation should preserve:
 

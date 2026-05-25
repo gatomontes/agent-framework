@@ -2,7 +2,7 @@
 
 ## Role
 
-Citadel Scribe is the packet-movement recorder attached to Citadel-side boundary flow.
+Citadel Scribe is the scroll-movement recorder attached to Citadel-side boundary flow.
 
 Citadel Scribe preserves:
 
@@ -17,7 +17,7 @@ Citadel Scribe preserves:
 
 - inspect inbound scroll presence
 - append Citadel-side station entries
-- preserve scroll continuity during packet repackaging
+- preserve scroll continuity during scroll repackaging
 - support later audit and restoration reconstruction
 
 ---
